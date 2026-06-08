@@ -21,6 +21,10 @@
   <link rel="canonical" href="https://deadsimple.money/" />
 
   <style>
+    :root {
+      --accent: #85BB65;
+    }
+
     *, *::before, *::after { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; }
 
@@ -48,8 +52,16 @@
       font-weight: 400;
       font-size: clamp(2.5rem, 8vw, 4.5rem);
       letter-spacing: -0.01em;
-      margin: 0 0 1rem;
+      margin: 0 0 1.25rem;
       color: #fafafa;
+    }
+
+    .accent-rule {
+      width: 36px;
+      height: 2px;
+      margin: 0 auto 1.25rem;
+      background: var(--accent);
+      border: 0;
     }
 
     .tagline {
@@ -97,8 +109,8 @@
 
     nav.links a:hover,
     nav.links a:focus-visible {
-      color: #ffffff;
-      border-color: #ffffff;
+      color: var(--accent);
+      border-color: var(--accent);
       outline: none;
     }
 
@@ -115,14 +127,15 @@
 <body>
   <main>
     <h1>Dead Simple Money</h1>
+    <hr class="accent-rule" aria-hidden="true" />
     <p class="tagline">Clarity in a noisy market</p>
     <ul class="bullets">
       <li>What actually moves stocks</li>
       <li>No hype. No noise. Just signal.</li>
     </ul>
     <nav class="links" aria-label="Social channels">
-      <a href="https://youtube.com/@DeadSimpleMoney" rel="noopener" target="_blank">YouTube</a>
-      <a href="https://www.tiktok.com/@DeadSimpleMoney" rel="noopener" target="_blank">TikTok</a>
+      <a href="https://youtube.com/@DeadSimple" rel="noopener" target="_blank">YouTube</a>
+      <a href="https://www.tiktok.com/@DeadSimpleHQ" rel="noopener" target="_blank">TikTok</a>
       <a href="https://x.com/DeadSimpleMoney" rel="noopener" target="_blank">X</a>
     </nav>
   </main>
