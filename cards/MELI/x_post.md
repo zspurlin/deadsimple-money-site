@@ -1,1 +1,0 @@
-MELI just announced $4.6B Mexico investment while trading at 7x FCF. Four straight earnings misses have the market worried, but this is the financial backbone for 650M Latin Americans during early-stage digital transformation. Amazon of LatAm at a discount.
