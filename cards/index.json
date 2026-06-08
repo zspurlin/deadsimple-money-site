@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-08T22:38:27+00:00",
+  "counts": {
+    "open": 2,
+    "closed": 0,
+    "watchlist": 0
+  },
+  "open": [
+    {
+      "ticker": "NOW",
+      "company": "ServiceNow",
+      "score": 91,
+      "tier": "Gold",
+      "status": "Open",
+      "front_line": "ServiceNow is the operating system for enterprise workflows.",
+      "alpha": "-88.2%",
+      "current_return": "-87.9%",
+      "sp_return": "+0.3%",
+      "performance_mode": "live",
+      "research_date": "Jun 05, 2026",
+      "dir": "NOW",
+      "card_html": "NOW/card.html",
+      "card_front": "NOW/card_front.png",
+      "card_back": "NOW/card_back.png",
+      "data": "NOW/card_data.json"
+    },
+    {
+      "ticker": "MELI",
+      "company": "MercadoLibre",
+      "score": 82,
+      "tier": "Silver",
+      "status": "Open",
+      "front_line": "Latin America's dominant e-commerce and payments ecosystem serving 650 million people",
+      "alpha": "-0.0%",
+      "current_return": "-0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 08, 2026",
+      "dir": "MELI",
+      "card_html": "MELI/card.html",
+      "card_front": "MELI/card_front.png",
+      "card_back": "MELI/card_back.png",
+      "data": "MELI/card_data.json"
+    }
+  ],
+  "closed": [],
+  "watchlist": []
+}
