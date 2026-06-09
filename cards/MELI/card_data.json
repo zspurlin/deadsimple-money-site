@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-09T00:06:05+00:00",
+  "ticker": "MELI",
+  "company": "MercadoLibre",
+  "score": 92,
+  "grade": "B",
+  "tier": "Gold",
+  "status": "Open",
+  "thesis_label": "Why I Own It",
+  "front_line": "MercadoLibre operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries.",
+  "thesis": "MELI has built an irreplaceable financial infrastructure for 650 million Latin Americans with genuine network effects and scale economies that strengthen over time. Buy. The combination of dominant market position, reasonable valuation, and multi-decade growth runway outweighs the risks. Verdict changes if Brazil revenue declines year-over-year in local currency terms, signaling the core market thesis has broken.",
+  "moat": "Strong network effects and scale economies create genuine competitive barriers",
+  "risks": "Four consecutive quarters of earnings misses suggest structural issues",
+  "valuation": {
+    "bear": "$1,673.00",
+    "base": "$1,941.26",
+    "bull": "$2,592.13",
+    "verdict": "Add",
+    "current_price": "$1,611.99"
+  },
+  "research": {
+    "run_id": "20260608_182408",
+    "research_date": "Jun 08, 2026",
+    "baseline_price": 1611.99
+  },
+  "performance": {
+    "current_return": "-0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "-0.0%",
+    "as_of": "Jun 08, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null
+  },
+  "drafts": {
+    "x_post": "MercadoLibre ($MELI) operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries. Dead Simple Score: 92/100 \u00b7 Gold. Status: Open.",
+    "video_talking_points": [
+      "MercadoLibre operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries.",
+      "MELI has built an irreplaceable financial infrastructure for 650 million Latin Americans with genuine network effects and scale economies that strengthen over time. Buy. The combination of dominant market position, reasonable valuation, and multi-decade growth runway outweighs the risks. Verdict changes if Brazil revenue declines year-over-year in local currency terms, signaling the core market thesis has broken.",
+      "Moat: Strong network effects and scale economies create genuine competitive barriers",
+      "Risk: Four consecutive quarters of earnings misses suggest structural issues",
+      "Verdict: Add. Dead Simple Score 92/100."
+    ]
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.png",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md"
+  },
+  "image": {
+    "query": "Brazil flag",
+    "credit": "Photo by Wallace Chuck on Pexels",
+    "source": "pexels"
+  }
+}

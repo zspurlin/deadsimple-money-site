@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-09T00:06:43+00:00",
+  "counts": {
+    "open": 2,
+    "closed": 0,
+    "watchlist": 0
+  },
+  "open": [
+    {
+      "ticker": "NOW",
+      "company": "ServiceNow",
+      "score": 94,
+      "tier": "Platinum",
+      "status": "Open",
+      "front_line": "ServiceNow builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 08, 2026",
+      "dir": "NOW",
+      "card_html": "NOW/card.html",
+      "card_front": "NOW/card_front.png",
+      "card_back": "NOW/card_back.png",
+      "data": "NOW/card_data.json"
+    },
+    {
+      "ticker": "MELI",
+      "company": "MercadoLibre",
+      "score": 92,
+      "tier": "Gold",
+      "status": "Open",
+      "front_line": "MercadoLibre operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries.",
+      "alpha": "-0.0%",
+      "current_return": "-0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 08, 2026",
+      "dir": "MELI",
+      "card_html": "MELI/card.html",
+      "card_front": "MELI/card_front.png",
+      "card_back": "MELI/card_back.png",
+      "data": "MELI/card_data.json"
+    }
+  ],
+  "closed": [],
+  "watchlist": []
+}
