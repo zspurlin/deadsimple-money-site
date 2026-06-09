@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-09T17:54:56+00:00",
+  "generated_at": "2026-06-09T18:22:32+00:00",
   "counts": {
     "open": 2,
     "closed": 0,
-    "watchlist": 0
+    "watchlist": 1
   },
   "open": [
     {
@@ -14,9 +14,9 @@
       "tier": "Platinum",
       "status": "Open",
       "front_line": "ServiceNow builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes.",
-      "alpha": "-6.2%",
-      "current_return": "-7.1%",
-      "sp_return": "-0.9%",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
       "performance_mode": "live",
       "research_date": "Jun 08, 2026",
       "dir": "NOW",
@@ -32,9 +32,9 @@
       "tier": "Gold",
       "status": "Open",
       "front_line": "MercadoLibre operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries.",
-      "alpha": "+2.3%",
-      "current_return": "+1.3%",
-      "sp_return": "-0.9%",
+      "alpha": "-0.0%",
+      "current_return": "-0.0%",
+      "sp_return": "+0.0%",
       "performance_mode": "live",
       "research_date": "Jun 08, 2026",
       "dir": "MELI",
@@ -45,5 +45,24 @@
     }
   ],
   "closed": [],
-  "watchlist": []
+  "watchlist": [
+    {
+      "ticker": "SOLS",
+      "company": "Solstice Advanced Materials",
+      "score": 86,
+      "tier": "Silver",
+      "status": "Watchlist",
+      "front_line": "Data center cooling systems for the AI buildout boom",
+      "alpha": "-0.2%",
+      "current_return": "-0.2%",
+      "sp_return": "-0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 09, 2026",
+      "dir": "SOLS",
+      "card_html": "SOLS/card.html",
+      "card_front": "SOLS/card_front.png",
+      "card_back": "SOLS/card_back.png",
+      "data": "SOLS/card_data.json"
+    }
+  ]
 }

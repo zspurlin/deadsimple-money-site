@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-09T18:22:16+00:00",
+  "ticker": "SOLS",
+  "company": "Solstice Advanced Materials",
+  "score": 86,
+  "grade": "D",
+  "tier": "Silver",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "Data center cooling systems for the AI buildout boom",
+  "thesis": "Every new data center contract becomes recurring revenue for 5-7 years as AI chips get hotter. But consecutive earnings misses of 15-35% while trading at 89x free cash flow suggests they're losing the race against commoditization despite massive demand.",
+  "moat": "Switching costs only apply to replacements, not new construction",
+  "risks": "Consecutive quarters of 15-35% earnings misses during supposed demand boom",
+  "valuation": {
+    "bear": "$68.00",
+    "base": "$87.50",
+    "bull": "$103.75",
+    "verdict": "Watchlist",
+    "current_price": "$79.58"
+  },
+  "research": {
+    "run_id": "20260609_141855",
+    "research_date": "Jun 09, 2026",
+    "baseline_price": 79.58,
+    "sp_at_research": 7353.68017578125
+  },
+  "performance": {
+    "current_return": "-0.2%",
+    "sp_return": "-0.0%",
+    "alpha": "-0.2%",
+    "as_of": "Jun 09, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null
+  },
+  "drafts": {
+    "x_post": "SOLS: Data center cooling for AI boom. Massive demand but missing earnings by 15-35% two quarters straight at 89x FCF. Real question: can recurring revenue compound faster than margins get commoditized? Dead Simple Score: 86 (Silver) \ud83d\udd0d",
+    "video_talking_points": [
+      "Solstice makes cooling systems for data centers during the AI buildout boom.",
+      "AI chips are getting denser and hotter, creating massive thermal management demand.",
+      "Each new contract becomes recurring revenue for 5-7 years as the physics problem worsens.",
+      "They've missed earnings by 15-35% in back-to-back quarters while carrying heavy debt.",
+      "Watchlist only - great market but poor execution at 89x free cash flow valuation."
+    ]
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.png",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Computer or data center COOLING (something related to cooling and AI)",
+    "credit": "Photo by Brett Sayles on Pexels",
+    "source": "pexels"
+  }
+}

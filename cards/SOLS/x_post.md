@@ -1,0 +1,1 @@
+SOLS: Data center cooling for AI boom. Massive demand but missing earnings by 15-35% two quarters straight at 89x FCF. Real question: can recurring revenue compound faster than margins get commoditized? Dead Simple Score: 86 (Silver) 🔍
