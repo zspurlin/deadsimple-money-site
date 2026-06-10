@@ -1,1 +1,1 @@
-MELI just announced $4.6B Mexico investment while trading at 7x FCF. The Amazon of Latin America is capturing a multi-decade digital transformation in underpenetrated markets. Dead Simple Score: 92 (Gold) 🥇
+MELI just announced $4.6B Mexico investment while trading at 7x FCF. The Amazon of Latin America is building financial backbone for 650M underbanked people. Four earnings misses vs structural transformation? Dead Simple Score: 92 🥇

@@ -191,20 +191,47 @@ html, body {
   text-shadow: 0 2px 14px rgba(0,0,0,0.6);
 }
 
-/* Status pill */
+/* Status badge — filled, dark-on-color, readable at thumbnail size over any
+   background. Same visual weight class as the tier badge and score chip. */
 .status {
-  font-size: 14px;
-  letter-spacing: 0.20em;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  font-weight: 700;
-  padding: 9px 18px;
+  font-weight: 800;
+  padding: 11px 24px;
   border-radius: 999px;
-  border: 1px solid var(--hairline-2);
-  color: var(--muted);
+  color: var(--ink);
+  background: var(--muted);
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.5);
 }
-.status.is-open    { color: var(--bull); border-color: color-mix(in srgb, var(--bull) 55%, transparent); }
-.status.is-watchlist { color: var(--base); border-color: color-mix(in srgb, var(--base) 55%, transparent); }
-.status.is-closed  { color: var(--faint); border-color: var(--hairline-2); }
+.status::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(5, 7, 12, 0.55);
+  flex: none;
+}
+.status.is-open {
+  background: var(--bull);
+  box-shadow: 0 0 26px rgba(87, 208, 138, 0.40), 0 6px 22px rgba(0, 0, 0, 0.5);
+}
+.status.is-watchlist {
+  background: var(--base);
+  box-shadow: 0 0 26px rgba(242, 193, 78, 0.40), 0 6px 22px rgba(0, 0, 0, 0.5);
+}
+.status.is-closed {
+  background: var(--muted);
+  box-shadow: 0 0 22px rgba(147, 161, 184, 0.35), 0 6px 22px rgba(0, 0, 0, 0.5);
+}
+.status.is-archived {
+  background: var(--faint);
+  box-shadow: 0 0 22px rgba(93, 107, 133, 0.35), 0 6px 22px rgba(0, 0, 0, 0.5);
+}
 
 /* --- FRONT (editorial poster over the duotone hero) ----------------------- */
 .front .card-inner { justify-content: space-between; }
@@ -567,6 +594,7 @@ html, body {
   max-width: 860px;
   z-index: 1;
 }
+.thumb .status { font-size: 19px; padding: 12px 28px; }
 .thumb .t-sym { text-shadow: 0 4px 30px rgba(0,0,0,0.7); }
 .thumb .t-line { text-shadow: 0 2px 18px rgba(0,0,0,0.7); }
 .thumb .t-foot { display: flex; align-items: center; gap: 28px; z-index: 1; }
@@ -640,8 +668,19 @@ html, body {
 .header-img .score-chip .k { font-size: 12px; }
 .header-img .h-date {
   margin-left: auto;
-  font-size: 16px; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--muted); text-shadow: 0 2px 14px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  text-shadow: 0 2px 14px rgba(0,0,0,0.7);
+}
+.header-img .h-date .k {
+  font-size: 14px; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--muted); font-weight: 700;
+}
+.header-img .h-date .v {
+  font-size: 22px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--text); font-weight: 700; font-variant-numeric: tabular-nums;
 }
 </style>
 </head>
@@ -702,7 +741,7 @@ html, body {
 
     <div class="section">
       <div class="label">Why I Own It</div>
-      <div class="body thesis">MELI has built irreplaceable financial infrastructure with genuine network effects across Latin America&#39;s digital transformation. Trading at only 7x free cash flow despite $11.8B annual generation and multi-decade growth runway. The ecosystem stickiness from payments, credit, and logistics creates switching costs that pure marketplaces can&#39;t match.</div>
+      <div class="body thesis">MELI has built irreplaceable financial infrastructure with genuine network effects across underpenetrated Latin American markets. Trading at only 7x free cash flow despite $11.8B annual generation, it&#39;s capturing a multi-decade digital transformation at a discount to its cash power.</div>
     </div>
 
     <div class="section">
@@ -728,7 +767,7 @@ html, body {
     </div>
 
     <div class="ledger">
-      <div class="cell"><span class="k">Research Date</span><span class="v">Jun 08, 2026</span></div>
+      <div class="cell"><span class="k">Researched</span><span class="v">Jun 08, 2026</span></div>
       <div class="cell"><span class="k">Current Return</span><span class="v neg">-1.5%</span></div>
       <div class="cell"><span class="k">S&amp;P Return</span><span class="v neg">-1.9%</span></div>
       <div class="cell"><span class="k">Alpha</span><span class="v pos">+0.4%</span></div>

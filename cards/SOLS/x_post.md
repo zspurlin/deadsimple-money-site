@@ -1,1 +1,1 @@
-SOLS: Data center cooling for AI chips. Massive demand, but missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, but execution isn't there yet. Dead Simple Score: 86 (Silver) 📊
+SOLS: Data center cooling for AI buildout. Massive demand, but missing earnings 15-35% while trading at 89x FCF. Real opportunity, poor execution. Watching for Q2 2026 - need 8%+ revenue growth or this confirms they can't capitalize fast enough. $SOLS

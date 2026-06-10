@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T21:50:11+00:00",
+  "generated_at": "2026-06-10T22:16:04+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -9,7 +9,7 @@
   "status": "Watchlist",
   "thesis_label": "Why I'm Watching It",
   "front_line": "Data center cooling systems for the AI buildout boom",
-  "thesis": "Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. The earnings misses might reflect aggressive bidding to win long-term contracts that will compound as the AI buildout continues. But execution risk and high debt make this watchlist only until performance improves.",
+  "thesis": "Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. But SOLS is missing earnings by 15-35% while trading at 89x free cash flow. The AI thesis is real, but execution is poor and debt load is dangerous.",
   "moat": "Switching costs only apply to replacements, not new construction",
   "risks": "Consecutive quarters of 15-35% earnings misses during supposed demand boom",
   "valuation": {
@@ -39,13 +39,13 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "SOLS: Data center cooling for AI chips. Massive demand, but missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, but execution isn't there yet. Dead Simple Score: 86 (Silver) \ud83d\udcca",
+    "x_post": "SOLS: Data center cooling for AI buildout. Massive demand, but missing earnings 15-35% while trading at 89x FCF. Real opportunity, poor execution. Watching for Q2 2026 - need 8%+ revenue growth or this confirms they can't capitalize fast enough. $SOLS",
     "video_talking_points": [
       "SOLS makes cooling systems for data centers as AI chips get hotter and denser.",
-      "The AI buildout is creating exponential demand for thermal management solutions.",
-      "Each new contract becomes recurring revenue for 5-7 years with growing switching costs.",
-      "They've missed earnings by 15-35% in consecutive quarters with $1.77B debt against only $142M cash flow.",
-      "Watchlist only - great market but poor execution at 89x free cash flow is too risky."
+      "The AI buildout is creating massive thermal management demand right now.",
+      "Each new contract becomes recurring revenue for 5-7 years as the physics problem gets worse.",
+      "They're missing earnings by 15-35% while carrying $1.77B debt against only $142M free cash flow.",
+      "Watching for Q2 2026 - need 8% revenue growth or this confirms poor execution."
     ]
   },
   "assets": {
