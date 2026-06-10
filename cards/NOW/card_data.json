@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-09T22:20:10+00:00",
+  "generated_at": "2026-06-10T01:05:48+00:00",
   "ticker": "NOW",
   "company": "ServiceNow",
   "score": 94,
@@ -8,8 +8,8 @@
   "tier": "Platinum",
   "status": "Open",
   "thesis_label": "Why I Own It",
-  "front_line": "ServiceNow builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes.",
-  "thesis": "ServiceNow becomes the operating system for AI-powered enterprise workflows, where their decade of workflow data across thousands of enterprises creates AI agents that can't be replicated by custom solutions. Buy. The workflow data advantage creates a defensible position in enterprise AI that justifies current valuation with meaningful upside if execution delivers. Revenue growth below 15% for two consecutive quarters would signal AI commoditization is happening faster than switching costs can protect, changing the verdict to Watch.",
+  "front_line": "Enterprise workflow platform with irreplaceable AI training data from millions of executions",
+  "thesis": "ServiceNow's decade of workflow data across thousands of enterprises creates AI agents that can't be replicated by custom solutions. Platform complexity becomes an advantage as simple workflows get commoditized but complex multi-system integrations cannot.",
   "moat": "Strong switching costs, workflow data advantage, and platform complexity",
   "risks": "Customer concentration unknown but likely high given enterprise focus",
   "valuation": {
@@ -39,20 +39,22 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "ServiceNow ($NOW) builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes. Dead Simple Score: 94/100 \u00b7 Platinum. Status: Open.",
+    "x_post": "NOW at $114 with Dead Simple Score 94 (Platinum). The workflow data advantage creates defensible AI moats that justify current valuation with meaningful upside if execution delivers. #enterprise",
     "video_talking_points": [
-      "ServiceNow builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes.",
-      "ServiceNow becomes the operating system for AI-powered enterprise workflows, where their decade of workflow data across thousands of enterprises creates AI agents that can't be replicated by custom solutions. Buy. The workflow data advantage creates a defensible position in enterprise AI that justifies current valuation with meaningful upside if execution delivers. Revenue growth below 15% for two consecutive quarters would signal AI commoditization is happening faster than switching costs can protect, changing the verdict to Watch.",
-      "Moat: Strong switching costs, workflow data advantage, and platform complexity",
-      "Risk: Customer concentration unknown but likely high given enterprise focus",
-      "Verdict: Heavy Add. Dead Simple Score 94/100."
+      "ServiceNow builds cloud workflow automation software for large enterprises managing IT and business processes.",
+      "AI is transforming enterprise workflows and ServiceNow has irreplaceable training data from millions of executions.",
+      "Their workflow complexity becomes an advantage as simple tasks get commoditized but multi-system integrations cannot.",
+      "Main risk is AI making custom solutions so easy that enterprises skip ServiceNow's expensive platform entirely.",
+      "Buy rating with Dead Simple Score 94 - the data moat justifies current price with strong upside potential."
     ]
   },
   "assets": {
     "card_front": "card_front.png",
     "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
     "card_html": "card.html",
-    "youtube_thumbnail": "youtube_thumbnail.png",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
     "substack_header": "substack_header.png",
     "x_post": "x_post.md",
     "video_talking_points": "video_talking_points.md",
@@ -60,7 +62,7 @@
   },
   "image": {
     "query": "enterprise data center servers",
-    "credit": "Photo by Brett Sayles on Pexels",
-    "source": "pexels"
+    "credit": "",
+    "source": "leonardo"
   }
 }

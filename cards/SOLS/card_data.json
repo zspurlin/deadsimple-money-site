@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-09T22:20:10+00:00",
+  "generated_at": "2026-06-10T01:06:11+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -8,8 +8,8 @@
   "tier": "Silver",
   "status": "Watchlist",
   "thesis_label": "Why I'm Watching It",
-  "front_line": "Data center cooling systems for the AI buildout boom",
-  "thesis": "Every new data center contract becomes recurring revenue for 5-7 years as AI chips get hotter. But consecutive earnings misses of 15-35% while trading at 89x free cash flow suggests they're losing the race against commoditization despite massive demand.",
+  "front_line": "Data center cooling systems for the AI chip buildout",
+  "thesis": "Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. But SOLS is missing earnings badly while trading at 89x free cash flow with $1.77B debt against only $142M FCF.",
   "moat": "Switching costs only apply to replacements, not new construction",
   "risks": "Consecutive quarters of 15-35% earnings misses during supposed demand boom",
   "valuation": {
@@ -39,20 +39,22 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "SOLS: Data center cooling for AI boom. Massive demand but missing earnings by 15-35% two quarters straight at 89x FCF. Real question: can recurring revenue compound faster than margins get commoditized? Dead Simple Score: 86 (Silver) \ud83d\udd0d",
+    "x_post": "SOLS makes cooling systems for AI data centers. Massive demand, but they're missing earnings by 15-35% while trading at 89x FCF. Watch until execution improves. Dead Simple Score: 86 \ud83e\udd48",
     "video_talking_points": [
-      "Solstice makes cooling systems for data centers during the AI buildout boom.",
-      "AI chips are getting denser and hotter, creating massive thermal management demand.",
+      "SOLS provides thermal cooling systems to data centers during the AI buildout boom.",
+      "AI chips are getting denser and hotter, creating exponential demand for cooling solutions.",
       "Each new contract becomes recurring revenue for 5-7 years as the physics problem worsens.",
-      "They've missed earnings by 15-35% in back-to-back quarters while carrying heavy debt.",
-      "Watchlist only - great market but poor execution at 89x free cash flow valuation."
+      "They've missed earnings by 15-35% in consecutive quarters with dangerous debt levels.",
+      "Watchlist only until they prove they can execute in this massive opportunity."
     ]
   },
   "assets": {
     "card_front": "card_front.png",
     "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
     "card_html": "card.html",
-    "youtube_thumbnail": "youtube_thumbnail.png",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
     "substack_header": "substack_header.png",
     "x_post": "x_post.md",
     "video_talking_points": "video_talking_points.md",
@@ -60,7 +62,7 @@
   },
   "image": {
     "query": "Computer or data center COOLING (something related to cooling and AI)",
-    "credit": "Photo by Brett Sayles on Pexels",
-    "source": "pexels"
+    "credit": "",
+    "source": "leonardo"
   }
 }

@@ -1,7 +1,7 @@
 # NOW — Video Talking Points
 
-- ServiceNow builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes.
-- ServiceNow becomes the operating system for AI-powered enterprise workflows, where their decade of workflow data across thousands of enterprises creates AI agents that can't be replicated by custom solutions. Buy. The workflow data advantage creates a defensible position in enterprise AI that justifies current valuation with meaningful upside if execution delivers. Revenue growth below 15% for two consecutive quarters would signal AI commoditization is happening faster than switching costs can protect, changing the verdict to Watch.
-- Moat: Strong switching costs, workflow data advantage, and platform complexity
-- Risk: Customer concentration unknown but likely high given enterprise focus
-- Verdict: Heavy Add. Dead Simple Score 94/100.
+- ServiceNow builds cloud workflow automation software for large enterprises managing IT and business processes.
+- AI is transforming enterprise workflows and ServiceNow has irreplaceable training data from millions of executions.
+- Their workflow complexity becomes an advantage as simple tasks get commoditized but multi-system integrations cannot.
+- Main risk is AI making custom solutions so easy that enterprises skip ServiceNow's expensive platform entirely.
+- Buy rating with Dead Simple Score 94 - the data moat justifies current price with strong upside potential.

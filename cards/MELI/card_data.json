@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-09T22:20:10+00:00",
+  "generated_at": "2026-06-10T01:06:39+00:00",
   "ticker": "MELI",
   "company": "MercadoLibre",
   "score": 92,
@@ -8,8 +8,8 @@
   "tier": "Gold",
   "status": "Open",
   "thesis_label": "Why I Own It",
-  "front_line": "MercadoLibre operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries.",
-  "thesis": "MELI has built an irreplaceable financial infrastructure for 650 million Latin Americans with genuine network effects and scale economies that strengthen over time. Buy. The combination of dominant market position, reasonable valuation, and multi-decade growth runway outweighs the risks. Verdict changes if Brazil revenue declines year-over-year in local currency terms, signaling the core market thesis has broken.",
+  "front_line": "Latin America's dominant e-commerce and payments ecosystem with genuine network effects",
+  "thesis": "MELI has built irreplaceable financial infrastructure for 650 million Latin Americans, becoming the backbone for underbanked populations. The ecosystem stickiness from payments, credit, and logistics creates switching costs that pure marketplaces can't match. Trading at 7x free cash flow despite multi-decade digital transformation runway.",
   "moat": "Strong network effects and scale economies create genuine competitive barriers",
   "risks": "Four consecutive quarters of earnings misses suggest structural issues",
   "valuation": {
@@ -39,20 +39,22 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "MercadoLibre ($MELI) operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries. Dead Simple Score: 92/100 \u00b7 Gold. Status: Open.",
+    "x_post": "MELI just announced $4.6B Mexico investment while trading at 7x FCF on $11.8B cash generation. Four straight earnings misses vs Amazon-like network effects in underpenetrated Latin America. Dead Simple Score: 92 (Gold). The risk-reward is compelling.",
     "video_talking_points": [
-      "MercadoLibre operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries.",
-      "MELI has built an irreplaceable financial infrastructure for 650 million Latin Americans with genuine network effects and scale economies that strengthen over time. Buy. The combination of dominant market position, reasonable valuation, and multi-decade growth runway outweighs the risks. Verdict changes if Brazil revenue declines year-over-year in local currency terms, signaling the core market thesis has broken.",
-      "Moat: Strong network effects and scale economies create genuine competitive barriers",
-      "Risk: Four consecutive quarters of earnings misses suggest structural issues",
-      "Verdict: Add. Dead Simple Score 92/100."
+      "MercadoLibre runs Latin America's largest e-commerce and payments ecosystem across 18 countries.",
+      "They're capturing a multi-decade digital transformation in markets with low e-commerce penetration.",
+      "The company generates $11.8B in free cash flow while trading at only 7x that number.",
+      "Brazil dependency creates single-point-of-failure risk in a volatile economy.",
+      "Buy rating - the dominant position and reasonable valuation outweigh the risks."
     ]
   },
   "assets": {
     "card_front": "card_front.png",
     "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
     "card_html": "card.html",
-    "youtube_thumbnail": "youtube_thumbnail.png",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
     "substack_header": "substack_header.png",
     "x_post": "x_post.md",
     "video_talking_points": "video_talking_points.md",
@@ -60,7 +62,7 @@
   },
   "image": {
     "query": "Brazil flag",
-    "credit": "Photo by Wallace Chuck on Pexels",
-    "source": "pexels"
+    "credit": "",
+    "source": "leonardo"
   }
 }

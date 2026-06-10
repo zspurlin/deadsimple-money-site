@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-09T22:20:17+00:00",
+  "generated_at": "2026-06-10T01:10:33+00:00",
   "counts": {
     "open": 2,
     "closed": 0,
@@ -13,7 +13,7 @@
       "score": 94,
       "tier": "Platinum",
       "status": "Open",
-      "front_line": "ServiceNow builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes.",
+      "front_line": "Enterprise workflow platform with irreplaceable AI training data from millions of executions",
       "alpha": "-6.1%",
       "current_return": "-6.3%",
       "sp_return": "-0.3%",
@@ -23,6 +23,8 @@
       "card_html": "NOW/card.html",
       "card_front": "NOW/card_front.png",
       "card_back": "NOW/card_back.png",
+      "card_front_web": "NOW/card_front_web.png",
+      "card_back_web": "NOW/card_back_web.png",
       "data": "NOW/card_data.json"
     },
     {
@@ -31,7 +33,7 @@
       "score": 92,
       "tier": "Gold",
       "status": "Open",
-      "front_line": "MercadoLibre operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries.",
+      "front_line": "Latin America's dominant e-commerce and payments ecosystem with genuine network effects",
       "alpha": "+2.1%",
       "current_return": "+1.8%",
       "sp_return": "-0.3%",
@@ -41,6 +43,8 @@
       "card_html": "MELI/card.html",
       "card_front": "MELI/card_front.png",
       "card_back": "MELI/card_back.png",
+      "card_front_web": "MELI/card_front_web.png",
+      "card_back_web": "MELI/card_back_web.png",
       "data": "MELI/card_data.json"
     }
   ],
@@ -52,7 +56,7 @@
       "score": 86,
       "tier": "Silver",
       "status": "Watchlist",
-      "front_line": "Data center cooling systems for the AI buildout boom",
+      "front_line": "Data center cooling systems for the AI chip buildout",
       "alpha": "+0.4%",
       "current_return": "+0.9%",
       "sp_return": "+0.4%",
@@ -62,6 +66,8 @@
       "card_html": "SOLS/card.html",
       "card_front": "SOLS/card_front.png",
       "card_back": "SOLS/card_back.png",
+      "card_front_web": "SOLS/card_front_web.png",
+      "card_back_web": "SOLS/card_back_web.png",
       "data": "SOLS/card_data.json"
     }
   ]

@@ -1,1 +1,1 @@
-MercadoLibre ($MELI) operates Latin America's largest e-commerce and digital payments ecosystem across 18 countries. Dead Simple Score: 92/100 · Gold. Status: Open.
+MELI just announced $4.6B Mexico investment while trading at 7x FCF on $11.8B cash generation. Four straight earnings misses vs Amazon-like network effects in underpenetrated Latin America. Dead Simple Score: 92 (Gold). The risk-reward is compelling.

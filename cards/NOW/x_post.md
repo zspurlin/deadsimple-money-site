@@ -1,1 +1,1 @@
-ServiceNow ($NOW) builds cloud-based workflow automation software that helps large organizations manage IT operations, employee services, and business processes. Dead Simple Score: 94/100 · Platinum. Status: Open.
+NOW at $114 with Dead Simple Score 94 (Platinum). The workflow data advantage creates defensible AI moats that justify current valuation with meaningful upside if execution delivers. #enterprise

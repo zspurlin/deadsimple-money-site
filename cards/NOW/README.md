@@ -8,16 +8,17 @@ anywhere as-is.
 
 - `card.html` — interactive click-to-flip card. The live artifact for the website.
 - `card_data.json` — structured data (score, tier, thesis, valuation, performance vs the S&P 500).
-- `card_front.png` / `card_back.png` — static card images for social.
-- `youtube_thumbnail.png` — 1280x720 thumbnail.
-- `substack_header.png` — 1200x600 header.
+- `card_front.png` / `card_back.png` — full-resolution card images for social.
+- `card_front_web.png` / `card_back_web.png` — downsampled previews for the website grid.
+- `youtube_thumbnail.jpg` — 16:9 thumbnail (JPEG, under YouTube's 2 MB limit).
+- `substack_header.png` — 2:1 header.
 - `x_post.md` — X/socials post draft.
 - `video_talking_points.md` — short-video talking points.
 - `README.md` — this file.
 
 ## Use on social
 
-Post `card_front.png` / `card_back.png`, `youtube_thumbnail.png`,
+Post `card_front.png` / `card_back.png`, `youtube_thumbnail.jpg`,
 `substack_header.png`, and the text drafts directly.
 
 ## Use on the website (deadsimple.money)
