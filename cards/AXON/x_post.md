@@ -1,1 +1,1 @@
-AXON trading at 2,000x FCF betting on AI transformation from taser maker to police software platform. Switching costs are real but valuation leaves zero room for error. August earnings will show if software growth justifies the premium. $AXON
+AXON trading at 2,000x FCF betting on hardware-to-software transformation. Strong switching costs once police integrate evidence systems, but valuation leaves zero room for error. August earnings will show if software growth justifies the premium. Dead Simple Score: 89 🟡
