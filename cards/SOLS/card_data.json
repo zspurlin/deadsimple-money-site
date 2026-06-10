@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T22:16:04+00:00",
+  "generated_at": "2026-06-10T22:57:45+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -9,7 +9,7 @@
   "status": "Watchlist",
   "thesis_label": "Why I'm Watching It",
   "front_line": "Data center cooling systems for the AI buildout boom",
-  "thesis": "Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. But SOLS is missing earnings by 15-35% while trading at 89x free cash flow. The AI thesis is real, but execution is poor and debt load is dangerous.",
+  "thesis": "Every new data center becomes recurring revenue for 5-7 years as AI chips get hotter. But consecutive earnings misses of 15-35% while trading at 89x free cash flow suggests they're losing the race against commoditization despite massive demand.",
   "moat": "Switching costs only apply to replacements, not new construction",
   "risks": "Consecutive quarters of 15-35% earnings misses during supposed demand boom",
   "valuation": {
@@ -39,13 +39,14 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "SOLS: Data center cooling for AI buildout. Massive demand, but missing earnings 15-35% while trading at 89x FCF. Real opportunity, poor execution. Watching for Q2 2026 - need 8%+ revenue growth or this confirms they can't capitalize fast enough. $SOLS",
+    "x_post": "SOLS: AI data centers need cooling, but this company keeps missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, the execution isn't. Watching for Q2 2026 revenue growth below 8% to confirm they can't capitalize fast enough.",
     "video_talking_points": [
-      "SOLS makes cooling systems for data centers as AI chips get hotter and denser.",
-      "The AI buildout is creating massive thermal management demand right now.",
-      "Each new contract becomes recurring revenue for 5-7 years as the physics problem gets worse.",
-      "They're missing earnings by 15-35% while carrying $1.77B debt against only $142M free cash flow.",
-      "Watching for Q2 2026 - need 8% revenue growth or this confirms poor execution."
+      "Solstice makes cooling systems for data centers during the biggest AI buildout in history.",
+      "Every chip gets hotter as AI advances, creating a physics problem that only gets worse.",
+      "Each new contract becomes recurring revenue for 5-7 years as data centers expand.",
+      "They've missed earnings by 15-35% two quarters straight with $1.77B debt against only $142M cash flow.",
+      "The market opportunity is massive but they're executing poorly at 89x free cash flow.",
+      "Watching this one until they prove they can capitalize on the AI boom without breaking their balance sheet."
     ]
   },
   "assets": {

@@ -1,1 +1,1 @@
-SOLS: Data center cooling for AI buildout. Massive demand, but missing earnings 15-35% while trading at 89x FCF. Real opportunity, poor execution. Watching for Q2 2026 - need 8%+ revenue growth or this confirms they can't capitalize fast enough. $SOLS
+SOLS: AI data centers need cooling, but this company keeps missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, the execution isn't. Watching for Q2 2026 revenue growth below 8% to confirm they can't capitalize fast enough.

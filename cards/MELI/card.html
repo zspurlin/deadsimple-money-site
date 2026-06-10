@@ -236,6 +236,10 @@ html, body {
 /* --- FRONT (editorial poster over the duotone hero) ----------------------- */
 .front .card-inner { justify-content: space-between; }
 
+/* Brand reads slightly stronger on the front face only. */
+.front .brand-mark { width: 56px; height: 56px; }
+.front .brand-word { font-size: 22px; }
+
 /* Headline block: ticker, company, tier + score. */
 .headline { margin-top: 8px; }
 .ticker {
@@ -364,8 +368,8 @@ html, body {
   padding-bottom: 24px;
   border-bottom: 1px solid var(--hairline);
 }
-.back-head .sym { font-size: 56px; font-weight: 800; color: var(--text); }
-.back-head .co  { font-size: 21px; color: var(--muted); margin-left: 16px; font-weight: 400; }
+.back-head .sym { font-size: 67px; font-weight: 800; color: var(--text); }
+.back-head .co  { font-size: 23px; color: var(--muted); margin-left: 16px; font-weight: 400; }
 .back-head .tier-mini {
   font-size: 16px;
   font-weight: 800;
@@ -376,7 +380,7 @@ html, body {
 
 .section { margin-top: 34px; }
 .section .label {
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.26em;
   text-transform: uppercase;
   color: var(--tier);
@@ -399,8 +403,8 @@ html, body {
   background: linear-gradient(160deg, var(--panel-2), var(--panel));
 }
 .dcf-title {
-  font-size: 15px;
-  letter-spacing: 0.26em;
+  font-size: 30px;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 20px;
@@ -426,12 +430,12 @@ html, body {
   font-size: 34px;
   font-variant-numeric: tabular-nums;
 }
-.dcf-row .dot { width: 13px; height: 13px; border-radius: 50%; }
+.dcf-row .dot { width: 18px; height: 18px; border-radius: 50%; }
 .dcf-row.bear .dot { background: var(--bear); }
 .dcf-row.base .dot { background: var(--base); }
 .dcf-row.bull .dot { background: var(--bull); }
 .dcf-row .k {
-  font-size: 17px;
+  font-size: 22px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--muted);
@@ -718,7 +722,7 @@ html, body {
     </div>
 
     <div class="front-foot">
-      <div class="front-line">Latin America&#39;s dominant e-commerce and payments platform serving 650 million people</div>
+      <div class="front-line">Latin America&#39;s dominant e-commerce and payments ecosystem serving 650 million people</div>
       <div class="base-case">
         <span class="label">Base DCF Case</span>
         <span class="value">$1,941.26</span>
@@ -741,7 +745,7 @@ html, body {
 
     <div class="section">
       <div class="label">Why I Own It</div>
-      <div class="body thesis">MELI has built irreplaceable financial infrastructure with genuine network effects across underpenetrated Latin American markets. Trading at only 7x free cash flow despite $11.8B annual generation, it&#39;s capturing a multi-decade digital transformation at a discount to its cash power.</div>
+      <div class="body thesis">MELI has built irreplaceable financial infrastructure with genuine network effects across underpenetrated markets. Trading at only 7x free cash flow despite $11.8B annual generation, it&#39;s capturing a multi-decade digital transformation while the market prices in modest expectations.</div>
     </div>
 
     <div class="section">
@@ -756,7 +760,7 @@ html, body {
 
     <div class="dcf">
       <div class="dcf-title">
-        <span>DCF · Per Share</span>
+        <span>Dead Simple DCF</span>
         <span class="verdict-pill">Add</span>
       </div>
       <div class="dcf-rows">
