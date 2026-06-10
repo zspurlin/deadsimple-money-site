@@ -1,1 +1,1 @@
-SOLS makes cooling systems for AI data centers. Massive demand, but they're missing earnings by 15-35% while trading at 89x FCF. Watch until execution improves. Dead Simple Score: 86 🥈
+SOLS: Data center cooling for AI chips. Massive demand, but missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, but execution isn't there yet. Dead Simple Score: 86 (Silver) 📊

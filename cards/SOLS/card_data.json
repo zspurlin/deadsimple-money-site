@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T21:21:40+00:00",
+  "generated_at": "2026-06-10T21:50:11+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -8,8 +8,8 @@
   "tier": "Silver",
   "status": "Watchlist",
   "thesis_label": "Why I'm Watching It",
-  "front_line": "Data center cooling systems for the AI chip buildout",
-  "thesis": "Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. But SOLS is missing earnings badly while trading at 89x free cash flow with $1.77B debt against only $142M FCF.",
+  "front_line": "Data center cooling systems for the AI buildout boom",
+  "thesis": "Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. The earnings misses might reflect aggressive bidding to win long-term contracts that will compound as the AI buildout continues. But execution risk and high debt make this watchlist only until performance improves.",
   "moat": "Switching costs only apply to replacements, not new construction",
   "risks": "Consecutive quarters of 15-35% earnings misses during supposed demand boom",
   "valuation": {
@@ -39,13 +39,13 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "SOLS makes cooling systems for AI data centers. Massive demand, but they're missing earnings by 15-35% while trading at 89x FCF. Watch until execution improves. Dead Simple Score: 86 \ud83e\udd48",
+    "x_post": "SOLS: Data center cooling for AI chips. Massive demand, but missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, but execution isn't there yet. Dead Simple Score: 86 (Silver) \ud83d\udcca",
     "video_talking_points": [
-      "SOLS provides thermal cooling systems to data centers during the AI buildout boom.",
-      "AI chips are getting denser and hotter, creating exponential demand for cooling solutions.",
-      "Each new contract becomes recurring revenue for 5-7 years as the physics problem worsens.",
-      "They've missed earnings by 15-35% in consecutive quarters with dangerous debt levels.",
-      "Watchlist only until they prove they can execute in this massive opportunity."
+      "SOLS makes cooling systems for data centers as AI chips get hotter and denser.",
+      "The AI buildout is creating exponential demand for thermal management solutions.",
+      "Each new contract becomes recurring revenue for 5-7 years with growing switching costs.",
+      "They've missed earnings by 15-35% in consecutive quarters with $1.77B debt against only $142M cash flow.",
+      "Watchlist only - great market but poor execution at 89x free cash flow is too risky."
     ]
   },
   "assets": {

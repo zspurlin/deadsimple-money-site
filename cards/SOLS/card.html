@@ -96,9 +96,9 @@ html, body {
   content: "";
   position: absolute;
   inset: 26px;
-  border: 1.5px solid color-mix(in srgb, var(--text) 14%, transparent);
+  border: 2px solid color-mix(in srgb, var(--tier) 32%, transparent);
   border-radius: 26px;
-  box-shadow: 0 0 90px var(--tier-glow) inset;
+  box-shadow: 0 0 90px var(--tier-glow) inset, 0 0 26px var(--tier-glow);
   pointer-events: none;
   z-index: 3;
 }
@@ -107,22 +107,25 @@ html, body {
   position: absolute;
   inset: 34px;
   border-radius: 20px;
-  padding: 2px;
+  padding: 4px;
   background: linear-gradient(165deg,
     var(--tier-soft) 0%, var(--tier) 28%, var(--tier-deep) 52%,
     var(--tier) 76%, var(--tier-soft) 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
-  opacity: 0.85;
+  opacity: 0.9;
   pointer-events: none;
   z-index: 3;
 }
 
-/* Full-bleed duotone hero (cohesive, premium). */
+/* Duotone hero, contained inside the foil frame like real card art —
+   the border region stays clean card material, nothing bleeds to the edge.
+   (Landscape assets override this back to full-bleed.) */
 .hero-bg {
   position: absolute;
-  inset: 0;
+  inset: 38px;
+  border-radius: 17px;
   z-index: 0;
   overflow: hidden;
 }
@@ -154,6 +157,14 @@ html, body {
       rgba(5,7,12,0.40) 52%, rgba(5,7,12,0.93) 100%),
     radial-gradient(120% 55% at 50% 112%, color-mix(in srgb, var(--tier) 30%, transparent), transparent 70%);
 }
+/* Clip the card's scrim to the contained art area. */
+.card-face .hero-scrim {
+  inset: 38px;
+  border-radius: 17px;
+}
+/* Landscape banners stay full-bleed. */
+.thumb .hero-bg,
+.header-img .hero-bg { inset: 0; border-radius: 0; }
 
 .card-inner {
   position: relative;
@@ -169,14 +180,15 @@ html, body {
   align-items: center;
   justify-content: space-between;
 }
-.brand-id { display: flex; align-items: center; gap: 14px; }
-.brand-mark { width: 40px; height: 40px; display: block; }
+.brand-id { display: flex; align-items: center; gap: 16px; }
+.brand-mark { width: 52px; height: 52px; display: block; }
 .brand-word {
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0.30em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: #cfd9e8;
   font-weight: 600;
+  text-shadow: 0 2px 14px rgba(0,0,0,0.6);
 }
 
 /* Status pill */
@@ -571,12 +583,11 @@ html, body {
   position: relative;
   width: 1200px;
   height: 600px;
-  padding: 70px 84px;
+  padding: 58px 84px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 18px;
+  justify-content: space-between;
   background:
     radial-gradient(70% 90% at 12% 18%, color-mix(in srgb, var(--tier) 14%, transparent), rgba(0,0,0,0) 55%),
     linear-gradient(160deg, var(--panel) 0%, var(--ink) 100%);
@@ -605,27 +616,33 @@ html, body {
   pointer-events: none;
   z-index: 3;
 }
-.header-img .h-brand, .header-img .h-sym, .header-img .h-line, .header-img .h-meta {
+.header-img .h-row, .header-img .h-mid, .header-img .h-foot {
   position: relative;
   z-index: 1;
-  text-shadow: 0 2px 18px rgba(0,0,0,0.65);
 }
-.header-img .h-brand {
-  display: flex; align-items: center; gap: 14px;
-  font-size: 16px; letter-spacing: 0.30em; text-transform: uppercase; color: var(--muted);
-}
-.header-img .h-brand img { width: 34px; height: 34px; }
+.header-img .h-mid { text-shadow: 0 2px 18px rgba(0,0,0,0.65); }
 .header-img .h-sym { font-size: 104px; font-weight: 800; line-height: 1; }
 .header-img .h-sym .co { font-size: 30px; color: var(--muted); font-weight: 400; margin-left: 18px; }
 .header-img .h-line {
+  margin-top: 16px;
   font-family: var(--serif); font-style: italic; font-size: 40px; line-height: 1.35;
   max-width: 900px; color: var(--text);
 }
-.header-img .h-meta {
-  display: flex; gap: 28px; align-items: center; margin-top: 8px;
-  font-size: 18px; letter-spacing: 0.10em; color: var(--muted); text-transform: uppercase;
+/* The tier / score / status row complements the card: same components, header
+   scale, impossible to miss. */
+.header-img .h-foot { display: flex; align-items: center; gap: 24px; }
+.header-img .tier-badge { padding: 10px 26px; gap: 12px; }
+.header-img .tier-badge .label { font-size: 24px; }
+.header-img .tier-badge .dot { width: 11px; height: 11px; }
+.header-img .score-chip { padding: 8px 20px; }
+.header-img .score-chip .v { font-size: 36px; }
+.header-img .score-chip .out { font-size: 20px; }
+.header-img .score-chip .k { font-size: 12px; }
+.header-img .h-date {
+  margin-left: auto;
+  font-size: 16px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--muted); text-shadow: 0 2px 14px rgba(0,0,0,0.6);
 }
-.header-img .h-meta .tier-mini { color: var(--tier); font-weight: 800; letter-spacing: 0.22em; }
 </style>
 </head>
 <body>
@@ -662,7 +679,7 @@ html, body {
     </div>
 
     <div class="front-foot">
-      <div class="front-line">Data center cooling systems for the AI chip buildout</div>
+      <div class="front-line">Data center cooling systems for the AI buildout boom</div>
       <div class="base-case">
         <span class="label">Base DCF Case</span>
         <span class="value">$87.50</span>
@@ -685,7 +702,7 @@ html, body {
 
     <div class="section">
       <div class="label">Why I&#39;m Watching It</div>
-      <div class="body thesis">Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. But SOLS is missing earnings badly while trading at 89x free cash flow with $1.77B debt against only $142M FCF.</div>
+      <div class="body thesis">Every new data center becomes a 5-7 year recurring revenue stream as AI chips get hotter. The earnings misses might reflect aggressive bidding to win long-term contracts that will compound as the AI buildout continues. But execution risk and high debt make this watchlist only until performance improves.</div>
     </div>
 
     <div class="section">

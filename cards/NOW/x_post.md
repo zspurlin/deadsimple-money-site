@@ -1,1 +1,1 @@
-ServiceNow ($NOW) isn't just workflow automation anymore—it's about who controls enterprise AI training data. Trading at $114 vs analyst targets of $127-$328. Dead Simple Score: 94/100 (Platinum). The workflow execution data creates AI agents that can't be replicated.
+ServiceNow ($NOW) isn't just workflow automation anymore—it's who controls enterprise AI training data. Their decade of workflow execution data across thousands of companies creates AI agents that custom solutions can't replicate. Dead Simple Score: 94 🏆
