@@ -1,1 +1,1 @@
-NOW at $114 with Dead Simple Score 94 (Platinum). The workflow data advantage creates defensible AI moats that justify current valuation with meaningful upside if execution delivers. #enterprise
+ServiceNow ($NOW) isn't just workflow automation anymore—it's about who controls enterprise AI training data. Trading at $114 vs analyst targets of $127-$328. Dead Simple Score: 94/100 (Platinum). The workflow execution data creates AI agents that can't be replicated.

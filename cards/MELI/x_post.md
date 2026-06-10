@@ -1,1 +1,1 @@
-MELI just announced $4.6B Mexico investment while trading at 7x FCF on $11.8B cash generation. Four straight earnings misses vs Amazon-like network effects in underpenetrated Latin America. Dead Simple Score: 92 (Gold). The risk-reward is compelling.
+MELI just announced $4.6B Mexico investment while trading at 7x FCF. Four straight earnings misses have the market worried, but this is the Amazon of Latin America during early digital transformation. Dead Simple Score: 92 (Gold) 🥇

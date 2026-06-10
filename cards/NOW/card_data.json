@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T01:05:48+00:00",
+  "generated_at": "2026-06-10T01:23:00+00:00",
   "ticker": "NOW",
   "company": "ServiceNow",
   "score": 94,
@@ -8,8 +8,8 @@
   "tier": "Platinum",
   "status": "Open",
   "thesis_label": "Why I Own It",
-  "front_line": "Enterprise workflow platform with irreplaceable AI training data from millions of executions",
-  "thesis": "ServiceNow's decade of workflow data across thousands of enterprises creates AI agents that can't be replicated by custom solutions. Platform complexity becomes an advantage as simple workflows get commoditized but complex multi-system integrations cannot.",
+  "front_line": "ServiceNow controls the training data for enterprise AI agents through workflow automation",
+  "thesis": "The workflow data advantage creates a defensible position in enterprise AI that justifies current valuation with meaningful upside if execution delivers. ServiceNow has institutional memory from millions of workflow executions that custom AI solutions can't replicate, making their AI suggestions irreplaceable even if their workflow tools become commoditized.",
   "moat": "Strong switching costs, workflow data advantage, and platform complexity",
   "risks": "Customer concentration unknown but likely high given enterprise focus",
   "valuation": {
@@ -39,13 +39,13 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "NOW at $114 with Dead Simple Score 94 (Platinum). The workflow data advantage creates defensible AI moats that justify current valuation with meaningful upside if execution delivers. #enterprise",
+    "x_post": "ServiceNow ($NOW) isn't just workflow automation anymore\u2014it's about who controls enterprise AI training data. Trading at $114 vs analyst targets of $127-$328. Dead Simple Score: 94/100 (Platinum). The workflow execution data creates AI agents that can't be replicated.",
     "video_talking_points": [
       "ServiceNow builds cloud workflow automation software for large enterprises managing IT and business processes.",
-      "AI is transforming enterprise workflows and ServiceNow has irreplaceable training data from millions of executions.",
-      "Their workflow complexity becomes an advantage as simple tasks get commoditized but multi-system integrations cannot.",
-      "Main risk is AI making custom solutions so easy that enterprises skip ServiceNow's expensive platform entirely.",
-      "Buy rating with Dead Simple Score 94 - the data moat justifies current price with strong upside potential."
+      "AI is transforming how enterprises work, and ServiceNow has a decade of workflow data that custom solutions can't match.",
+      "Their platform complexity becomes an advantage because simple workflows get commoditized but multi-system integrations cannot.",
+      "The main risk is AI agents making custom workflow creation so easy that enterprises bypass ServiceNow entirely.",
+      "Buy rating with Dead Simple Score of 94 - the workflow data moat justifies current valuation with significant AI upside."
     ]
   },
   "assets": {
@@ -61,7 +61,7 @@
     "hero": "hero.jpg"
   },
   "image": {
-    "query": "enterprise data center servers",
+    "query": "glowing AI workflow circuitry flowing through sleek dark enterprise server hardware, abstract 3D render, macro detail",
     "credit": "",
     "source": "leonardo"
   }
