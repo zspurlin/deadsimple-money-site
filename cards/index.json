@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T23:09:31+00:00",
+  "generated_at": "2026-06-10T23:49:27+00:00",
   "counts": {
     "open": 2,
     "closed": 0,
-    "watchlist": 1
+    "watchlist": 2
   },
   "open": [
     {
@@ -50,6 +50,26 @@
   ],
   "closed": [],
   "watchlist": [
+    {
+      "ticker": "AXON",
+      "company": "Axon Enterprise",
+      "score": 89,
+      "tier": "Gold",
+      "status": "Watchlist",
+      "front_line": "Building the operating system for police departments with AI-powered software",
+      "alpha": "-0.0%",
+      "current_return": "-0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 10, 2026",
+      "dir": "AXON",
+      "card_html": "AXON/card.html",
+      "card_front": "AXON/card_front.png",
+      "card_back": "AXON/card_back.png",
+      "card_front_web": "AXON/card_front_web.png",
+      "card_back_web": "AXON/card_back_web.png",
+      "data": "AXON/card_data.json"
+    },
     {
       "ticker": "SOLS",
       "company": "Solstice Advanced Materials",

@@ -1,0 +1,1 @@
+AXON trading at 2,000x FCF betting on AI transformation from taser maker to police software platform. Switching costs are real but valuation leaves zero room for error. August earnings will show if software growth justifies the premium. $AXON
