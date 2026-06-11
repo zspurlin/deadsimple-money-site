@@ -1,7 +1,7 @@
 # AXON — Video Talking Points
 
 - Axon makes body cameras and tasers but the real bet is on becoming the software platform for police departments.
-- Government digitization is accelerating and once departments integrate these systems the switching costs become massive.
-- The bull case is they're building an AI-powered operating system that expands into dispatch and case management.
-- The risk is paying 2,000x free cash flow for a business model transformation that hasn't materialized yet.
-- It's a watch for me until August earnings show software revenue growing above 30% annually.
+- Government digitization is accelerating and once departments integrate with court systems, switching costs become prohibitive.
+- The platform expansion into AI analytics and dispatch could create massive pricing power as a monopoly-like position.
+- Trading at 2,000x free cash flow means any execution stumble or big tech competition could crush the stock.
+- It's a watchlist play until August earnings show software revenue growing fast enough to justify this valuation.

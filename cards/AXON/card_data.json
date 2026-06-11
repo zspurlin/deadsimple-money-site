@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T23:54:41+00:00",
+  "generated_at": "2026-06-11T00:15:03+00:00",
   "ticker": "AXON",
   "company": "Axon Enterprise",
   "score": 89,
@@ -8,8 +8,8 @@
   "tier": "Gold",
   "status": "Open",
   "thesis_label": "Why I Own It",
-  "front_line": "Building the operating system for police departments with AI-powered software.",
-  "thesis": "Axon is transforming from hardware sales to a high-margin software platform. Once departments integrate evidence management with court systems, switching costs create pricing power for premium AI features. But at 2,000x free cash flow, the valuation requires near-perfect execution of a transformation with limited evidence it's happening fast enough.",
+  "front_line": "Connected public safety platform spanning the modern metropolis",
+  "thesis": "Axon is transforming from hardware to a high-margin software platform that creates switching costs once departments integrate evidence management with court systems. The platform expansion into dispatch and AI analytics could justify the premium, but the business model shift needs to accelerate.",
   "moat": "Switching costs and regulatory lock-in real but narrow",
   "risks": "Trading at 2,000x free cash flow with no clear path to justify valuation",
   "valuation": {
@@ -39,13 +39,13 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "AXON trading at 2,000x FCF betting on hardware-to-software transformation. Strong switching costs once police integrate evidence systems, but valuation leaves zero room for error. August earnings will show if software growth justifies the premium. Dead Simple Score: 89 \ud83d\udfe1",
+    "x_post": "AXON trading at 2,000x FCF betting on police software transformation. Strong switching costs once integrated, but valuation requires near-perfect execution. August earnings will show if software growth justifies the premium. Dead Simple Score: 89 \ud83c\udfaf",
     "video_talking_points": [
       "Axon makes body cameras and tasers but the real bet is on becoming the software platform for police departments.",
-      "Government digitization is accelerating and once departments integrate these systems the switching costs become massive.",
-      "The bull case is they're building an AI-powered operating system that expands into dispatch and case management.",
-      "The risk is paying 2,000x free cash flow for a business model transformation that hasn't materialized yet.",
-      "It's a watch for me until August earnings show software revenue growing above 30% annually."
+      "Government digitization is accelerating and once departments integrate with court systems, switching costs become prohibitive.",
+      "The platform expansion into AI analytics and dispatch could create massive pricing power as a monopoly-like position.",
+      "Trading at 2,000x free cash flow means any execution stumble or big tech competition could crush the stock.",
+      "It's a watchlist play until August earnings show software revenue growing fast enough to justify this valuation."
     ]
   },
   "assets": {

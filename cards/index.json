@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-10T23:54:44+00:00",
+  "generated_at": "2026-06-11T00:21:11+00:00",
   "counts": {
     "open": 3,
     "closed": 0,
@@ -53,7 +53,7 @@
       "score": 89,
       "tier": "Gold",
       "status": "Open",
-      "front_line": "Building the operating system for police departments with AI-powered software.",
+      "front_line": "Connected public safety platform spanning the modern metropolis",
       "alpha": "+0.0%",
       "current_return": "+0.0%",
       "sp_return": "+0.0%",
