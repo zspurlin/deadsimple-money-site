@@ -1,0 +1,1 @@
+TMDX: Not just medical devices—betting organ transport becomes FedEx for life-saving cargo. International expansion could multiply addressable market beyond U.S. constraints. Trading at bottom of analyst range but earnings volatility shows business model still unproven. 90/100 🥇

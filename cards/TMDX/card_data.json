@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-11T22:19:07+00:00",
+  "ticker": "TMDX",
+  "company": "TransMedics Group",
+  "score": 90,
+  "grade": "C",
+  "tier": "Gold",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "A logistics company with a life-saving payload. Turning organ transport into a scalable system when speed becomes survival.",
+  "thesis": "This isn't really a medical device play\u2014it's a bet on whether organ transport can become a recurring logistics service like FedEx rather than remaining equipment sales. International expansion multiplies the addressable market beyond U.S. organ supply constraints, turning a niche medical device into a global logistics platform. The earnings volatility reflects scaling pains during rapid adoption, not fundamental demand problems.",
+  "moat": "Regulatory switching costs provide temporary protection but technology is replicable",
+  "risks": "Wild earnings volatility from +100% beats to -52% miss suggests unpredictable business model",
+  "valuation": {
+    "bear": "$75.00",
+    "base": "$108.00",
+    "bull": "$142.00",
+    "verdict": "Watchlist",
+    "current_price": "$73.59"
+  },
+  "research": {
+    "run_id": "20260611_180826",
+    "research_date": "Jun 11, 2026",
+    "baseline_price": 73.59,
+    "sp_at_research": 7394.2998046875
+  },
+  "performance": {
+    "current_return": "-0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "-0.0%",
+    "as_of": "Jun 11, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null
+  },
+  "drafts": {
+    "x_post": "TMDX: Not just medical devices\u2014betting organ transport becomes FedEx for life-saving cargo. International expansion could multiply addressable market beyond U.S. constraints. Trading at bottom of analyst range but earnings volatility shows business model still unproven. 90/100 \ud83e\udd47",
+    "video_talking_points": [
+      "TransMedics makes systems that keep donor organs alive during transport between hospitals.",
+      "International expansion could turn this from a U.S.-constrained medical device into a global logistics platform.",
+      "Trading at the bottom of analyst expectations with reasonable 16x free cash flow multiple.",
+      "Wild earnings swings and $357M debt against $161M cash flow leave little room for error.",
+      "Watchlist until they prove this can be a predictable business worth current $2.5B valuation."
+    ]
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "A glowing organ transport capsule traveling through a global logistics network, cargo jet, helicopter, ambulance and hospital connected by illuminated data pathways, dark cinematic background, ultra realistic, high contrast, premium technology aesthetic, futuristic healthcare infrastructure, no surgeons, no patients, no text",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
