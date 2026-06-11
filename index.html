@@ -125,6 +125,20 @@
     }
     .empty strong { color: var(--text); display: block; margin-bottom: 0.4rem; font-size: 1.1rem; }
 
+    /* Top-right About link */
+    .top-nav { position: absolute; top: 1.4rem; right: 1.4rem; z-index: 5; }
+    .top-nav a {
+      display: inline-block; padding: 0.55rem 1.2rem;
+      border: 1px solid var(--accent); border-radius: 999px;
+      color: var(--text); background: rgba(61, 130, 232, 0.12);
+      text-decoration: none; font-size: 0.85rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      transition: color 150ms ease, border-color 150ms ease, background 150ms ease;
+    }
+    .top-nav a:hover, .top-nav a:focus-visible {
+      color: #fff; background: rgba(61, 130, 232, 0.28); outline: none;
+    }
+
     /* Footer */
     footer { text-align: center; margin-top: 4rem; }
     nav.links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
@@ -139,6 +153,10 @@
   </style>
 </head>
 <body>
+  <nav class="top-nav" aria-label="Site">
+    <a href="about.html">About</a>
+  </nav>
+
   <div class="wrap">
     <header>
       <div class="brand">
@@ -159,7 +177,8 @@
     <main class="gallery" id="gallery" aria-live="polite"></main>
 
     <footer>
-      <nav class="links" aria-label="Social channels">
+      <nav class="links" aria-label="Site and social channels">
+        <a href="about.html">About</a>
         <a href="https://www.youtube.com/@deadsimplehq" rel="noopener" target="_blank">YouTube</a>
         <a href="https://www.tiktok.com/@deadsimplehq" rel="noopener" target="_blank">TikTok</a>
         <a href="https://x.com/DeadSimpleMoney" rel="noopener" target="_blank">X</a>

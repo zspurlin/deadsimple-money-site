@@ -1,1 +1,1 @@
-AXON trading at 2,000x FCF betting on police software transformation. Strong switching costs once integrated, but valuation requires near-perfect execution. August earnings will show if software growth justifies the premium. Dead Simple Score: 89 🎯
+AXON at 2,000x FCF is betting on a hardware-to-software transformation that hasn't happened yet. The switching costs are real once police departments integrate their workflows, but August earnings need 30%+ software growth to justify this valuation. Dead Simple Score: 89/100 🎯

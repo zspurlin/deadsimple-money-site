@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Dead Simple</title>
+  <meta name="description" content="Dead Simple exists to make difficult things learnable. Research published, reasoning shared, results tracked publicly." />
+  <meta name="theme-color" content="#05070c" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="About Dead Simple" />
+  <meta property="og:description" content="Complexity is infinite. Dead Simple exists to make difficult things learnable." />
+  <meta property="og:url" content="https://deadsimple.money/about.html" />
+  <meta property="og:site_name" content="Dead Simple" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="canonical" href="https://deadsimple.money/about.html" />
+
+  <style>
+    :root {
+      --bg: #05070c;
+      --panel: #0d1320;
+      --hairline: #223049;
+      --text: #eef2f8;
+      --muted: #93a1b8;
+      --faint: #5d6b85;
+      --accent: #3d82e8;
+      --serif: "Didot", "Bodoni 72", "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+
+    body {
+      background:
+        radial-gradient(80% 50% at 50% 0%, rgba(61,130,232,0.10), rgba(0,0,0,0) 60%),
+        var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      min-height: 100vh;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap { max-width: 680px; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+
+    .top-nav {
+      position: absolute; top: 1.4rem; right: 1.4rem;
+    }
+    .top-nav a {
+      display: inline-block; padding: 0.55rem 1.1rem;
+      border: 1px solid var(--hairline); border-radius: 999px;
+      color: var(--muted); text-decoration: none; font-size: 0.82rem;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      transition: color 150ms ease, border-color 150ms ease;
+    }
+    .top-nav a:hover, .top-nav a:focus-visible { color: var(--accent); border-color: var(--accent); outline: none; }
+
+    header { text-align: center; margin-bottom: 2.8rem; }
+    .brand { display: inline-flex; align-items: center; gap: 0.7rem; text-decoration: none; color: inherit; }
+    .brand img { width: 46px; height: 46px; display: block; }
+    h1 {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(2.2rem, 6vw, 3.4rem);
+      letter-spacing: -0.01em;
+      margin: 0;
+      color: #fafafa;
+    }
+    .accent-rule { width: 36px; height: 2px; margin: 1.1rem auto; background: var(--accent); border: 0; }
+
+    article { font-size: 1.06rem; color: var(--text); }
+    article p { margin: 0 0 1.3rem; }
+    article .lead {
+      font-family: var(--serif); font-style: italic;
+      font-size: 1.5rem; color: #fafafa; line-height: 1.4;
+    }
+    article .pull {
+      font-family: var(--serif); font-style: italic;
+      font-size: 1.25rem; color: var(--muted);
+    }
+    article .sig {
+      margin-top: 2.2rem; font-family: var(--serif); font-style: italic;
+      font-size: 1.3rem; color: var(--muted);
+    }
+
+    .back-home { text-align: center; margin-top: 3.5rem; }
+    .back-home a {
+      display: inline-block; padding: 0.6rem 1.4rem;
+      border: 1px solid var(--hairline); border-radius: 999px;
+      color: var(--muted); text-decoration: none; font-size: 0.82rem;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      transition: color 150ms ease, border-color 150ms ease;
+    }
+    .back-home a:hover, .back-home a:focus-visible { color: var(--accent); border-color: var(--accent); outline: none; }
+  </style>
+</head>
+<body>
+  <nav class="top-nav" aria-label="Site">
+    <a href="index.html">The Scorecard</a>
+  </nav>
+
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Dead Simple logo" />
+        <h1>About Dead Simple</h1>
+      </a>
+      <hr class="accent-rule" aria-hidden="true" />
+    </header>
+
+    <article>
+      <p class="lead">Complexity is infinite.</p>
+
+      <p>Investing, careers, technology, healthcare, business &mdash; most topics become
+      overwhelming because people are buried under information instead of understanding.</p>
+
+      <p><strong>Dead Simple exists to make difficult things learnable.</strong></p>
+
+      <p>I'm Zack &mdash; a PharmD, investor, and lifelong student of businesses. I write about
+      investing, decision-making, career development, and other topics that benefit from
+      clear thinking and simple explanations.</p>
+
+      <p class="pull">This is not a stock-picking service.</p>
+
+      <p>I publish my research, share my reasoning, and track results publicly. Every position
+      enters the scorecard when opened and stops tracking when closed. Winners and losers
+      will always remain visible.</p>
+
+      <p>The goal isn't to be right all the time.</p>
+
+      <p>The goal is to think clearly, learn continuously, and build a body of work that helps
+      others shorten the learning curve.</p>
+
+      <p><strong>Everything is free.</strong></p>
+
+      <p>If something here helps you, that's enough.</p>
+
+      <p class="sig">&mdash; Zack</p>
+    </article>
+
+    <div class="back-home">
+      <a href="index.html">&larr; Back to the cards</a>
+    </div>
+  </div>
+</body>
+</html>

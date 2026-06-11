@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-11T00:15:03+00:00",
+  "generated_at": "2026-06-11T13:02:45+00:00",
   "ticker": "AXON",
   "company": "Axon Enterprise",
   "score": 89,
@@ -9,7 +9,7 @@
   "status": "Open",
   "thesis_label": "Why I Own It",
   "front_line": "Connected public safety platform spanning the modern metropolis",
-  "thesis": "Axon is transforming from hardware to a high-margin software platform that creates switching costs once departments integrate evidence management with court systems. The platform expansion into dispatch and AI analytics could justify the premium, but the business model shift needs to accelerate.",
+  "thesis": "Axon is transforming from hardware into a high-margin software platform that becomes the central nervous system for police operations. Once departments integrate evidence management with court systems and workflows, switching costs become prohibitive, creating pricing power as they layer on premium AI features.",
   "moat": "Switching costs and regulatory lock-in real but narrow",
   "risks": "Trading at 2,000x free cash flow with no clear path to justify valuation",
   "valuation": {
@@ -29,7 +29,7 @@
     "current_return": "+0.0%",
     "sp_return": "+0.0%",
     "alpha": "+0.0%",
-    "as_of": "Jun 10, 2026",
+    "as_of": "Jun 11, 2026",
     "mode": "live"
   },
   "lifecycle": {
@@ -39,13 +39,13 @@
     "sp_at_close": null
   },
   "drafts": {
-    "x_post": "AXON trading at 2,000x FCF betting on police software transformation. Strong switching costs once integrated, but valuation requires near-perfect execution. August earnings will show if software growth justifies the premium. Dead Simple Score: 89 \ud83c\udfaf",
+    "x_post": "AXON at 2,000x FCF is betting on a hardware-to-software transformation that hasn't happened yet. The switching costs are real once police departments integrate their workflows, but August earnings need 30%+ software growth to justify this valuation. Dead Simple Score: 89/100 \ud83c\udfaf",
     "video_talking_points": [
-      "Axon makes body cameras and tasers but the real bet is on becoming the software platform for police departments.",
-      "Government digitization is accelerating and once departments integrate with court systems, switching costs become prohibitive.",
-      "The platform expansion into AI analytics and dispatch could create massive pricing power as a monopoly-like position.",
-      "Trading at 2,000x free cash flow means any execution stumble or big tech competition could crush the stock.",
-      "It's a watchlist play until August earnings show software revenue growing fast enough to justify this valuation."
+      "Axon makes body cameras and tasers but the real bet is on becoming the operating system for police departments.",
+      "Government digitization is accelerating and once departments integrate Axon's platform with court systems, switching becomes nearly impossible.",
+      "The bull case is transforming into a high-margin software company with AI features that create pricing power.",
+      "The risk is paying 2,000x free cash flow for a business model shift with limited evidence it's happening fast enough.",
+      "Watch for software revenue growth above 30% in August earnings to validate this transformation story."
     ]
   },
   "assets": {
