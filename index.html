@@ -138,6 +138,11 @@
     .top-nav a:hover, .top-nav a:focus-visible {
       color: #fff; background: rgba(61, 130, 232, 0.28); outline: none;
     }
+    /* Phones: tuck the pill into the corner so it clears the wordmark. */
+    @media (max-width: 640px) {
+      .top-nav { top: 0.6rem; right: 0.6rem; }
+      .top-nav a { padding: 0.4rem 0.9rem; font-size: 0.75rem; }
+    }
 
     /* Footer */
     footer { text-align: center; margin-top: 4rem; }
