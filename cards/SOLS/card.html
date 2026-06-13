@@ -378,7 +378,7 @@ html, body {
   color: var(--tier);
 }
 
-.section { margin-top: 34px; }
+.section { margin-top: 26px; }
 .section .label {
   font-size: 18px;
   letter-spacing: 0.26em;
@@ -394,13 +394,15 @@ html, body {
 }
 .section .body.thesis { font-family: var(--serif); }
 
-/* Dead Simple Scorecard (back) — seven category bars + the headline total. */
-.scorecard { margin-top: 30px; }
+/* Dead Simple Scorecard (back) — seven category bars + the headline total.
+   Tuned dense so all seven rows + the DCF block + the performance ledger still
+   fit the fixed 1080x1512 face without clipping. */
+.scorecard { margin-top: 20px; }
 .sc-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 .sc-title {
   font-size: 18px;
@@ -416,23 +418,23 @@ html, body {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
-.sc-rows { display: flex; flex-direction: column; gap: 13px; }
-.sc-row { display: flex; flex-direction: column; gap: 5px; }
+.sc-rows { display: flex; flex-direction: column; gap: 8px; }
+.sc-row { display: flex; flex-direction: column; gap: 3px; }
 .sc-top {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-.sc-label { font-size: 22px; font-weight: 600; color: var(--text); }
+.sc-label { font-size: 19px; font-weight: 600; color: var(--text); }
 .sc-score {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--tier);
   font-variant-numeric: tabular-nums;
 }
 .sc-bar {
   position: relative;
-  height: 7px;
+  height: 6px;
   border-radius: 999px;
   background: var(--hairline);
   overflow: hidden;
@@ -444,17 +446,17 @@ html, body {
   background: linear-gradient(90deg, var(--tier-deep), var(--tier));
   box-shadow: 0 0 12px var(--tier-glow);
 }
-.sc-note { font-size: 15px; line-height: 1.3; color: var(--muted); }
+.sc-note { font-size: 13px; line-height: 1.25; color: var(--muted); }
 .sc-total {
-  margin-top: 20px;
-  padding-top: 18px;
+  margin-top: 12px;
+  padding-top: 12px;
   border-top: 1px solid var(--hairline);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
-.sc-total-text { display: flex; flex-direction: column; gap: 5px; }
+.sc-total-text { display: flex; flex-direction: column; gap: 4px; }
 .sc-total-text .k {
   font-size: 16px;
   letter-spacing: 0.2em;
@@ -470,13 +472,13 @@ html, body {
   white-space: nowrap;
 }
 .sc-total-score .v {
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 800;
   color: #fff;
   line-height: 1;
   font-variant-numeric: tabular-nums;
 }
-.sc-total-score .out { font-size: 24px; color: var(--muted); font-weight: 600; }
+.sc-total-score .out { font-size: 22px; color: var(--muted); font-weight: 600; }
 .sc-total-score .dot {
   width: 11px; height: 11px; border-radius: 50%;
   background: var(--tier-soft);
@@ -494,8 +496,8 @@ html, body {
 
 /* DCF block on the back */
 .dcf {
-  margin-top: 38px;
-  padding: 30px 34px;
+  margin-top: 22px;
+  padding: 24px 34px;
   border: 1px solid var(--hairline);
   border-radius: 18px;
   background: linear-gradient(160deg, var(--panel-2), var(--panel));
@@ -505,7 +507,7 @@ html, body {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -519,13 +521,13 @@ html, body {
   border: 1px solid var(--hairline-2);
   color: var(--muted);
 }
-.dcf-rows { display: flex; flex-direction: column; gap: 16px; }
+.dcf-rows { display: flex; flex-direction: column; gap: 12px; }
 .dcf-row {
   display: grid;
   grid-template-columns: 16px 1fr auto;
   align-items: center;
   gap: 18px;
-  font-size: 34px;
+  font-size: 32px;
   font-variant-numeric: tabular-nums;
 }
 .dcf-row .dot { width: 18px; height: 18px; border-radius: 50%; }
@@ -542,8 +544,8 @@ html, body {
 
 /* Performance ledger (the living record) */
 .ledger {
-  margin-top: 32px;
-  padding-top: 26px;
+  margin-top: 22px;
+  padding-top: 18px;
   border-top: 1px solid var(--hairline);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -567,7 +569,7 @@ html, body {
 
 .back-footer {
   margin-top: auto;
-  padding-top: 26px;
+  padding-top: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
