@@ -64,5 +64,45 @@
     "query": "Digital fortress of connected sensors and intelligence protecting a modern city",
     "credit": "",
     "source": "leonardo"
+  },
+  "scorecard": {
+    "research_date": "Jun 10, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 90,
+        "note": "Government digitization tailwind"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 93,
+        "note": "Scaling the software transition"
+      },
+      {
+        "label": "Traction",
+        "score": 91,
+        "note": "Evidence platform expanding"
+      },
+      {
+        "label": "Moat",
+        "score": 89,
+        "note": "Switching costs + regulatory lock-in"
+      },
+      {
+        "label": "Valuation",
+        "score": 86,
+        "note": "Premium multiple"
+      },
+      {
+        "label": "Risk",
+        "score": 83,
+        "note": "Customer + big-tech concentration"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 92,
+        "note": "High-reward growth"
+      }
+    ]
   }
 }

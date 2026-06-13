@@ -21,7 +21,7 @@
   },
   "research": {
     "run_id": "20260608_182408",
-    "research_date": "Jun 08, 2026",
+    "research_date": "Jun 10, 2026",
     "baseline_price": 1611.99,
     "sp_at_research": 7405.72998046875
   },
@@ -64,5 +64,45 @@
     "query": "automated e-commerce logistics hub, golden glowing parcels moving on sleek dark conveyors, abstract 3D render, macro detail",
     "credit": "",
     "source": "leonardo"
+  },
+  "scorecard": {
+    "research_date": "Jun 10, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 97,
+        "note": "Decades of LatAm digital runway"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 91,
+        "note": "Proven ecosystem builder"
+      },
+      {
+        "label": "Traction",
+        "score": 93,
+        "note": "$11.8B FCF at scale"
+      },
+      {
+        "label": "Moat",
+        "score": 92,
+        "note": "Network effects + scale economies"
+      },
+      {
+        "label": "Valuation",
+        "score": 89,
+        "note": "7x FCF for a leader"
+      },
+      {
+        "label": "Risk",
+        "score": 83,
+        "note": "Brazil + currency concentration"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 93,
+        "note": "Core long-term EM growth"
+      }
+    ]
   }
 }

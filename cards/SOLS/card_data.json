@@ -65,5 +65,45 @@
     "query": "Computer or data center COOLING (something related to cooling and AI)",
     "credit": "",
     "source": "leonardo"
+  },
+  "scorecard": {
+    "research_date": "Jun 09, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 90,
+        "note": "AI data-center cooling demand"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 85,
+        "note": "Scaling through a rough patch"
+      },
+      {
+        "label": "Traction",
+        "score": 87,
+        "note": "Contract-driven recurring revenue"
+      },
+      {
+        "label": "Moat",
+        "score": 88,
+        "note": "Switching costs on replacements"
+      },
+      {
+        "label": "Valuation",
+        "score": 81,
+        "note": "Priced for execution (~89x FCF)"
+      },
+      {
+        "label": "Risk",
+        "score": 78,
+        "note": "High debt + concentration"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 88,
+        "note": "Asymmetric, non-core"
+      }
+    ]
   }
 }

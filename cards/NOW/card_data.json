@@ -64,5 +64,45 @@
     "query": "glowing AI workflow circuitry flowing through sleek dark enterprise server hardware, abstract 3D render, macro detail",
     "credit": "",
     "source": "leonardo"
+  },
+  "scorecard": {
+    "research_date": "Jun 08, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 96,
+        "note": "Workflow OS for enterprise AI"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 95,
+        "note": "Consistent beats, strong execution"
+      },
+      {
+        "label": "Traction",
+        "score": 97,
+        "note": "$4.5B FCF, sticky base"
+      },
+      {
+        "label": "Moat",
+        "score": 96,
+        "note": "Switching costs + workflow data"
+      },
+      {
+        "label": "Valuation",
+        "score": 89,
+        "note": "Fair at ~26x FCF"
+      },
+      {
+        "label": "Risk",
+        "score": 90,
+        "note": "AI commoditization risk"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 96,
+        "note": "Asymmetric compounder"
+      }
+    ]
   }
 }

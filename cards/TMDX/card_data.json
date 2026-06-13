@@ -64,5 +64,45 @@
     "query": "A glowing organ transport capsule traveling through a global logistics network, cargo jet, helicopter, ambulance and hospital connected by illuminated data pathways, dark cinematic background, ultra realistic, high contrast, premium technology aesthetic, futuristic healthcare infrastructure, no surgeons, no patients, no text",
     "credit": "",
     "source": "leonardo"
+  },
+  "scorecard": {
+    "research_date": "Jun 11, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 88,
+        "note": "Global organ-transport runway"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 87,
+        "note": "Volatile while scaling"
+      },
+      {
+        "label": "Traction",
+        "score": 92,
+        "note": "Proven tech, hospital adoption"
+      },
+      {
+        "label": "Moat",
+        "score": 95,
+        "note": "Regulatory switching costs"
+      },
+      {
+        "label": "Valuation",
+        "score": 93,
+        "note": "Low end of range, ~16x FCF"
+      },
+      {
+        "label": "Risk",
+        "score": 81,
+        "note": "High debt + concentration"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 91,
+        "note": "Asymmetric growth upside"
+      }
+    ]
   }
 }
