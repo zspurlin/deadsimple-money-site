@@ -392,7 +392,16 @@ html, body {
   line-height: 1.5;
   color: var(--text);
 }
-.section .body.thesis { font-family: var(--serif); }
+/* Cap the thesis at six lines so a long blurb (esp. the owner-voice rewrite on
+   Open/Closed cards) can never push the DCF + performance ledger off the face. */
+.section .body.thesis {
+  font-family: var(--serif);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
 
 /* Dead Simple Scorecard (back) — seven category bars + the headline total.
    Tuned dense so all seven rows + the DCF block + the performance ledger still
