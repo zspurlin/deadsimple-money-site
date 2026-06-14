@@ -1,0 +1,1 @@
+DPZ trading near bear case after earnings misses. Not a restaurant stock—it's a leveraged bet on franchise royalties surviving platform delivery. 7.5x net debt to FCF leaves no cushion if same-store sales turn negative. Score: 91/100 🍕

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-14T21:10:51+00:00",
+  "ticker": "DPZ",
+  "company": "Domino's Pizza",
+  "score": 91,
+  "grade": "C",
+  "tier": "Gold",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "It's just pizza. But it's a lot of pizza. Enough to turn a dead simple product into a global cash-flow machine.",
+  "thesis": "Why I'm Watching It: The franchise model insulates from labor costs while maintaining meaningful scale advantages. At current prices near the DCF bear case, there's compelling risk-reward if franchisee economics hold up despite competitive pressure from delivery platforms.",
+  "moat": "Scale advantages weakening as platforms build competing infrastructure",
+  "risks": "$4.90B net debt against $654M free cash flow (7.5x leverage)",
+  "scorecard": {
+    "research_date": "Jun 14, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 88,
+        "note": "Recurring consumer demand with international runway"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 94,
+        "note": "Decades of disciplined franchising and capital allocation"
+      },
+      {
+        "label": "Traction",
+        "score": 95,
+        "note": "33% market share and proven cash generation"
+      },
+      {
+        "label": "Moat",
+        "score": 90,
+        "note": "Scale, brand, and franchise density reinforce leadership"
+      },
+      {
+        "label": "Valuation",
+        "score": 89,
+        "note": "DCF suggests favorable risk/reward"
+      },
+      {
+        "label": "Risk",
+        "score": 86,
+        "note": "Leverage offset by resillient cash flows"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 94,
+        "note": "Adds franchise economics and shareholder yield"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$332.00",
+    "base": "$448.00",
+    "bull": "$653.00",
+    "verdict": "Open",
+    "current_price": "$323.88"
+  },
+  "research": {
+    "run_id": "20260614_165932",
+    "research_date": "Jun 14, 2026",
+    "baseline_price": 323.88,
+    "sp_at_research": 7431.4599609375
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Jun 14, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "DPZ trading near bear case after earnings misses. Not a restaurant stock\u2014it's a leveraged bet on franchise royalties surviving platform delivery. 7.5x net debt to FCF leaves no cushion if same-store sales turn negative. Score: 91/100 \ud83c\udf55",
+    "video_talking_points": [
+      "Domino's collects royalties from franchisees rather than running pizza stores directly.",
+      "The stock has dropped near bear case levels after recent earnings disappointments.",
+      "The franchise model provides scale advantages and insulation from rising labor costs.",
+      "High debt load of 7.5x free cash flow creates risk if franchisee economics break.",
+      "Watching for proof that the royalty model can survive delivery platform competition."
+    ]
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Ultra-detailed 3D visualization of a global franchise empire, thousands of interconnected storefronts linked through glowing operational and financial networks, capital flowing through an asset-light system, intricate logistics and supply chain infrastructure beneath the surface, dark graphite and black color palette with subtle gold illumination, premium institutional investment research aesthetic, elegant depth of field, highly sophisticated, realistic, intricate systems design, symbolizing scale, free cash flow and market dominance, no text, no logos, no people, luxary annual report artwork.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-13T16:55:26+00:00",
+  "generated_at": "2026-06-14T21:20:29+00:00",
   "counts": {
     "open": 3,
     "closed": 0,
-    "watchlist": 2
+    "watchlist": 3
   },
   "open": [
     {
@@ -70,6 +70,26 @@
   ],
   "closed": [],
   "watchlist": [
+    {
+      "ticker": "DPZ",
+      "company": "Domino's Pizza",
+      "score": 91,
+      "tier": "Gold",
+      "status": "Watchlist",
+      "front_line": "It's just pizza. But it's a lot of pizza. Enough to turn a dead simple product into a global cash-flow machine.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 14, 2026",
+      "dir": "DPZ",
+      "card_html": "DPZ/card.html",
+      "card_front": "DPZ/card_front.png",
+      "card_back": "DPZ/card_back.png",
+      "card_front_web": "DPZ/card_front_web.png",
+      "card_back_web": "DPZ/card_back_web.png",
+      "data": "DPZ/card_data.json"
+    },
     {
       "ticker": "TMDX",
       "company": "TransMedics Group",
