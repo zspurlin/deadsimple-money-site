@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T16:59:22+00:00",
+  "generated_at": "2026-06-15T17:16:34+00:00",
   "counts": {
-    "open": 4,
+    "open": 5,
     "closed": 0,
-    "watchlist": 2
+    "watchlist": 1
   },
   "open": [
     {
@@ -86,6 +86,26 @@
       "card_front_web": "AXON/card_front_web.png",
       "card_back_web": "AXON/card_back_web.png",
       "data": "AXON/card_data.json"
+    },
+    {
+      "ticker": "SOLS",
+      "company": "Solstice Advanced Materials",
+      "score": 86,
+      "tier": "Silver",
+      "status": "Open",
+      "front_line": "Data center cooling systems for the AI buildout boom",
+      "alpha": "+0.3%",
+      "current_return": "+0.3%",
+      "sp_return": "+0.1%",
+      "performance_mode": "live",
+      "research_date": "Jun 09, 2026",
+      "dir": "SOLS",
+      "card_html": "SOLS/card.html",
+      "card_front": "SOLS/card_front.png",
+      "card_back": "SOLS/card_back.png",
+      "card_front_web": "SOLS/card_front_web.png",
+      "card_back_web": "SOLS/card_back_web.png",
+      "data": "SOLS/card_data.json"
     }
   ],
   "closed": [],
@@ -109,26 +129,6 @@
       "card_front_web": "TMDX/card_front_web.png",
       "card_back_web": "TMDX/card_back_web.png",
       "data": "TMDX/card_data.json"
-    },
-    {
-      "ticker": "SOLS",
-      "company": "Solstice Advanced Materials",
-      "score": 86,
-      "tier": "Silver",
-      "status": "Watchlist",
-      "front_line": "Data center cooling systems for the AI buildout boom",
-      "alpha": "+4.4%",
-      "current_return": "+7.4%",
-      "sp_return": "+2.9%",
-      "performance_mode": "live",
-      "research_date": "Jun 09, 2026",
-      "dir": "SOLS",
-      "card_html": "SOLS/card.html",
-      "card_front": "SOLS/card_front.png",
-      "card_back": "SOLS/card_back.png",
-      "card_front_web": "SOLS/card_front_web.png",
-      "card_back_web": "SOLS/card_back_web.png",
-      "data": "SOLS/card_data.json"
     }
   ]
 }
