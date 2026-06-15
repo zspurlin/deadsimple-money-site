@@ -378,7 +378,7 @@ html, body {
   color: var(--tier);
 }
 
-.section { margin-top: 34px; }
+.section { margin-top: 26px; }
 .section .label {
   font-size: 18px;
   letter-spacing: 0.26em;
@@ -392,15 +392,26 @@ html, body {
   line-height: 1.5;
   color: var(--text);
 }
-.section .body.thesis { font-family: var(--serif); }
+/* Cap the thesis at six lines so a long blurb (esp. the owner-voice rewrite on
+   Open/Closed cards) can never push the DCF + performance ledger off the face. */
+.section .body.thesis {
+  font-family: var(--serif);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
 
-/* Dead Simple Scorecard (back) — seven category bars + the headline total. */
-.scorecard { margin-top: 30px; }
+/* Dead Simple Scorecard (back) — seven category bars + the headline total.
+   Tuned dense so all seven rows + the DCF block + the performance ledger still
+   fit the fixed 1080x1512 face without clipping. */
+.scorecard { margin-top: 20px; }
 .sc-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 .sc-title {
   font-size: 18px;
@@ -416,23 +427,23 @@ html, body {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
-.sc-rows { display: flex; flex-direction: column; gap: 13px; }
-.sc-row { display: flex; flex-direction: column; gap: 5px; }
+.sc-rows { display: flex; flex-direction: column; gap: 8px; }
+.sc-row { display: flex; flex-direction: column; gap: 3px; }
 .sc-top {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-.sc-label { font-size: 22px; font-weight: 600; color: var(--text); }
+.sc-label { font-size: 19px; font-weight: 600; color: var(--text); }
 .sc-score {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--tier);
   font-variant-numeric: tabular-nums;
 }
 .sc-bar {
   position: relative;
-  height: 7px;
+  height: 6px;
   border-radius: 999px;
   background: var(--hairline);
   overflow: hidden;
@@ -444,17 +455,17 @@ html, body {
   background: linear-gradient(90deg, var(--tier-deep), var(--tier));
   box-shadow: 0 0 12px var(--tier-glow);
 }
-.sc-note { font-size: 15px; line-height: 1.3; color: var(--muted); }
+.sc-note { font-size: 13px; line-height: 1.25; color: var(--muted); }
 .sc-total {
-  margin-top: 20px;
-  padding-top: 18px;
+  margin-top: 12px;
+  padding-top: 12px;
   border-top: 1px solid var(--hairline);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
-.sc-total-text { display: flex; flex-direction: column; gap: 5px; }
+.sc-total-text { display: flex; flex-direction: column; gap: 4px; }
 .sc-total-text .k {
   font-size: 16px;
   letter-spacing: 0.2em;
@@ -470,13 +481,13 @@ html, body {
   white-space: nowrap;
 }
 .sc-total-score .v {
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 800;
   color: #fff;
   line-height: 1;
   font-variant-numeric: tabular-nums;
 }
-.sc-total-score .out { font-size: 24px; color: var(--muted); font-weight: 600; }
+.sc-total-score .out { font-size: 22px; color: var(--muted); font-weight: 600; }
 .sc-total-score .dot {
   width: 11px; height: 11px; border-radius: 50%;
   background: var(--tier-soft);
@@ -494,8 +505,8 @@ html, body {
 
 /* DCF block on the back */
 .dcf {
-  margin-top: 38px;
-  padding: 30px 34px;
+  margin-top: 22px;
+  padding: 24px 34px;
   border: 1px solid var(--hairline);
   border-radius: 18px;
   background: linear-gradient(160deg, var(--panel-2), var(--panel));
@@ -505,7 +516,7 @@ html, body {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -519,13 +530,13 @@ html, body {
   border: 1px solid var(--hairline-2);
   color: var(--muted);
 }
-.dcf-rows { display: flex; flex-direction: column; gap: 16px; }
+.dcf-rows { display: flex; flex-direction: column; gap: 12px; }
 .dcf-row {
   display: grid;
   grid-template-columns: 16px 1fr auto;
   align-items: center;
   gap: 18px;
-  font-size: 34px;
+  font-size: 32px;
   font-variant-numeric: tabular-nums;
 }
 .dcf-row .dot { width: 18px; height: 18px; border-radius: 50%; }
@@ -542,8 +553,8 @@ html, body {
 
 /* Performance ledger (the living record) */
 .ledger {
-  margin-top: 32px;
-  padding-top: 26px;
+  margin-top: 22px;
+  padding-top: 18px;
   border-top: 1px solid var(--hairline);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -567,7 +578,7 @@ html, body {
 
 .back-footer {
   margin-top: auto;
-  padding-top: 26px;
+  padding-top: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -684,27 +695,73 @@ html, body {
 .header-img .hero-bg img { filter: grayscale(1) contrast(1.06) brightness(0.88); }
 .thumb .hero-bg.gen img,
 .header-img .hero-bg.gen img { filter: grayscale(0.2) contrast(1.05) brightness(0.92); }
-.thumb-top { display: flex; align-items: center; justify-content: space-between; z-index: 1; }
-.thumb .ticker-row { display: flex; align-items: baseline; gap: 24px; z-index: 1; }
-.thumb .t-sym { font-size: 150px; font-weight: 800; line-height: 0.9; }
-.thumb .t-co  { font-size: 34px; color: var(--muted); }
-.thumb .t-line {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 44px;
-  line-height: 1.3;
-  max-width: 860px;
+/* The host cutout sits bottom-right and bleeds to the frame edge. */
+.thumb .thumb-face {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 94%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: bottom right;
   z-index: 1;
+  filter: drop-shadow(-16px 6px 26px rgba(0,0,0,0.55));
 }
+
+/* Text column. Sits above the hero + face; narrows when a face is present. */
+.thumb .thumb-stack {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 980px;
+}
+.thumb.has-face .thumb-stack { max-width: 660px; }
+
+.thumb-top { display: flex; align-items: center; justify-content: space-between; z-index: 1; }
 .thumb .status { font-size: 19px; padding: 12px 28px; }
-.thumb .t-sym { text-shadow: 0 4px 30px rgba(0,0,0,0.7); }
-.thumb .t-line { text-shadow: 0 2px 18px rgba(0,0,0,0.7); }
-.thumb .t-foot { display: flex; align-items: center; gap: 28px; z-index: 1; }
+
+/* The hook: one jarring metric, the loudest thing on the card. */
+.thumb .thumb-hook {
+  font-size: 132px;
+  font-weight: 800;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #34e29a;
+  text-shadow: 0 0 32px rgba(52,226,154,0.45), 0 4px 22px rgba(0,0,0,0.7);
+  margin: 6px 0;
+}
+.thumb.has-face .thumb-hook { font-size: 116px; }
+
+/* The counter-narrative headline, heavy and high-contrast. */
+.thumb .thumb-counter {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.78);
+}
+.thumb.has-face .thumb-counter { font-size: 50px; }
+
+/* Supporting marks: ticker, company, tier, score — de-emphasized. */
+.thumb .thumb-foot { display: flex; align-items: baseline; gap: 22px; z-index: 1; }
+.thumb .t-sym {
+  font-size: 64px; font-weight: 800; line-height: 0.9;
+  text-shadow: 0 4px 30px rgba(0,0,0,0.7);
+}
+.thumb .t-co { font-size: 26px; color: var(--muted); }
+.thumb .thumb-foot .tier-badge { margin-left: auto; }
 .thumb .t-score {
-  font-size: 60px; font-weight: 800; font-variant-numeric: tabular-nums;
+  font-size: 52px; font-weight: 800; font-variant-numeric: tabular-nums;
   text-shadow: 0 2px 18px rgba(0,0,0,0.7);
 }
-.thumb .t-score .out { color: var(--faint); font-size: 34px; font-weight: 600; }
+.thumb .t-score .out { color: var(--faint); font-size: 30px; font-weight: 600; }
 
 /* --------------------------------------------------------------------------- */
 /* SUBSTACK HEADER — 1200 x 600                                                 */
@@ -943,9 +1000,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Watchlist Added</span><span class="v">Jun 09, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-2.4%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v neg">-1.2%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v neg">-1.2%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+7.4%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+2.9%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+4.4%</span></div>
     </div>
 
     <div class="back-footer">
