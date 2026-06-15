@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T18:07:58+00:00",
+  "generated_at": "2026-06-15T22:00:34+00:00",
   "ticker": "MELI",
   "company": "MercadoLibre",
   "score": 92,
@@ -26,9 +26,9 @@
     "sp_at_research": 7405.72998046875
   },
   "performance": {
-    "current_return": "+2.0%",
-    "sp_return": "+2.1%",
-    "alpha": "-0.1%",
+    "current_return": "+2.1%",
+    "sp_return": "+2.0%",
+    "alpha": "+0.1%",
     "as_of": "Jun 15, 2026",
     "mode": "live"
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T18:07:59+00:00",
+  "generated_at": "2026-06-15T22:00:34+00:00",
   "ticker": "NOW",
   "company": "ServiceNow",
   "score": 94,
@@ -27,8 +27,8 @@
   },
   "performance": {
     "current_return": "-8.8%",
-    "sp_return": "+2.1%",
-    "alpha": "-10.9%",
+    "sp_return": "+2.0%",
+    "alpha": "-10.8%",
     "as_of": "Jun 15, 2026",
     "mode": "live"
   },
