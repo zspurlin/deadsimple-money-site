@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T02:11:24+00:00",
+  "generated_at": "2026-06-15T02:21:55+00:00",
   "counts": {
-    "open": 3,
+    "open": 4,
     "closed": 0,
-    "watchlist": 3
+    "watchlist": 2
   },
   "open": [
     {
@@ -48,6 +48,26 @@
       "data": "MELI/card_data.json"
     },
     {
+      "ticker": "DPZ",
+      "company": "Domino's Pizza",
+      "score": 91,
+      "tier": "Gold",
+      "status": "Open",
+      "front_line": "It's just pizza. But it's a lot of pizza. Enough to turn a dead simple product into a global cash-flow machine.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 14, 2026",
+      "dir": "DPZ",
+      "card_html": "DPZ/card.html",
+      "card_front": "DPZ/card_front.png",
+      "card_back": "DPZ/card_back.png",
+      "card_front_web": "DPZ/card_front_web.png",
+      "card_back_web": "DPZ/card_back_web.png",
+      "data": "DPZ/card_data.json"
+    },
+    {
       "ticker": "AXON",
       "company": "Axon Enterprise",
       "score": 89,
@@ -70,26 +90,6 @@
   ],
   "closed": [],
   "watchlist": [
-    {
-      "ticker": "DPZ",
-      "company": "Domino's Pizza",
-      "score": 91,
-      "tier": "Gold",
-      "status": "Watchlist",
-      "front_line": "It's just pizza. But it's a lot of pizza. Enough to turn a dead simple product into a global cash-flow machine.",
-      "alpha": "+0.0%",
-      "current_return": "+0.0%",
-      "sp_return": "+0.0%",
-      "performance_mode": "live",
-      "research_date": "Jun 14, 2026",
-      "dir": "DPZ",
-      "card_html": "DPZ/card.html",
-      "card_front": "DPZ/card_front.png",
-      "card_back": "DPZ/card_back.png",
-      "card_front_web": "DPZ/card_front_web.png",
-      "card_back_web": "DPZ/card_back_web.png",
-      "data": "DPZ/card_data.json"
-    },
     {
       "ticker": "TMDX",
       "company": "TransMedics Group",

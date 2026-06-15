@@ -695,27 +695,73 @@ html, body {
 .header-img .hero-bg img { filter: grayscale(1) contrast(1.06) brightness(0.88); }
 .thumb .hero-bg.gen img,
 .header-img .hero-bg.gen img { filter: grayscale(0.2) contrast(1.05) brightness(0.92); }
-.thumb-top { display: flex; align-items: center; justify-content: space-between; z-index: 1; }
-.thumb .ticker-row { display: flex; align-items: baseline; gap: 24px; z-index: 1; }
-.thumb .t-sym { font-size: 150px; font-weight: 800; line-height: 0.9; }
-.thumb .t-co  { font-size: 34px; color: var(--muted); }
-.thumb .t-line {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 44px;
-  line-height: 1.3;
-  max-width: 860px;
+/* The host cutout sits bottom-right and bleeds to the frame edge. */
+.thumb .thumb-face {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 94%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: bottom right;
   z-index: 1;
+  filter: drop-shadow(-16px 6px 26px rgba(0,0,0,0.55));
 }
+
+/* Text column. Sits above the hero + face; narrows when a face is present. */
+.thumb .thumb-stack {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 980px;
+}
+.thumb.has-face .thumb-stack { max-width: 660px; }
+
+.thumb-top { display: flex; align-items: center; justify-content: space-between; z-index: 1; }
 .thumb .status { font-size: 19px; padding: 12px 28px; }
-.thumb .t-sym { text-shadow: 0 4px 30px rgba(0,0,0,0.7); }
-.thumb .t-line { text-shadow: 0 2px 18px rgba(0,0,0,0.7); }
-.thumb .t-foot { display: flex; align-items: center; gap: 28px; z-index: 1; }
+
+/* The hook: one jarring metric, the loudest thing on the card. */
+.thumb .thumb-hook {
+  font-size: 132px;
+  font-weight: 800;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #34e29a;
+  text-shadow: 0 0 32px rgba(52,226,154,0.45), 0 4px 22px rgba(0,0,0,0.7);
+  margin: 6px 0;
+}
+.thumb.has-face .thumb-hook { font-size: 116px; }
+
+/* The counter-narrative headline, heavy and high-contrast. */
+.thumb .thumb-counter {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.78);
+}
+.thumb.has-face .thumb-counter { font-size: 50px; }
+
+/* Supporting marks: ticker, company, tier, score — de-emphasized. */
+.thumb .thumb-foot { display: flex; align-items: baseline; gap: 22px; z-index: 1; }
+.thumb .t-sym {
+  font-size: 64px; font-weight: 800; line-height: 0.9;
+  text-shadow: 0 4px 30px rgba(0,0,0,0.7);
+}
+.thumb .t-co { font-size: 26px; color: var(--muted); }
+.thumb .thumb-foot .tier-badge { margin-left: auto; }
 .thumb .t-score {
-  font-size: 60px; font-weight: 800; font-variant-numeric: tabular-nums;
+  font-size: 52px; font-weight: 800; font-variant-numeric: tabular-nums;
   text-shadow: 0 2px 18px rgba(0,0,0,0.7);
 }
-.thumb .t-score .out { color: var(--faint); font-size: 34px; font-weight: 600; }
+.thumb .t-score .out { color: var(--faint); font-size: 30px; font-weight: 600; }
 
 /* --------------------------------------------------------------------------- */
 /* SUBSTACK HEADER — 1200 x 600                                                 */
@@ -813,7 +859,7 @@ html, body {
         <img class="brand-mark" src="data:image/png;base64,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EmW/4AK7q2UpghCp28sagyQdL1LLnn6RK750llYtW4M0TIjUr7ogSUX2Wo42L/lEYltabJwQaUONK5KTSlYj2wVPsNvSYuOESDte1tS1VdlqpMjnOhl3Q5xuPGSjhEhb3lXW/lvLaqTkLS2rETZKiLTnXS0HN1a0GokzI6UGiRBho4RImz5WdNaW1cjTCBE2Soi0aauWby5pNVJDU0CRITIZd3M3td0gSUOESLt2zqfVFK5r2dLSpQW3CJG2vTmfFl0U7qQp9sncG+Up9Vlezr0CPREi7Tut5Aj5GlYj6iJwixBp31YNNYd0wm/pMw/bJZ6lleoi5kXYCCEyDPuVnPprNZLPlhYbIUSG46iCtt8aurQU12GGEBmO4re1Urtv6QX2UkPESoSNECLDMqrget3SVyNFtvpOxlYibIYQGZ6i6w6He1XcH15qEBs6pHdCZHh2KjiksfR7MmxpQSJEhumo8M+69BAp9YBLIULvhMgwbZ9Pyw2SCra0Yl2kxCARIvROiAxX6XMjpReKS9zSEiL0TogM11bhtRFbWkuajLsW6RqO1achQmTYSq6NCJE8ViP0SogM23app/ymwcOSW1Z35l4pgxChV0KEkmsjRddFCr1fZDr3CqyREGG/4KPibWktz0qEXgkRQqmrkXQ8fMlKDF8rEXolRAgFH28efZp7pRwldmgJEXolRAipwO4oj+WV2qHlgip6I0S4UerMSMlbWnFyvcQ7WqxG6I0Q4YaVSJ4SVyNChN4IEW7ELa3iviEe7nXfEEuewlZcZ9CECLPcH768EkPk77lXYE2ECLNKDZGS6yJmRRg0IcKseGGVQvFySnxe0Bshwm0KxcspcTvLSoTeCBFuc0/GcrZL+wulI+GhF0KE24oLkXSib7EKnRWBXggRbit1CtvxJ8sp+XnRECHCbVsFn+oLFEaIsEiJIVJym6/tLAZLiLBIqUeglKrULUBYu2884oViS+lPi94YiBJ/6i95JVLi3+2o8B8GHM3SiGdXV1dDfwYAZLKdBUA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJAnhDC/wOKDPJw+O1I7wAAAABJRU5ErkJggg==" alt="">
         <span class="brand-word">Dead Simple Research</span>
       </div>
-      <span class="status is-watchlist">Watchlist</span>
+      <span class="status is-open">Open</span>
     </div>
 
     <div class="headline">
@@ -853,8 +899,8 @@ html, body {
     </div>
 
     <div class="section">
-      <div class="label">Why I&#39;m Watching It</div>
-      <div class="body thesis">Why I&#39;m Watching It: The franchise model insulates from labor costs while maintaining meaningful scale advantages. At current prices near the DCF bear case, there&#39;s compelling risk-reward if franchisee economics hold up despite competitive pressure from delivery platforms.</div>
+      <div class="label">Why I Own It</div>
+      <div class="body thesis">I bought Domino&#39;s because I believe the market is underestimating this high-quality compounder&#39;s ability to grow earnings through store expansion, pricing power, and digital engagement despite recent headwinds. The franchise model provides a durable cash machine with 33% market share and meaningful scale advantages, while the current valuation near the DCF bear case of $332 offers favorable risk-reward relative to my estimate of intrinsic value. I&#39;m accepting the risk of franchisee economics breaking under competitive pressure and the 7.5x debt leverage, but I&#39;ll exit if same-store sales turn negative for two consecutive quarters, signaling the franchise model is fundamentally breaking.</div>
     </div>
 
     <div class="scorecard">
@@ -867,64 +913,64 @@ html, body {
         <div class="sc-row">
           <div class="sc-top">
             <span class="sc-label">Market</span>
-            <span class="sc-score">88/100</span>
+            <span class="sc-score">84/100</span>
           </div>
-          <div class="sc-bar"><span class="sc-fill" style="width: 88%"></span></div>
-          <div class="sc-note">Recurring consumer demand with international runway</div>
+          <div class="sc-bar"><span class="sc-fill" style="width: 84%"></span></div>
+          <div class="sc-note">Large addressable market</div>
         </div>
         
         <div class="sc-row">
           <div class="sc-top">
             <span class="sc-label">Team / Execution</span>
-            <span class="sc-score">94/100</span>
+            <span class="sc-score">82/100</span>
           </div>
-          <div class="sc-bar"><span class="sc-fill" style="width: 94%"></span></div>
-          <div class="sc-note">Decades of disciplined franchising and capital allocation</div>
+          <div class="sc-bar"><span class="sc-fill" style="width: 82%"></span></div>
+          <div class="sc-note">Strong historical execution</div>
         </div>
         
         <div class="sc-row">
           <div class="sc-top">
             <span class="sc-label">Traction</span>
-            <span class="sc-score">95/100</span>
+            <span class="sc-score">91/100</span>
           </div>
-          <div class="sc-bar"><span class="sc-fill" style="width: 95%"></span></div>
-          <div class="sc-note">33% market share and proven cash generation</div>
+          <div class="sc-bar"><span class="sc-fill" style="width: 91%"></span></div>
+          <div class="sc-note">33% market share</div>
         </div>
         
         <div class="sc-row">
           <div class="sc-top">
             <span class="sc-label">Moat</span>
-            <span class="sc-score">90/100</span>
+            <span class="sc-score">92/100</span>
           </div>
-          <div class="sc-bar"><span class="sc-fill" style="width: 90%"></span></div>
-          <div class="sc-note">Scale, brand, and franchise density reinforce leadership</div>
+          <div class="sc-bar"><span class="sc-fill" style="width: 92%"></span></div>
+          <div class="sc-note">Decades of operational expertise. Difficult to replace.</div>
         </div>
         
         <div class="sc-row">
           <div class="sc-top">
             <span class="sc-label">Valuation</span>
-            <span class="sc-score">89/100</span>
+            <span class="sc-score">84/100</span>
           </div>
-          <div class="sc-bar"><span class="sc-fill" style="width: 89%"></span></div>
-          <div class="sc-note">DCF suggests favorable risk/reward</div>
+          <div class="sc-bar"><span class="sc-fill" style="width: 84%"></span></div>
+          <div class="sc-note">International expansion and buybacks support long-term intrinsic value growth</div>
         </div>
         
         <div class="sc-row">
           <div class="sc-top">
             <span class="sc-label">Risk</span>
-            <span class="sc-score">86/100</span>
+            <span class="sc-score">88/100</span>
           </div>
-          <div class="sc-bar"><span class="sc-fill" style="width: 86%"></span></div>
-          <div class="sc-note">Leverage offset by resillient cash flows</div>
+          <div class="sc-bar"><span class="sc-fill" style="width: 88%"></span></div>
+          <div class="sc-note">Commodity, labor, and franchisee profitability pressures</div>
         </div>
         
         <div class="sc-row">
           <div class="sc-top">
             <span class="sc-label">Portfolio Fit</span>
-            <span class="sc-score">94/100</span>
+            <span class="sc-score">90/100</span>
           </div>
-          <div class="sc-bar"><span class="sc-fill" style="width: 94%"></span></div>
-          <div class="sc-note">Adds franchise economics and shareholder yield</div>
+          <div class="sc-bar"><span class="sc-fill" style="width: 90%"></span></div>
+          <div class="sc-note">A world-class franchise that turns pizza into recurring cash flow</div>
         </div>
         
       </div>
@@ -953,7 +999,7 @@ html, body {
     </div>
 
     <div class="ledger">
-      <div class="cell"><span class="k">Watchlist Added</span><span class="v">Jun 14, 2026</span></div>
+      <div class="cell"><span class="k">Position Added</span><span class="v">Jun 14, 2026</span></div>
       <div class="cell"><span class="k">Current Return</span><span class="v pos">+0.0%</span></div>
       <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+0.0%</span></div>
       <div class="cell"><span class="k">Alpha</span><span class="v pos">+0.0%</span></div>
@@ -961,7 +1007,7 @@ html, body {
 
     <div class="back-footer">
       <span class="word">Dead Simple Research</span>
-      <span class="word">DPZ · Watchlist</span>
+      <span class="word">DPZ · Open</span>
     </div>
 
   </div>

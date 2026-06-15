@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-14T21:10:51+00:00",
+  "generated_at": "2026-06-15T02:21:46+00:00",
   "ticker": "DPZ",
   "company": "Domino's Pizza",
   "score": 91,
   "grade": "C",
   "tier": "Gold",
-  "status": "Watchlist",
-  "thesis_label": "Why I'm Watching It",
+  "status": "Open",
+  "thesis_label": "Why I Own It",
   "front_line": "It's just pizza. But it's a lot of pizza. Enough to turn a dead simple product into a global cash-flow machine.",
-  "thesis": "Why I'm Watching It: The franchise model insulates from labor costs while maintaining meaningful scale advantages. At current prices near the DCF bear case, there's compelling risk-reward if franchisee economics hold up despite competitive pressure from delivery platforms.",
+  "thesis": "I bought Domino's because I believe the market is underestimating this high-quality compounder's ability to grow earnings through store expansion, pricing power, and digital engagement despite recent headwinds. The franchise model provides a durable cash machine with 33% market share and meaningful scale advantages, while the current valuation near the DCF bear case of $332 offers favorable risk-reward relative to my estimate of intrinsic value. I'm accepting the risk of franchisee economics breaking under competitive pressure and the 7.5x debt leverage, but I'll exit if same-store sales turn negative for two consecutive quarters, signaling the franchise model is fundamentally breaking.",
   "moat": "Scale advantages weakening as platforms build competing infrastructure",
   "risks": "$4.90B net debt against $654M free cash flow (7.5x leverage)",
   "scorecard": {
@@ -17,38 +17,38 @@
     "categories": [
       {
         "label": "Market",
-        "score": 88,
-        "note": "Recurring consumer demand with international runway"
+        "score": 84,
+        "note": "Large addressable market"
       },
       {
         "label": "Team / Execution",
-        "score": 94,
-        "note": "Decades of disciplined franchising and capital allocation"
+        "score": 82,
+        "note": "Strong historical execution"
       },
       {
         "label": "Traction",
-        "score": 95,
-        "note": "33% market share and proven cash generation"
+        "score": 91,
+        "note": "33% market share"
       },
       {
         "label": "Moat",
-        "score": 90,
-        "note": "Scale, brand, and franchise density reinforce leadership"
+        "score": 92,
+        "note": "Decades of operational expertise. Difficult to replace."
       },
       {
         "label": "Valuation",
-        "score": 89,
-        "note": "DCF suggests favorable risk/reward"
+        "score": 84,
+        "note": "International expansion and buybacks support long-term intrinsic value growth"
       },
       {
         "label": "Risk",
-        "score": 86,
-        "note": "Leverage offset by resillient cash flows"
+        "score": 88,
+        "note": "Commodity, labor, and franchisee profitability pressures"
       },
       {
         "label": "Portfolio Fit",
-        "score": 94,
-        "note": "Adds franchise economics and shareholder yield"
+        "score": 90,
+        "note": "A world-class franchise that turns pizza into recurring cash flow"
       }
     ]
   },
@@ -62,7 +62,7 @@
   "research": {
     "run_id": "20260614_165932",
     "research_date": "Jun 14, 2026",
-    "baseline_price": 323.88,
+    "baseline_price": 323.8800048828125,
     "sp_at_research": 7431.4599609375
   },
   "performance": {
@@ -73,22 +73,25 @@
     "mode": "live"
   },
   "lifecycle": {
-    "opened_date": null,
+    "opened_date": "2026-06-14",
     "close_date": null,
     "close_price": null,
     "sp_at_close": null,
-    "open_note": null,
+    "open_note": "I believe Domino's is a high-quality compounder with a durable brand, asset-light franchise model, strong cash generation, and a long runway for international growth. The market is underestimating the company's ability to grow earnings through store expansion, pricing power, and digital engagement. At my purchase price, I view the risk/reward as favorable relative to my estimate of intrinsic value.",
     "close_note": null
   },
   "drafts": {
-    "x_post": "DPZ trading near bear case after earnings misses. Not a restaurant stock\u2014it's a leveraged bet on franchise royalties surviving platform delivery. 7.5x net debt to FCF leaves no cushion if same-store sales turn negative. Score: 91/100 \ud83c\udf55",
+    "x_post": "DPZ trades near its bear case after earnings misses, but this isn't a restaurant stock\u2014it's a leveraged bet on franchise royalties surviving platform delivery. 7.5x net debt to FCF leaves no room for error. Score: 91/100 Gold #pizza",
     "video_talking_points": [
-      "Domino's collects royalties from franchisees rather than running pizza stores directly.",
-      "The stock has dropped near bear case levels after recent earnings disappointments.",
-      "The franchise model provides scale advantages and insulation from rising labor costs.",
-      "High debt load of 7.5x free cash flow creates risk if franchisee economics break.",
-      "Watching for proof that the royalty model can survive delivery platform competition."
-    ]
+      "Domino's operates a global pizza delivery franchise system, collecting royalties from franchisees rather than running restaurants directly.",
+      "Recent earnings misses and $4.90 billion in net debt have pushed the stock near its bear case, creating potential opportunity.",
+      "The franchise model provides scale advantages and insulates from labor costs while generating predictable royalty streams.",
+      "At 7.5x net debt to free cash flow, there's no cushion if franchisees start failing under competitive pressure.",
+      "The risk-reward is compelling at current prices, but the debt load demands proof franchisee economics can hold up.",
+      "This is a leveraged bet on whether franchise royalties can survive the shift to third-party delivery platforms."
+    ],
+    "hook": "",
+    "counter": ""
   },
   "assets": {
     "card_front": "card_front.png",
