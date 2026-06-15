@@ -695,27 +695,73 @@ html, body {
 .header-img .hero-bg img { filter: grayscale(1) contrast(1.06) brightness(0.88); }
 .thumb .hero-bg.gen img,
 .header-img .hero-bg.gen img { filter: grayscale(0.2) contrast(1.05) brightness(0.92); }
-.thumb-top { display: flex; align-items: center; justify-content: space-between; z-index: 1; }
-.thumb .ticker-row { display: flex; align-items: baseline; gap: 24px; z-index: 1; }
-.thumb .t-sym { font-size: 150px; font-weight: 800; line-height: 0.9; }
-.thumb .t-co  { font-size: 34px; color: var(--muted); }
-.thumb .t-line {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 44px;
-  line-height: 1.3;
-  max-width: 860px;
+/* The host cutout sits bottom-right and bleeds to the frame edge. */
+.thumb .thumb-face {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-height: 94%;
+  max-width: 50%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: bottom right;
   z-index: 1;
+  filter: drop-shadow(-16px 6px 26px rgba(0,0,0,0.55));
 }
+
+/* Text column. Sits above the hero + face; narrows when a face is present. */
+.thumb .thumb-stack {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 980px;
+}
+.thumb.has-face .thumb-stack { max-width: 660px; }
+
+.thumb-top { display: flex; align-items: center; justify-content: space-between; z-index: 1; }
 .thumb .status { font-size: 19px; padding: 12px 28px; }
-.thumb .t-sym { text-shadow: 0 4px 30px rgba(0,0,0,0.7); }
-.thumb .t-line { text-shadow: 0 2px 18px rgba(0,0,0,0.7); }
-.thumb .t-foot { display: flex; align-items: center; gap: 28px; z-index: 1; }
+
+/* The hook: one jarring metric, the loudest thing on the card. */
+.thumb .thumb-hook {
+  font-size: 132px;
+  font-weight: 800;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #34e29a;
+  text-shadow: 0 0 32px rgba(52,226,154,0.45), 0 4px 22px rgba(0,0,0,0.7);
+  margin: 6px 0;
+}
+.thumb.has-face .thumb-hook { font-size: 116px; }
+
+/* The counter-narrative headline, heavy and high-contrast. */
+.thumb .thumb-counter {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.78);
+}
+.thumb.has-face .thumb-counter { font-size: 50px; }
+
+/* Supporting marks: ticker, company, tier, score — de-emphasized. */
+.thumb .thumb-foot { display: flex; align-items: baseline; gap: 22px; z-index: 1; }
+.thumb .t-sym {
+  font-size: 64px; font-weight: 800; line-height: 0.9;
+  text-shadow: 0 4px 30px rgba(0,0,0,0.7);
+}
+.thumb .t-co { font-size: 26px; color: var(--muted); }
+.thumb .thumb-foot .tier-badge { margin-left: auto; }
 .thumb .t-score {
-  font-size: 60px; font-weight: 800; font-variant-numeric: tabular-nums;
+  font-size: 52px; font-weight: 800; font-variant-numeric: tabular-nums;
   text-shadow: 0 2px 18px rgba(0,0,0,0.7);
 }
-.thumb .t-score .out { color: var(--faint); font-size: 34px; font-weight: 600; }
+.thumb .t-score .out { color: var(--faint); font-size: 30px; font-weight: 600; }
 
 /* --------------------------------------------------------------------------- */
 /* SUBSTACK HEADER — 1200 x 600                                                 */
@@ -954,9 +1000,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Watchlist Added</span><span class="v">Jun 11, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-0.9%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+0.5%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v neg">-1.4%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+1.5%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+2.0%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v neg">-0.5%</span></div>
     </div>
 
     <div class="back-footer">
