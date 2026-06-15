@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T16:55:43+00:00",
+  "generated_at": "2026-06-15T16:57:44+00:00",
   "counts": {
     "open": 4,
     "closed": 0,
@@ -117,9 +117,9 @@
       "tier": "Silver",
       "status": "Watchlist",
       "front_line": "Data center cooling systems for the AI buildout boom",
-      "alpha": "+4.4%",
-      "current_return": "+7.4%",
-      "sp_return": "+2.9%",
+      "alpha": "-1.2%",
+      "current_return": "-2.4%",
+      "sp_return": "-1.2%",
       "performance_mode": "live",
       "research_date": "Jun 09, 2026",
       "dir": "SOLS",

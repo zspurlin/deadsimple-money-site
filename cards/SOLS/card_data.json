@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T16:55:28+00:00",
+  "generated_at": "2026-06-10T22:57:45+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -26,10 +26,10 @@
     "sp_at_research": 7353.68017578125
   },
   "performance": {
-    "current_return": "+7.4%",
-    "sp_return": "+2.9%",
-    "alpha": "+4.4%",
-    "as_of": "Jun 15, 2026",
+    "current_return": "-2.4%",
+    "sp_return": "-1.2%",
+    "alpha": "-1.2%",
+    "as_of": "Jun 10, 2026",
     "mode": "live"
   },
   "lifecycle": {
@@ -47,7 +47,9 @@
       "They've missed earnings by 15-35% two quarters straight with $1.77B debt against only $142M cash flow.",
       "The market opportunity is massive but they're executing poorly at 89x free cash flow.",
       "Watching this one until they prove they can capitalize on the AI boom without breaking their balance sheet."
-    ]
+    ],
+    "hook": "89x CASH FLOW",
+    "counter": "The AI darling that keeps missing"
   },
   "assets": {
     "card_front": "card_front.png",
