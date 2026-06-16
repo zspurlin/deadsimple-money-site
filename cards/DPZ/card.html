@@ -342,12 +342,24 @@ html, body {
   text-transform: uppercase;
   color: var(--muted);
 }
+.base-case .value-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .base-case .value {
   font-size: 58px;
   font-weight: 800;
   color: #fff;
   font-variant-numeric: tabular-nums;
   text-shadow: 0 2px 20px rgba(0,0,0,0.6);
+}
+.base-case .current {
+  margin-top: 6px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .hero-credit {
@@ -880,7 +892,10 @@ html, body {
       <div class="front-line">It&#39;s just pizza. But it&#39;s a lot of pizza. Enough to turn a dead simple product into a global cash-flow machine.</div>
       <div class="base-case">
         <span class="label">Base DCF Case</span>
-        <span class="value">$448.00</span>
+        <div class="value-col">
+          <span class="value">$448</span>
+          <span class="current">Current: $316.43</span>
+        </div>
       </div>
     </div>
   </div>
@@ -992,9 +1007,9 @@ html, body {
         <span class="verdict-pill">Open</span>
       </div>
       <div class="dcf-rows">
-        <div class="dcf-row bear"><span class="dot"></span><span class="k">Bear</span><span class="v">$332.00</span></div>
-        <div class="dcf-row base"><span class="dot"></span><span class="k">Base</span><span class="v">$448.00</span></div>
-        <div class="dcf-row bull"><span class="dot"></span><span class="k">Bull</span><span class="v">$653.00</span></div>
+        <div class="dcf-row bear"><span class="dot"></span><span class="k">Bear</span><span class="v">$332</span></div>
+        <div class="dcf-row base"><span class="dot"></span><span class="k">Base</span><span class="v">$448</span></div>
+        <div class="dcf-row bull"><span class="dot"></span><span class="k">Bull</span><span class="v">$653</span></div>
       </div>
     </div>
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-15T22:00:34+00:00",
+  "generated_at": "2026-06-16T03:47:28+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -13,11 +13,11 @@
   "moat": "Switching costs only apply to replacements, not new construction",
   "risks": "Consecutive quarters of 15-35% earnings misses during supposed demand boom",
   "valuation": {
-    "bear": "$68.00",
+    "bear": "$68",
     "base": "$87.50",
-    "bull": "$103.75",
+    "bull": "$104",
     "verdict": "Watchlist",
-    "current_price": "$79.58"
+    "current_price": "$79.50"
   },
   "research": {
     "run_id": "20260609_141855",
