@@ -1,0 +1,1 @@
+$LNTH is a regulated cash machine, not a growth-pharma stock — its moat protects scan volume but not price, and price is the whole valuation. The kill-switch is a calendar fact, not vague dread. Dead Simple Score: 81/100. Watchlist until the reimbursement clock is confirmed.

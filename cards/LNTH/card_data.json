@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-16T01:19:36+00:00",
+  "ticker": "LNTH",
+  "company": "Lantheus (LNTH)",
+  "score": 81,
+  "grade": "C",
+  "tier": "Silver",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "The maps before the medicine.",
+  "thesis": "Lantheus runs the toll booth every prostate-cancer patient passes through before treatment, throwing off cash on a clean balance sheet while PSMA-PET becomes standard of care. The whole thesis rests on one number \u2014 price per scan \u2014 gated by a single lookupable CMS pass-through date. Real asymmetry, but worth a check only once that date is confirmed.",
+  "moat": "Advantages may erode",
+  "risks": "Pricing is controlled by CMS and insurers, not Lantheus; pass-through status can reset margin overnight.",
+  "scorecard": {
+    "research_date": "Jun 15, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 88,
+        "note": "Long-term healthcare tailwinds"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 82,
+        "note": "Proven operators. Execution-focused"
+      },
+      {
+        "label": "Traction",
+        "score": 84,
+        "note": "Revenue growth continues"
+      },
+      {
+        "label": "Moat",
+        "score": 79,
+        "note": "Advantages may erode"
+      },
+      {
+        "label": "Valuation",
+        "score": 77,
+        "note": "reasonable"
+      },
+      {
+        "label": "Risk",
+        "score": 71,
+        "note": "Product concentration"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 70,
+        "note": "Satellite-sized asymmetry potential"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$85.00",
+    "base": "$130.00",
+    "bull": "$186.00",
+    "verdict": "Watchlist",
+    "current_price": "$104.67"
+  },
+  "research": {
+    "run_id": "20260615_200510",
+    "research_date": "Jun 15, 2026",
+    "baseline_price": 104.67,
+    "sp_at_research": 7554.2900390625
+  },
+  "performance": {
+    "current_return": "-0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "-0.0%",
+    "as_of": "Jun 15, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "$LNTH is a regulated cash machine, not a growth-pharma stock \u2014 its moat protects scan volume but not price, and price is the whole valuation. The kill-switch is a calendar fact, not vague dread. Dead Simple Score: 81/100. Watchlist until the reimbursement clock is confirmed.",
+    "video_talking_points": [
+      "Lantheus makes the tracers doctors inject so prostate cancer lights up on a scan before treatment.",
+      "The stock has run hard and now trades at a price that already assumes a slowdown, with the next earnings call as the first real check on pricing.",
+      "It's a toll booth every prostate patient passes through, growing volume as PSMA-PET becomes standard of care, and throwing off cash on a clean balance sheet.",
+      "The catch: Lantheus doesn't control its own pricing \u2014 when pass-through status expires, per-dose margin can collapse even as scan volume rises.",
+      "The load-bearing fact, the reimbursement clock, is unverified \u2014 so committing capital now is buying blind.",
+      "Verdict: watch, and flip it to a small check once the pass-through date and Aug 4 pricing confirm."
+    ],
+    "hook": "",
+    "counter": ""
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Glowing 3D body scan revealing hidden pathways, futuristic medical imaging, dark background, cinematic lighting, ultra realistic, professional corporate style with sleek healthcare technology, no text.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
