@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-16T21:59:30+00:00",
+  "generated_at": "2026-06-16T01:19:36+00:00",
   "ticker": "LNTH",
   "company": "Lantheus (LNTH)",
   "score": 81,
@@ -53,11 +53,11 @@
     ]
   },
   "valuation": {
-    "bear": "$85",
-    "base": "$130",
-    "bull": "$186",
+    "bear": "$85.00",
+    "base": "$130.00",
+    "bull": "$186.00",
     "verdict": "Watchlist",
-    "current_price": "$104.50"
+    "current_price": "$104.67"
   },
   "research": {
     "run_id": "20260615_200510",
@@ -66,10 +66,10 @@
     "sp_at_research": 7554.2900390625
   },
   "performance": {
-    "current_return": "+0.3%",
-    "sp_return": "-0.6%",
-    "alpha": "+0.9%",
-    "as_of": "Jun 16, 2026",
+    "current_return": "-0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "-0.0%",
+    "as_of": "Jun 15, 2026",
     "mode": "live"
   },
   "lifecycle": {
@@ -90,8 +90,9 @@
       "The load-bearing fact, the reimbursement clock, is unverified \u2014 so committing capital now is buying blind.",
       "Verdict: watch, and flip it to a small check once the pass-through date and Aug 4 pricing confirm."
     ],
-    "hook": "",
-    "counter": ""
+    "hook": "THE TOLL BOOTH",
+    "counter": "Not a pharma stock",
+    "face": "pointing"
   },
   "assets": {
     "card_front": "card_front.png",
