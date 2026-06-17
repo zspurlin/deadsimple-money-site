@@ -162,9 +162,11 @@ html, body {
   inset: 38px;
   border-radius: 17px;
 }
-/* Landscape banners stay full-bleed. */
-.thumb .hero-bg,
-.header-img .hero-bg { inset: 0; border-radius: 0; }
+/* YouTube thumbnails stay full-bleed (the picture is the hook). */
+.thumb .hero-bg { inset: 0; border-radius: 0; }
+/* The Substack header keeps its image inside the gold frame so nothing bleeds
+   past the hard edge, and the dark margin doubles as Substack's safe crop zone. */
+.header-img .hero-bg { inset: 20px; border-radius: 18px; }
 
 .card-inner {
   position: relative;
@@ -342,12 +344,24 @@ html, body {
   text-transform: uppercase;
   color: var(--muted);
 }
+.base-case .value-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .base-case .value {
   font-size: 58px;
   font-weight: 800;
   color: #fff;
   font-variant-numeric: tabular-nums;
   text-shadow: 0 2px 20px rgba(0,0,0,0.6);
+}
+.base-case .current {
+  margin-top: 6px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .hero-credit {
@@ -691,6 +705,8 @@ html, body {
       rgba(5,7,12,0.93) 0%, rgba(5,7,12,0.72) 30%,
       rgba(5,7,12,0.16) 66%, rgba(5,7,12,0) 100%);
 }
+/* Clip the header scrim to the contained image so the wash stops at the frame. */
+.header-img .hero-scrim { inset: 20px; border-radius: 18px; }
 .thumb .hero-bg img,
 .header-img .hero-bg img { filter: grayscale(1) contrast(1.06) brightness(0.88); }
 .thumb .hero-bg.gen img,
@@ -880,7 +896,10 @@ html, body {
       <div class="front-line">Enterprise workflow automation platform becoming the OS for AI-powered business processes</div>
       <div class="base-case">
         <span class="label">Base DCF Case</span>
-        <span class="value">$198</span>
+        <div class="value-col">
+          <span class="value">$198</span>
+          <span class="current">Current: $100.94</span>
+        </div>
       </div>
     </div>
   </div>
@@ -1000,9 +1019,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Position Added</span><span class="v">Jun 08, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-11.3%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v neg">-11.6%</span></div>
       <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.4%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v neg">-12.7%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v neg">-13.0%</span></div>
     </div>
 
     <div class="back-footer">
