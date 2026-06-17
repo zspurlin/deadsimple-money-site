@@ -624,8 +624,8 @@ html, body {
 .flip-scene { perspective: 2600px; }
 .flip {
   position: relative;
-  /* Sized by JS to fit the viewport (caps at 540px on desktop, scales down on
-     phones so the card is never cut off). */
+  /* Sized by JS (see card.html fit()) to fill the viewport height, capped at
+     the native 1080px width; scales down on phones so it is never cut off. */
   width: var(--flip-w, 540px);
   height: var(--flip-h, 756px);
   transform-style: preserve-3d;
@@ -898,7 +898,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$1,941.50</span>
-          <span class="current">Current: $1,692.59</span>
+          <span class="current">Current: $1,687.75</span>
         </div>
       </div>
     </div>
@@ -1019,9 +1019,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Researched</span><span class="v">Jun 10, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v pos">+5.0%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.4%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v pos">+3.6%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+4.7%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.5%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+3.2%</span></div>
     </div>
 
     <div class="back-footer">
@@ -1044,12 +1044,20 @@ html, body {
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); }
       });
 
-      // Fit the card to the viewport (max 540px on desktop; scales down on phones).
+      // Fit the card to the viewport. On a 5:7 portrait card the limiting
+      // dimension on most screens is height, so size by available height (minus
+      // room for padding + the flip hint) and only fall back to width on narrow
+      // phones. Capped at the native 1080px width to stay pixel-crisp. This lets
+      // the card fill the screen for reading / OBS instead of floating small.
       function fit() {
-        var w = Math.min(540, Math.floor(window.innerWidth * 0.90));
+        var ratio = 1512 / 1080;
+        var availW = window.innerWidth * 0.92;
+        var availH = window.innerHeight - 130;  // padding + "click to flip" hint
+        var w = Math.min(availW, availH / ratio, 1080);
+        w = Math.max(280, w);
         var s = document.documentElement.style;
         s.setProperty('--flip-w', w + 'px');
-        s.setProperty('--flip-h', Math.round(w * 1512 / 1080) + 'px');
+        s.setProperty('--flip-h', Math.round(w * ratio) + 'px');
         s.setProperty('--face-scale', (w / 1080).toString());
       }
       fit();

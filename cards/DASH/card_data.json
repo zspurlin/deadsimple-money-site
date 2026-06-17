@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-17T15:24:12+00:00",
+  "generated_at": "2026-06-17T15:42:59+00:00",
   "ticker": "DASH",
   "company": "DoorDash (DASH)",
   "score": 80,
@@ -66,9 +66,9 @@
     "sp_at_research": 7511.35009765625
   },
   "performance": {
-    "current_return": "+1.0%",
-    "sp_return": "-0.0%",
-    "alpha": "+1.1%",
+    "current_return": "+1.7%",
+    "sp_return": "+0.0%",
+    "alpha": "+1.7%",
     "as_of": "Jun 17, 2026",
     "mode": "live"
   },
@@ -110,5 +110,6 @@
     "query": "sleek minimalist hero image, monochrome greyscale palette with a single vivid lime-green (#7FE03A) accent, abstract top-down view of a futuristic city grid at night rendered in charcoal and silver, glowing delivery routes tracing luminous lines between nodes across the map, one route highlighted in lime green converging on a central hub, clean geometric, premium fintech editorial aesthetic, soft volumetric light, matte textures, ultra-detailed, no text, no logos.",
     "credit": "",
     "source": "leonardo"
-  }
+  },
+  "render_version": 2
 }

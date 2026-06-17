@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-17T15:24:12+00:00",
+  "generated_at": "2026-06-17T15:42:59+00:00",
   "ticker": "DPZ",
   "company": "Domino's Pizza",
   "score": 91,
@@ -66,9 +66,9 @@
     "sp_at_research": 7431.4599609375
   },
   "performance": {
-    "current_return": "-1.9%",
+    "current_return": "-1.6%",
     "sp_return": "+1.1%",
-    "alpha": "-2.9%",
+    "alpha": "-2.7%",
     "as_of": "Jun 17, 2026",
     "mode": "live"
   },
@@ -110,5 +110,6 @@
     "query": "Ultra-detailed 3D visualization of a global franchise empire, thousands of interconnected storefronts linked through glowing operational and financial networks, capital flowing through an asset-light system, intricate logistics and supply chain infrastructure beneath the surface, dark graphite and black color palette with subtle gold illumination, premium institutional investment research aesthetic, elegant depth of field, highly sophisticated, realistic, intricate systems design, symbolizing scale, free cash flow and market dominance, no text, no logos, no people, luxary annual report artwork.",
     "credit": "",
     "source": "leonardo"
-  }
+  },
+  "render_version": 2
 }

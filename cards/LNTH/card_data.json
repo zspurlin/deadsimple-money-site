@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-17T15:24:12+00:00",
+  "generated_at": "2026-06-17T15:42:59+00:00",
   "ticker": "LNTH",
   "company": "Lantheus (LNTH)",
   "score": 81,
@@ -66,9 +66,9 @@
     "sp_at_research": 7554.2900390625
   },
   "performance": {
-    "current_return": "-0.1%",
-    "sp_return": "-0.6%",
-    "alpha": "+0.5%",
+    "current_return": "-0.8%",
+    "sp_return": "-0.5%",
+    "alpha": "-0.2%",
     "as_of": "Jun 17, 2026",
     "mode": "live"
   },
@@ -110,5 +110,6 @@
     "query": "Glowing 3D body scan revealing hidden pathways, futuristic medical imaging, dark background, cinematic lighting, ultra realistic, professional corporate style with sleek healthcare technology, no text.",
     "credit": "",
     "source": "leonardo"
-  }
+  },
+  "render_version": 2
 }

@@ -12,14 +12,22 @@
   <meta property="og:description" content="Investment research, graded and tracked. Alpha vs the S&P 500 on every call." />
   <meta property="og:url" content="https://deadsimple.money/" />
   <meta property="og:site_name" content="Dead Simple" />
+  <meta property="og:image" content="https://deadsimple.money/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Dead Simple" />
   <meta name="twitter:description" content="Investment research, graded and tracked. Alpha vs the S&P 500 on every call." />
   <meta name="twitter:site" content="@DeadSimpleMoney" />
+  <meta name="twitter:image" content="https://deadsimple.money/assets/og-image.png" />
 
   <link rel="icon" type="image/png" href="assets/logo.png" />
   <link rel="canonical" href="https://deadsimple.money/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" />
 
   <style>
     :root {
@@ -32,7 +40,7 @@
       --accent: #3d82e8;
       --pos: #57d08a;
       --neg: #ff6b6b;
-      --serif: "Didot", "Bodoni 72", "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      --serif: "Playfair Display", "Didot", "Bodoni 72", Georgia, "Times New Roman", serif;
       --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     }
 
@@ -118,6 +126,46 @@
     .tile-alpha.flat { color: var(--muted); }
     .tile-sub { font-size: 0.78rem; color: var(--faint); letter-spacing: 0.04em; text-transform: uppercase; }
     .tile-alpha-label { font-size: 0.7rem; color: var(--faint); text-transform: uppercase; letter-spacing: 0.08em; display: block; }
+    .tile-meta .right { text-align: right; }
+    .tile-ret { font-size: 1.05rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .tile-ret.pos { color: var(--pos); } .tile-ret.neg { color: var(--neg); } .tile-ret.flat { color: var(--muted); }
+
+    /* Track-record strip: the public scoreboard, computed from index.json. */
+    .track-record {
+      display: flex; justify-content: center; flex-wrap: wrap; gap: clamp(1.6rem, 6vw, 3.2rem);
+      max-width: 620px; margin: 0 auto 0.5rem; padding: 1.1rem 1.6rem;
+      border: 1px solid var(--hairline); border-radius: 14px;
+      background: rgba(13, 19, 32, 0.55);
+    }
+    .track-record[hidden] { display: none; }
+    .stat { text-align: center; }
+    .stat .v { display: block; font-size: 1.55rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text); line-height: 1.1; }
+    .stat .v.pos { color: var(--pos); }
+    .stat .v.neg { color: var(--neg); }
+    .stat .k { font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--faint); }
+
+    /* Card lightbox: open the flip card in-page instead of navigating away. */
+    .lightbox {
+      position: fixed; inset: 0; z-index: 50; display: none;
+      align-items: center; justify-content: center; padding: 2vh 2vw;
+      background: rgba(2, 4, 8, 0.82); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+    }
+    .lightbox.open { display: flex; }
+    .lightbox iframe {
+      width: min(92vw, calc(94vh * 1080 / 1512));
+      height: min(94vh, calc(92vw * 1512 / 1080));
+      border: 0; border-radius: 18px; background: transparent;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+    }
+    .lightbox-close {
+      position: absolute; top: 1.1rem; right: 1.3rem;
+      width: 44px; height: 44px; border-radius: 999px; cursor: pointer;
+      border: 1px solid var(--hairline); background: rgba(13, 19, 32, 0.85);
+      color: var(--text); font-size: 1.5rem; line-height: 1;
+      transition: color 150ms ease, border-color 150ms ease;
+    }
+    .lightbox-close:hover, .lightbox-close:focus-visible { color: #fff; border-color: var(--accent); outline: none; }
+    body.no-scroll { overflow: hidden; }
 
     .empty {
       text-align: center; color: var(--muted); padding: 4rem 1rem;
@@ -173,6 +221,8 @@
       <p class="subline">No hype. No noise. Just signal.</p>
     </header>
 
+    <section class="track-record" id="trackRecord" aria-label="Track record" hidden></section>
+
     <nav class="tabs" aria-label="Positions">
       <button class="tab active" data-bucket="open">Open <span class="count" data-count="open"></span></button>
       <button class="tab" data-bucket="watchlist">Watchlist <span class="count" data-count="watchlist"></span></button>
@@ -193,6 +243,11 @@
     </footer>
   </div>
 
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Card viewer">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close">&times;</button>
+    <iframe id="lightboxFrame" title="Card" loading="lazy"></iframe>
+  </div>
+
   <script>
     const BUCKETS = ["open", "watchlist", "closed"];
     const EMPTY = {
@@ -210,23 +265,81 @@
       return "flat";
     }
 
+    // Parse a percent string like "+3.2%" / "-6.4%" / "\u2014" into a number (or null).
+    function pct(s) {
+      if (!s || s === "\u2014") return null;
+      const n = parseFloat(String(s).replace(/[+%\s]/g, ""));
+      return Number.isFinite(n) ? n : null;
+    }
+
     function tile(item) {
       const dir = item.dir || item.ticker;
       const alpha = item.alpha || "\u2014";
+      const isClosed = (item.status || "").toLowerCase() === "closed"
+        || (item.performance_mode || "") === "frozen";
+      const ret = item.current_return || "\u2014";
+      const right = isClosed
+        ? `<span class="tile-alpha-label">Return @ Close</span>
+           <span class="tile-ret ${alphaClass(ret)}">${ret}</span>`
+        : `<span class="tile-sub">${item.research_date || ""}</span>`;
       const a = document.createElement("a");
       a.className = "tile";
       a.href = `cards/${dir}/card.html`;
       a.innerHTML = `
-        <img src="cards/${dir}/card_front.png" alt="${item.ticker} card" loading="lazy" />
+        <img src="cards/${dir}/card_front_web.png" alt="${item.ticker} card" loading="lazy" />
         <div class="tile-meta">
           <span>
             <span class="tile-alpha-label">Alpha vs S&amp;P</span>
             <span class="tile-alpha ${alphaClass(alpha)}">${alpha}</span>
           </span>
-          <span class="tile-sub">${item.research_date || ""}</span>
+          <span class="right">${right}</span>
         </div>`;
+      a.addEventListener("click", (e) => {
+        if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return; // let new-tab work
+        e.preventDefault();
+        openLightbox(`cards/${dir}/card.html`);
+      });
       return a;
     }
+
+    // Public scoreboard: count actual positions (open + closed), their average
+    // alpha, and how many are beating the S&P. Watchlist names are not calls.
+    function renderTrackRecord() {
+      const strip = document.getElementById("trackRecord");
+      if (!DATA) { strip.hidden = true; return; }
+      const positions = [...(DATA.open || []), ...(DATA.closed || [])];
+      const alphas = positions.map(p => pct(p.alpha)).filter(v => v !== null);
+      if (alphas.length === 0) { strip.hidden = true; return; }
+      const avg = alphas.reduce((s, v) => s + v, 0) / alphas.length;
+      const beating = alphas.filter(v => v > 0).length;
+      const avgCls = avg > 0 ? "pos" : (avg < 0 ? "neg" : "");
+      const fmt = v => `${v >= 0 ? "+" : ""}${v.toFixed(1)}%`;
+      strip.innerHTML = `
+        <div class="stat"><span class="v">${positions.length}</span><span class="k">Positions Tracked</span></div>
+        <div class="stat"><span class="v ${avgCls}">${fmt(avg)}</span><span class="k">Avg Alpha vs S&amp;P</span></div>
+        <div class="stat"><span class="v">${beating}<span style="color:var(--faint);font-weight:400"> / ${alphas.length}</span></span><span class="k">Beating the S&amp;P</span></div>`;
+      strip.hidden = false;
+    }
+
+    // Lightbox -----------------------------------------------------------------
+    const lightbox = document.getElementById("lightbox");
+    const lightboxFrame = document.getElementById("lightboxFrame");
+    function openLightbox(src) {
+      lightboxFrame.src = src;
+      lightbox.classList.add("open");
+      document.body.classList.add("no-scroll");
+      document.getElementById("lightboxClose").focus();
+    }
+    function closeLightbox() {
+      lightbox.classList.remove("open");
+      document.body.classList.remove("no-scroll");
+      lightboxFrame.src = "";  // stop the iframe so a reopen starts fresh
+    }
+    document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", (e) => { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && lightbox.classList.contains("open")) closeLightbox();
+    });
 
     function render() {
       const gallery = document.getElementById("gallery");
@@ -269,6 +382,7 @@
           const n = (data.counts && data.counts[b]) || (data[b] ? data[b].length : 0);
           if (el) el.textContent = n;
         });
+        renderTrackRecord();
         render();
       })
       .catch(() => { DATA = null; render(); });
