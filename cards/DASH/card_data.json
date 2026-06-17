@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-17T03:54:20+00:00",
+  "ticker": "DASH",
+  "company": "DoorDash (DASH)",
+  "score": 80,
+  "grade": "C",
+  "tier": "Silver",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "The mall in your pocket. Watching the margin slope",
+  "thesis": "DoorDash is really two businesses on one ticker: a dominant restaurant duopoly that prints cash, with a near-100%-margin ad engine bolted on top that lifts blended margins mechanically. The business is ownable and the moat is real, but at 41x FCF the price already assumes both the ad compounding and the grocery land-grab win. A soft Aug 4 print that re-rates toward the base case is the entry where the asymmetry finally points up.",
+  "moat": "Strong local network moat in restaurants; near-zero moat in the grocery category driving growth.",
+  "risks": "EPS fell four straight quarters; the \"margin slope\" the memo flags comes with no disclosed number.",
+  "scorecard": {
+    "research_date": "Jun 16, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 93,
+        "note": "Massive"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 96,
+        "note": "Execution is real"
+      },
+      {
+        "label": "Traction",
+        "score": 92,
+        "note": "Orders up"
+      },
+      {
+        "label": "Moat",
+        "score": 88,
+        "note": "Merchant relationships- network moat"
+      },
+      {
+        "label": "Valuation",
+        "score": 61,
+        "note": "Means upside is more dependent on execution"
+      },
+      {
+        "label": "Risk",
+        "score": 72,
+        "note": "Margin expansion may dissapoint"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 89,
+        "note": "Long runway if thesis works"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$60",
+    "base": "$133",
+    "bull": "$220",
+    "verdict": "Watchlist",
+    "current_price": "$170"
+  },
+  "research": {
+    "run_id": "20260616_234409",
+    "research_date": "Jun 16, 2026",
+    "baseline_price": 170.03,
+    "sp_at_research": 7511.35009765625
+  },
+  "performance": {
+    "current_return": "-0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "-0.0%",
+    "as_of": "Jun 16, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "DASH is two businesses wearing one ticker: a cash-printing restaurant fortress with a near-zero-cost ad engine on top. Great business, demanding price at 41x FCF. The split nobody discloses decides everything \u2014 Aug 4 is the tell. Dead Simple Score: 80. Watching.",
+    "video_talking_points": [
+      "DoorDash runs the app you open for food \u2014 and now groceries, alcohol, and retail.",
+      "At 41x free cash flow it trades 28% above its own base case, priced for two unproven bets to both win.",
+      "The bull case: a dominant restaurant duopoly that prints cash, with a near-100%-margin ad engine on top that lifts blended margins mechanically \u2014 even if grocery never works.",
+      "The main risk: EPS fell four straight quarters and the company won't disclose the restaurant-versus-grocery split that resolves the whole thesis.",
+      "Verdict: ownable business, real moat, wrong price \u2014 watch for Aug 4 to show stable restaurant margin and 20%+ ad growth.",
+      "Let the feared bad quarter be the entry where the asymmetry finally points up."
+    ],
+    "hook": "",
+    "counter": "",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "sleek minimalist hero image, monochrome greyscale palette with a single vivid lime-green (#7FE03A) accent, abstract top-down view of a futuristic city grid at night rendered in charcoal and silver, glowing delivery routes tracing luminous lines between nodes across the map, one route highlighted in lime green converging on a central hub, clean geometric, premium fintech editorial aesthetic, soft volumetric light, matte textures, ultra-detailed, no text, no logos.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

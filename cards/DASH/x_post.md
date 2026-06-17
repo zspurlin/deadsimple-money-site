@@ -1,0 +1,1 @@
+DASH is two businesses wearing one ticker: a cash-printing restaurant fortress with a near-zero-cost ad engine on top. Great business, demanding price at 41x FCF. The split nobody discloses decides everything — Aug 4 is the tell. Dead Simple Score: 80. Watching.
