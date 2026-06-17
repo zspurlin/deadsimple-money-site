@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "render_version": 2,
-  "generated_at": "2026-06-17T23:30:50+00:00",
+  "generated_at": "2026-06-17T23:53:34+00:00",
   "ticker": "ELF",
   "company": "e.l.f. Beauty (ELF)",
   "score": 92,
   "grade": "B",
   "tier": "Gold",
-  "status": "Watchlist",
-  "thesis_label": "Why I'm Watching It",
+  "status": "Open",
+  "thesis_label": "Why I Own It",
   "front_line": "A modern beauty company built for the social media era",
-  "thesis": "e.l.f. is the low-cost producer in a category where price is the weapon \u2014 it sells a $6 product that looks like a $40 one, and prestige rivals can't match that without bleeding their own margins. You're paying a normal price for an above-normal business: ~20x earnings for a 20%-plus grower. The asymmetry is clean \u2014 the bear needs three things to go wrong at once, the bull needs only continuity.",
+  "thesis": "I bought ELF because it's the beauty brand that moves at internet speed \u2014 turning TikTok trends into cash flow and winning on speed, not volume. At ~$62, roughly 20x earnings for a 20%-plus grower, I'm paying a normal price for an above-normal business; its moat is real (speed, consumer data, marketing execution, distribution), and at affordable prices that brand relevance holds up even in tougher economic environments. I'm accepting that trend-driven categories can cool fast, that leverage means the downside gaps rather than drifts, and that retailer private label could copy the dupe using e.l.f.'s own supply chain. Single-digit revenue growth or a 300+ bps gross-margin drop on Aug 4 flips this to a value trap and I trim hard \u2014 but until then the asymmetry is on my side: the bear needs three things to go wrong, the bull needs only continuity, and I'll bet on this management's understanding of social-driven demand.",
   "moat": "Genuine low-cost-producer edge, but rented shelves and rented attention cap it at narrow.",
   "risks": "Earnings beats shrinking quarter over quarter (+70% \u2192 +18% \u2192 +11%).",
   "scorecard": {
@@ -18,38 +18,38 @@
     "categories": [
       {
         "label": "Market",
-        "score": 93,
+        "score": 94,
         "note": "Growth expectations are high"
       },
       {
         "label": "Team / Execution",
-        "score": 94,
-        "note": "Four straight beats and a credible category extension"
+        "score": 95,
+        "note": "Repeatedly executed while competitors stumble"
       },
       {
         "label": "Traction",
-        "score": 88,
-        "note": "Still a smaller player in a massive market"
+        "score": 87,
+        "note": "Relatively small in the massive beauty market"
       },
       {
         "label": "Moat",
-        "score": 82,
-        "note": "Speed, distribution, marketing execution"
+        "score": 83,
+        "note": "Brand, speed, distribution, marketing execution"
       },
       {
         "label": "Valuation",
-        "score": 87,
-        "note": "20%+ grower at roughly 20x earnings"
+        "score": 91,
+        "note": "Low-cost producer in a category where price=weapon"
       },
       {
         "label": "Risk",
-        "score": 77,
-        "note": "Beauty is brutally competitive"
+        "score": 79,
+        "note": "Growth expectations are high"
       },
       {
         "label": "Portfolio Fit",
         "score": 94,
-        "note": "Winning beauty with speed, not size"
+        "note": "Clean asymmetry with a scheduled kill-switch"
       }
     ]
   },
@@ -63,33 +63,32 @@
   "research": {
     "run_id": "20260617_191826",
     "research_date": "Jun 17, 2026",
-    "baseline_price": 62.28,
+    "baseline_price": 62.279998779296875,
     "sp_at_research": 7420.10009765625
   },
   "performance": {
-    "current_return": "-0.0%",
+    "current_return": "+0.0%",
     "sp_return": "+0.0%",
-    "alpha": "-0.0%",
+    "alpha": "+0.0%",
     "as_of": "Jun 17, 2026",
     "mode": "live"
   },
   "lifecycle": {
-    "opened_date": null,
+    "opened_date": "2026-06-17",
     "close_date": null,
     "close_price": null,
     "sp_at_close": null,
-    "open_note": null,
+    "open_note": "ELF is the beauty brand that moves at internet speed. Turning TikTok trends into cash flow, and winning beauty with speed- not volume. Trend-driven categories can cool quickly, but ELF has established its brand relevance as well as its moat- speed, consumer data, marketing execution, and distribution. ELF's management has an exceptional understanding of social media and influcer-driven demand. At affordable prices this creates resilience in tougher economic enviornments.",
     "close_note": null
   },
   "drafts": {
-    "x_post": "$ELF is the rare growth stock priced like a normal one: ~20x earnings for a 20%+ grower with a real cost moat. The scary \"97x FCF\" is just growth being reinvested into inventory. Dead Simple Score: 92/100. Aug 4 earnings is the clean kill-switch.",
+    "x_post": "$ELF is misread by both the mania crowd and the bears. The gap between net income and free cash flow isn't decay \u2014 it's growth, money plowed back into inventory to fund expansion. Low-cost producer in a price-driven category, at a normal price. Dead Simple Score: 92.",
     "video_talking_points": [
       "e.l.f. makes cheap, on-trend makeup, skincare, and now hair care for younger shoppers.",
-      "It's beaten earnings four quarters running while expanding into hair care and overseas.",
-      "The bull point: you're paying a normal ~20x price for an above-normal 20%-plus grower with a structural cost edge.",
-      "The main risk: the whole thesis rests on growth not slowing, and the earnings beats are already shrinking.",
-      "There's $627M of net debt that turns toxic if growth stalls and the cash never converts.",
-      "Verdict: a small satellite buy with a clean kill-switch on the Aug 4 print \u2014 trim hard if growth disappoints."
+      "It's beaten earnings four quarters running and is now expanding into hair care and overseas.",
+      "The bull point: it's the low-cost producer in a category where price is the weapon \u2014 a $6 product that looks like a $40 one.",
+      "The main risk: the whole thesis rests on growth not slowing, and the beats are already shrinking.",
+      "The verdict: buy as a small satellite \u2014 clean asymmetry with a kill-switch on a known earnings date."
     ],
     "hook": "",
     "counter": "",

@@ -1,1 +1,1 @@
-$ELF is the rare growth stock priced like a normal one: ~20x earnings for a 20%+ grower with a real cost moat. The scary "97x FCF" is just growth being reinvested into inventory. Dead Simple Score: 92/100. Aug 4 earnings is the clean kill-switch.
+$ELF is misread by both the mania crowd and the bears. The gap between net income and free cash flow isn't decay — it's growth, money plowed back into inventory to fund expansion. Low-cost producer in a price-driven category, at a normal price. Dead Simple Score: 92.

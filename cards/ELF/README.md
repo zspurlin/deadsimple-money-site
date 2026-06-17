@@ -37,4 +37,4 @@ re-run `python make_media.py 20260617_191826` and re-upload this folder.
 When the position is closed (`python card_lifecycle.py close ELF`), the
 numbers freeze at the close (`performance.mode = "frozen"`) and no longer change.
 
-Status: Watchlist | Dead Simple Score: 92/100 | Schema v1
+Status: Open | Dead Simple Score: 92/100 | Schema v1
