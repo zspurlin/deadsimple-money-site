@@ -54,8 +54,8 @@
   --tier-glow: rgba(232, 185, 35, 0.34);
 }
 .tier-platinum {
-  --tier: #d6e7f2; --tier-soft: #ffffff; --tier-deep: #9fb6c6;
-  --tier-glow: rgba(180, 214, 235, 0.40);
+  --tier: #a7d8f5; --tier-soft: #ecf7ff; --tier-deep: #5e90b8;
+  --tier-glow: rgba(125, 200, 247, 0.45);
 }
 .tier-none {
   --tier: var(--brand-blue); --tier-soft: var(--brand-blue-soft);
@@ -265,9 +265,9 @@ html, body {
 .badges {
   margin-top: 30px;
   display: flex;
-  align-items: center;
-  gap: 18px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
 }
 .tier-badge {
   display: inline-flex;
@@ -319,6 +319,12 @@ html, body {
   text-transform: uppercase; color: var(--muted);
 }
 
+/* Front face: the score reads as a headline metric, not metadata — but it
+   stays clearly subordinate to the ticker (150px), never competing with it. */
+.front .score-chip .v { font-size: 52px; }
+.front .score-chip .out { font-size: 18px; }
+.front .score-chip .k { font-size: 11px; opacity: 0.7; }
+
 /* Footer block: one-line thesis + the analyst's Base DCF Case. */
 .front-foot { margin-top: auto; }
 .front-line {
@@ -339,10 +345,10 @@ html, body {
   justify-content: space-between;
 }
 .base-case .label {
-  font-size: 15px;
+  font-size: 21px;
   letter-spacing: 0.26em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--text);
 }
 .base-case .value-col {
   display: flex;
@@ -415,6 +421,32 @@ html, body {
   -webkit-line-clamp: 6;
   line-clamp: 6;
   overflow: hidden;
+}
+
+/* Watching For (back, watchlist cards only) — a single compact row stating the
+   one reason a high-scoring name is still on the bench. Kept to one line so it
+   never eats the scorecard/DCF/ledger budget; never renders on Open/Closed. */
+.watching-for {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.watching-for .label {
+  font-size: 16px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--tier);
+  font-weight: 700;
+}
+.watching-for .wf-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  padding: 4px 16px;
+  border: 1.5px solid var(--tier);
+  border-radius: 999px;
+  line-height: 1.25;
 }
 
 /* Dead Simple Scorecard (back) — seven category bars + the headline total.
@@ -899,7 +931,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$1,941.50</span>
-          <span class="current">Current: $1,639.39</span>
+          <span class="current">Current: $1,634.56</span>
         </div>
       </div>
     </div>
@@ -922,6 +954,8 @@ html, body {
       <div class="label">Why I Own It</div>
       <div class="body thesis">MELI has built irreplaceable financial infrastructure with genuine network effects across underpenetrated markets. Trading at only 7x free cash flow despite $11.8B annual generation, it&#39;s capturing a multi-decade digital transformation while the market prices in modest expectations.</div>
     </div>
+
+    
 
     <div class="scorecard">
       <div class="sc-head">
@@ -1020,9 +1054,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Researched</span><span class="v">Jun 10, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v pos">+1.7%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.2%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v pos">+0.5%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+1.4%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.3%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+0.1%</span></div>
     </div>
 
     <div class="back-footer">
