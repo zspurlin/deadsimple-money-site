@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T18:05:04+00:00",
+  "generated_at": "2026-06-18T18:38:16+00:00",
   "ticker": "TMDX",
   "company": "TransMedics Group",
   "score": 90,
@@ -13,11 +13,11 @@
   "moat": "Regulatory switching costs provide temporary protection but technology is replicable",
   "risks": "Wild earnings volatility from +100% beats to -52% miss suggests unpredictable business model",
   "valuation": {
-    "bear": "$75",
-    "base": "$108",
-    "bull": "$142",
+    "bear": "$75.00",
+    "base": "$108.00",
+    "bull": "$142.00",
     "verdict": "Watchlist",
-    "current_price": "$73.50"
+    "current_price": "$73.59"
   },
   "research": {
     "run_id": "20260611_180826",
@@ -26,9 +26,9 @@
     "sp_at_research": 7564.56982421875
   },
   "performance": {
-    "current_return": "+5.1%",
+    "current_return": "+4.8%",
     "sp_return": "-0.9%",
-    "alpha": "+6.0%",
+    "alpha": "+5.7%",
     "as_of": "Jun 18, 2026",
     "mode": "live"
   },
@@ -46,7 +46,10 @@
       "Trading at the bottom of analyst expectations with reasonable 16x free cash flow multiple.",
       "Wild earnings swings and $357M debt against $161M cash flow leave little room for error.",
       "Watchlist until they prove this can be a predictable business worth current $2.5B valuation."
-    ]
+    ],
+    "hook": "+100% to -52%",
+    "counter": "Not a medical-device stock",
+    "face": "pointing"
   },
   "assets": {
     "card_front": "card_front.png",

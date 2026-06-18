@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T18:05:04+00:00",
+  "generated_at": "2026-06-18T18:38:02+00:00",
   "ticker": "NOW",
   "company": "ServiceNow",
   "score": 94,
@@ -13,11 +13,11 @@
   "moat": "Strong switching costs, workflow data advantage, and platform complexity",
   "risks": "Customer concentration unknown but likely high given enterprise focus",
   "valuation": {
-    "bear": "$97",
-    "base": "$198",
-    "bull": "$287",
+    "bear": "$97.00",
+    "base": "$198.00",
+    "bull": "$287.00",
     "verdict": "Heavy Add",
-    "current_price": "$114"
+    "current_price": "$114.19"
   },
   "research": {
     "run_id": "20260608_193027",
@@ -26,9 +26,9 @@
     "sp_at_research": 7405.72998046875
   },
   "performance": {
-    "current_return": "-16.0%",
+    "current_return": "-16.3%",
     "sp_return": "+1.2%",
-    "alpha": "-17.2%",
+    "alpha": "-17.5%",
     "as_of": "Jun 18, 2026",
     "mode": "live"
   },
@@ -46,7 +46,10 @@
       "Their decade of workflow data across thousands of companies gives them AI training advantages competitors can't match.",
       "Main risk is AI making custom workflow creation so easy that enterprises bypass ServiceNow entirely.",
       "Strong buy based on defensible data moats, but watch for revenue growth below 15% signaling faster AI commoditization."
-    ]
+    ],
+    "hook": "",
+    "counter": "",
+    "face": "confident"
   },
   "assets": {
     "card_front": "card_front.png",

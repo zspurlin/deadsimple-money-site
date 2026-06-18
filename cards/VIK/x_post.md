@@ -1,1 +1,1 @@
-$VIK is a clean one-number, one-date stock. The whole thesis hangs on real total debt (checkable in the 10-K today) and yield vs. capacity (prints Aug 17). Genuinely differentiated premium brand, but priced above fair value. Dead Simple Score 89. Watching.
+Viking Holdings (VIK) ($VIK): Viking sells premium cruises — river, ocean, expedition — to affluent older travelers with a "no kids, no casinos" filter. Dead Simple Score: 89/100 · Gold. Status: Watchlist.

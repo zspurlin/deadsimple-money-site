@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 6,
-  "generated_at": "2026-06-18T18:05:04+00:00",
+  "generated_at": "2026-06-18T18:38:23+00:00",
   "ticker": "VIK",
   "company": "Viking Holdings (VIK)",
   "score": 89,
@@ -11,7 +11,7 @@
   "thesis_label": "Why I'm Watching It",
   "watch_reason": "Valuation",
   "front_line": "Destination-first cruising for the thinking traveler. No kids, no casinos \u2014 just curious, affluent grown-ups",
-  "thesis": "Viking owns the one cruise customer everyone wants and few can serve: affluent older travelers who prepay a year ahead for river, ocean, and expedition trips. I'm watching, not buying, because the price sits above base-case fair value on a net-debt figure flagged 'finance leases only' \u2014 possibly far short of the real number. What flips it to a buy: pull the 10-K, and if true debt is under ~$4B and Aug 17 shows yield rising faster than capacity, add aggressively.",
+  "thesis": "Viking owns the one cruise customer everyone wants and few can serve. Watch. The business is genuinely differentiated, but you're paying above fair value on a balance sheet the data itself says may be wrong. What flips it to Buy: pull the 10-K \u2014 if real net debt is under ~$4B and Aug 17 shows yield rising faster than capacity, add aggressively.",
   "moat": "Real brand/habit moat in a narrow niche, but it's a logo unless yield-per-guest is rising \u2014 and we can't see that yet.",
   "risks": "$1.78B net debt labeled \"finance leases only\" \u2014 true fleet debt could be multiples higher and break the DCF.",
   "scorecard": {
@@ -19,38 +19,38 @@
     "categories": [
       {
         "label": "Market",
-        "score": 90,
+        "score": 70,
         "note": "Premium cruise niche is real and high-margin"
       },
       {
         "label": "Team / Execution",
-        "score": 90,
-        "note": "Deep booking visibility"
+        "score": 60,
+        "note": "Peak-season quarter missed"
       },
       {
         "label": "Traction",
-        "score": 93,
+        "score": 60,
         "note": "$1.69B FCF and strong analyst support"
       },
       {
         "label": "Moat",
-        "score": 77,
+        "score": 60,
         "note": "Real brand/habit moat in a narrow niche"
       },
       {
         "label": "Valuation",
-        "score": 83,
-        "note": "Fairly valued to slightly expensive"
+        "score": 50,
+        "note": "Trades above base case on a net-debt figure flagged"
       },
       {
         "label": "Risk",
-        "score": 82,
-        "note": "Cyclical and debt-heavy"
+        "score": 40,
+        "note": "Hidden-debt risk"
       },
       {
         "label": "Portfolio Fit",
-        "score": 88,
-        "note": "Growthy but capital-intensive"
+        "score": 60,
+        "note": "A small satellite starter fits a growth sleeve"
       }
     ]
   },
@@ -64,13 +64,13 @@
   "research": {
     "run_id": "20260618_115540",
     "research_date": "Jun 18, 2026",
-    "baseline_price": 98.79,
-    "sp_at_research": 7492.0498046875
+    "baseline_price": 97.0,
+    "sp_at_research": 7487.35986328125
   },
   "performance": {
-    "current_return": "-0.2%",
+    "current_return": "+1.3%",
     "sp_return": "+0.1%",
-    "alpha": "-0.3%",
+    "alpha": "+1.2%",
     "as_of": "Jun 18, 2026",
     "mode": "live"
   },
@@ -83,14 +83,13 @@
     "close_note": null
   },
   "drafts": {
-    "x_post": "$VIK is a clean one-number, one-date stock. The whole thesis hangs on real total debt (checkable in the 10-K today) and yield vs. capacity (prints Aug 17). Genuinely differentiated premium brand, but priced above fair value. Dead Simple Score 89. Watching.",
+    "x_post": "Viking Holdings (VIK) ($VIK): Viking sells premium cruises \u2014 river, ocean, expedition \u2014 to affluent older travelers with a \"no kids, no casinos\" filter. Dead Simple Score: 89/100 \u00b7 Gold. Status: Watchlist.",
     "video_talking_points": [
-      "Viking sells premium river, ocean, and expedition cruises to affluent older travelers \u2014 no kids, no casinos.",
-      "Three banks just initiated positive coverage with Bernstein at $120, and the stock trades at $99 \u2014 above the $87 base case.",
-      "The bull case: it owns the one cruise customer few rivals can serve, a quiet pricing-power machine if growth comes from yield, not just more ships.",
-      "The main risk: net debt is flagged 'finance leases only' \u2014 if real fleet debt is $8B+, the base case drops to around $60.",
-      "This is a one-number, one-date setup: real total debt is in the 10-K today, and yield vs. capacity prints Aug 17.",
-      "Verdict: watch \u2014 genuinely differentiated, but you're paying above fair value on a balance sheet the data itself says may be wrong."
+      "Viking sells premium cruises \u2014 river, ocean, expedition \u2014 to affluent older travelers with a \"no kids, no casinos\" filter.",
+      "Viking owns the one cruise customer everyone wants and few can serve. Watch. The business is genuinely differentiated, but you're paying above fair value on a balance sheet the data itself says may be wrong. What flips it to Buy: pull the 10-K \u2014 if real net debt is under ~$4B and Aug 17 shows yield rising faster than capacity, add aggressively.",
+      "Moat: Real brand/habit moat in a narrow niche, but it's a logo unless yield-per-guest is rising \u2014 and we can't see that yet.",
+      "Risk: $1.78B net debt labeled \"finance leases only\" \u2014 true fleet debt could be multiples higher and break the DCF.",
+      "Verdict: Watchlist. Dead Simple Score 89/100."
     ],
     "hook": "",
     "counter": "",

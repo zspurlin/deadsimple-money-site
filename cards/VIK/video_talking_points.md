@@ -1,8 +1,7 @@
 # VIK — Video Talking Points
 
-- Viking sells premium river, ocean, and expedition cruises to affluent older travelers — no kids, no casinos.
-- Three banks just initiated positive coverage with Bernstein at $120, and the stock trades at $99 — above the $87 base case.
-- The bull case: it owns the one cruise customer few rivals can serve, a quiet pricing-power machine if growth comes from yield, not just more ships.
-- The main risk: net debt is flagged 'finance leases only' — if real fleet debt is $8B+, the base case drops to around $60.
-- This is a one-number, one-date setup: real total debt is in the 10-K today, and yield vs. capacity prints Aug 17.
-- Verdict: watch — genuinely differentiated, but you're paying above fair value on a balance sheet the data itself says may be wrong.
+- Viking sells premium cruises — river, ocean, expedition — to affluent older travelers with a "no kids, no casinos" filter.
+- Viking owns the one cruise customer everyone wants and few can serve. Watch. The business is genuinely differentiated, but you're paying above fair value on a balance sheet the data itself says may be wrong. What flips it to Buy: pull the 10-K — if real net debt is under ~$4B and Aug 17 shows yield rising faster than capacity, add aggressively.
+- Moat: Real brand/habit moat in a narrow niche, but it's a logo unless yield-per-guest is rising — and we can't see that yet.
+- Risk: $1.78B net debt labeled "finance leases only" — true fleet debt could be multiples higher and break the DCF.
+- Verdict: Watchlist. Dead Simple Score 89/100.
