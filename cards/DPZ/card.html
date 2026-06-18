@@ -711,13 +711,14 @@ html, body {
 .header-img .hero-bg img { filter: grayscale(1) contrast(1.06) brightness(0.88); }
 .thumb .hero-bg.gen img,
 .header-img .hero-bg.gen img { filter: grayscale(0.2) contrast(1.05) brightness(0.92); }
-/* The host cutout sits bottom-right and bleeds to the frame edge. */
+/* Host cutout, anchored bottom-right. Height-capped (not source-size driven)
+   so every expression renders at a consistent, restrained ~MELI scale. */
 .thumb .thumb-face {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-height: 94%;
-  max-width: 50%;
+  max-height: 57%;
+  max-width: 40%;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -919,7 +920,7 @@ html, body {
 
     <div class="section">
       <div class="label">Why I Own It</div>
-      <div class="body thesis">I bought Domino&#39;s because I believe the market is underestimating this high-quality compounder&#39;s ability to grow earnings through store expansion, pricing power, and digital engagement despite recent headwinds. The franchise model provides a durable cash machine with 33% market share and meaningful scale advantages, while the current valuation near the DCF bear case of $332 offers favorable risk-reward relative to my estimate of intrinsic value. I&#39;m accepting the risk of franchisee economics breaking under competitive pressure and the 7.5x debt leverage, but I&#39;ll exit if same-store sales turn negative for two consecutive quarters, signaling the franchise model is fundamentally breaking.</div>
+      <div class="body thesis">I bought Domino&#39;s because I believe the market is underestimating this high-quality compounder&#39;s ability to grow earnings through store expansion, pricing power, and digital engagement despite recent headwinds. The franchise model provides a durable cash machine with 33% market share and meaningful scale advantages, while the current valuation near the DCF bear case of $332 offers favorable risk-reward relative to my estimate of intrinsic value.</div>
     </div>
 
     <div class="scorecard">
