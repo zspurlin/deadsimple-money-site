@@ -152,8 +152,12 @@
     }
     .lightbox.open { display: flex; }
     .lightbox iframe {
-      width: min(92vw, calc(94vh * 1080 / 1512));
-      height: min(94vh, calc(92vw * 1512 / 1080));
+      /* Size to card.html's full footprint: the card PLUS its own chrome
+         (~130px padding + flip hint) and 0.92 width margin, so the embedded
+         fit() doesn't shrink the card a second time. Footprint stays portrait,
+         so blur margins remain for click-outside-to-close on desktop + mobile. */
+      width:  min(96vw, calc((95vh - 130px) * 1080 / 1512 / 0.92));
+      height: min(95vh, calc(96vw * 0.92 * 1512 / 1080 + 130px));
       border: 0; border-radius: 18px; background: transparent;
       box-shadow: 0 30px 80px rgba(0,0,0,0.6);
     }
