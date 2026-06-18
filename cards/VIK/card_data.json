@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "render_version": 5,
+  "generated_at": "2026-06-18T16:18:09+00:00",
+  "ticker": "VIK",
+  "company": "Viking Holdings (VIK)",
+  "score": 89,
+  "grade": "C",
+  "tier": "Gold",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "watch_reason": "Valuation",
+  "front_line": "Destination-first cruising for the thinking traveler. No kids, no casinos \u2014 just curious, affluent grown-ups",
+  "thesis": "Viking owns the one cruise customer everyone wants and few can serve: affluent older travelers who prepay a year ahead for river, ocean, and expedition trips. I'm watching, not buying, because the price sits above base-case fair value on a net-debt figure flagged 'finance leases only' \u2014 possibly far short of the real number. What flips it to a buy: pull the 10-K, and if true debt is under ~$4B and Aug 17 shows yield rising faster than capacity, add aggressively.",
+  "moat": "Real brand/habit moat in a narrow niche, but it's a logo unless yield-per-guest is rising \u2014 and we can't see that yet.",
+  "risks": "$1.78B net debt labeled \"finance leases only\" \u2014 true fleet debt could be multiples higher and break the DCF.",
+  "scorecard": {
+    "research_date": "Jun 18, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 90,
+        "note": "Premium cruise niche is real and high-margin"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 90,
+        "note": "Deep booking visibility"
+      },
+      {
+        "label": "Traction",
+        "score": 93,
+        "note": "$1.69B FCF and strong analyst support"
+      },
+      {
+        "label": "Moat",
+        "score": 77,
+        "note": "Real brand/habit moat in a narrow niche"
+      },
+      {
+        "label": "Valuation",
+        "score": 83,
+        "note": "Fairly valued to slightly expensive"
+      },
+      {
+        "label": "Risk",
+        "score": 82,
+        "note": "Cyclical and debt-heavy"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 88,
+        "note": "Growthy but capital-intensive"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$65",
+    "base": "$87",
+    "bull": "$123",
+    "verdict": "Watchlist",
+    "current_price": "$99"
+  },
+  "research": {
+    "run_id": "20260618_115540",
+    "research_date": "Jun 18, 2026",
+    "baseline_price": 98.79,
+    "sp_at_research": 7492.0498046875
+  },
+  "performance": {
+    "current_return": "-0.3%",
+    "sp_return": "+0.0%",
+    "alpha": "-0.3%",
+    "as_of": "Jun 18, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "$VIK is a clean one-number, one-date stock. The whole thesis hangs on real total debt (checkable in the 10-K today) and yield vs. capacity (prints Aug 17). Genuinely differentiated premium brand, but priced above fair value. Dead Simple Score 89. Watching.",
+    "video_talking_points": [
+      "Viking sells premium river, ocean, and expedition cruises to affluent older travelers \u2014 no kids, no casinos.",
+      "Three banks just initiated positive coverage with Bernstein at $120, and the stock trades at $99 \u2014 above the $87 base case.",
+      "The bull case: it owns the one cruise customer few rivals can serve, a quiet pricing-power machine if growth comes from yield, not just more ships.",
+      "The main risk: net debt is flagged 'finance leases only' \u2014 if real fleet debt is $8B+, the base case drops to around $60.",
+      "This is a one-number, one-date setup: real total debt is in the 10-K today, and yield vs. capacity prints Aug 17.",
+      "Verdict: watch \u2014 genuinely differentiated, but you're paying above fair value on a balance sheet the data itself says may be wrong."
+    ],
+    "hook": "",
+    "counter": "",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Premium expedition vessel navigating through glowing emerald and teal waters toward a golden horizon at sunset, luxury travel and exploration theme, sophisticated atmosphere, cinematic fog drifting accross the ocean, warm gold reflections on the water, sense of adventure, premium experiences and long-term growth, elegant composition, ultra detailed, teal-blue, emerald and gold color pallete, cinematic lighting, modern investment research aesthetic, no text, no logos, no people",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
