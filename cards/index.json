@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T18:39:39+00:00",
+  "generated_at": "2026-06-18T19:28:11+00:00",
   "counts": {
     "open": 7,
     "closed": 0,
-    "watchlist": 4
+    "watchlist": 5
   },
   "open": [
     {
@@ -150,6 +150,26 @@
   ],
   "closed": [],
   "watchlist": [
+    {
+      "ticker": "NFLX",
+      "company": "Netflix",
+      "score": 95,
+      "tier": "Platinum",
+      "status": "Watchlist",
+      "front_line": "The world's default screen. Now monetizing the attention it already owns.",
+      "alpha": "-0.1%",
+      "current_return": "-0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 18, 2026",
+      "dir": "NFLX",
+      "card_html": "NFLX/card.html",
+      "card_front": "NFLX/card_front.png",
+      "card_back": "NFLX/card_back.png",
+      "card_front_web": "NFLX/card_front_web.png",
+      "card_back_web": "NFLX/card_back_web.png",
+      "data": "NFLX/card_data.json"
+    },
     {
       "ticker": "VIK",
       "company": "Viking Holdings (VIK)",

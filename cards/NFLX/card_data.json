@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "render_version": 6,
+  "generated_at": "2026-06-18T19:26:43+00:00",
+  "ticker": "NFLX",
+  "company": "Netflix",
+  "score": 95,
+  "grade": "B",
+  "tier": "Platinum",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "The world's default screen. Now monetizing the attention it already owns.",
+  "thesis": "Netflix is a real cash machine built on the deepest content library on earth, priced fairly at a durable-compounder multiple \u2014 and the ad business is a free option the market hasn't paid for. The moat isn't about price; it's about how cheaply Netflix keeps you. The whole verdict forks on one number: operating margin direction across the next print.",
+  "moat": "Genuine content-scale moat protects margins, not price; ads sit outside it entirely.",
+  "risks": "Four straight EPS misses, two double-digit, with no explanation in the data.",
+  "scorecard": {
+    "research_date": "Jun 18, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 93,
+        "note": "Global streaming leader with the largest paying base"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 96,
+        "note": "Long-tenured insiders with discipline"
+      },
+      {
+        "label": "Traction",
+        "score": 92,
+        "note": "$12B FCF is real and strong"
+      },
+      {
+        "label": "Moat",
+        "score": 88,
+        "note": "Genuine content-scale moat protects margins"
+      },
+      {
+        "label": "Valuation",
+        "score": 94,
+        "note": "Netflix almost never goes on sale"
+      },
+      {
+        "label": "Risk",
+        "score": 89,
+        "note": "Multiple compression if growth dissapoints"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 97,
+        "note": "Clean fit for a volatility-tolerant investor"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$84",
+    "base": "$112",
+    "bull": "$145",
+    "verdict": "Open",
+    "current_price": "$77"
+  },
+  "research": {
+    "run_id": "20260618_150502",
+    "research_date": "Jun 18, 2026",
+    "baseline_price": 77.05000305175781,
+    "sp_at_research": 7487.35986328125
+  },
+  "performance": {
+    "current_return": "-0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "-0.1%",
+    "as_of": "Jun 18, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Netflix isn't a pricing story \u2014 it's a retention-cost story. The deepest content library on earth, a $12B cash machine at a fair multiple, with ads as a free option. Dead Simple Score: 95/100. The fork is one number: operating margin. Watching $NFLX into July 16.",
+    "video_talking_points": [
+      "Netflix is the streaming service people pay a monthly fee to watch movies and shows on.",
+      "Next earnings land July 16, and that print tests whether the market's bet is intact.",
+      "You're buying a $12B cash machine \u2014 the deepest content library on earth \u2014 at a fair price, with the ad business as a free option.",
+      "But Netflix has missed EPS estimates four quarters running, twice by double digits \u2014 content costs may be rising faster than revenue.",
+      "This isn't a pricing story; it's a retention-cost story \u2014 the moat protects how cheaply Netflix keeps you, not the price.",
+      "Verdict: watch, leaning buy on the engine \u2014 buy the second half if margin holds flat-or-up on growing revenue, walk if it falls again."
+    ],
+    "hook": "",
+    "counter": "",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "A single colossal glowing cinema screen standing at the far end of a vast, dark, atmospheric theater, rows of empty silhouetted seats receding into deep fog, cinematic 3D render, hyper-detailed, near-black background, heavy volumetric haze and god rays, dramatic crimson-red light spilling from the screen and washing across a glossy reflective floor, deep shadows, shallow depth of field, soft bokeh highlights, premium tech-noir product-render aesthetic, moody and minimal, centered composition, ultra sharp focus on the screen, 8k, octane render, dramatic studio lighting",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

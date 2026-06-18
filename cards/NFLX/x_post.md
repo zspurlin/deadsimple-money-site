@@ -1,0 +1,1 @@
+Netflix isn't a pricing story — it's a retention-cost story. The deepest content library on earth, a $12B cash machine at a fair multiple, with ads as a free option. Dead Simple Score: 95/100. The fork is one number: operating margin. Watching $NFLX into July 16.
