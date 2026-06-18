@@ -417,6 +417,32 @@ html, body {
   overflow: hidden;
 }
 
+/* Watching For (back, watchlist cards only) — a single compact row stating the
+   one reason a high-scoring name is still on the bench. Kept to one line so it
+   never eats the scorecard/DCF/ledger budget; never renders on Open/Closed. */
+.watching-for {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.watching-for .label {
+  font-size: 16px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--tier);
+  font-weight: 700;
+}
+.watching-for .wf-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  padding: 4px 16px;
+  border: 1.5px solid var(--tier);
+  border-radius: 999px;
+  line-height: 1.25;
+}
+
 /* Dead Simple Scorecard (back) — seven category bars + the headline total.
    Tuned dense so all seven rows + the DCF block + the performance ledger still
    fit the fixed 1080x1512 face without clipping. */
@@ -899,7 +925,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$133</span>
-          <span class="current">Current: $165.61</span>
+          <span class="current">Current: $172.07</span>
         </div>
       </div>
     </div>
@@ -922,6 +948,8 @@ html, body {
       <div class="label">Why I&#39;m Watching It</div>
       <div class="body thesis">DoorDash is really two businesses on one ticker: a dominant restaurant duopoly that prints cash, with a near-100%-margin ad engine bolted on top that lifts blended margins mechanically. The business is ownable and the moat is real, but at 41x FCF the price already assumes both the ad compounding and the grocery land-grab win. A soft Aug 4 print that re-rates toward the base case is the entry where the asymmetry finally points up.</div>
     </div>
+
+    
 
     <div class="scorecard">
       <div class="sc-head">
@@ -1020,9 +1048,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Watchlist Added</span><span class="v">Jun 16, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-2.6%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v neg">-1.2%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v neg">-1.4%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+1.2%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v neg">-0.4%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+1.6%</span></div>
     </div>
 
     <div class="back-footer">
