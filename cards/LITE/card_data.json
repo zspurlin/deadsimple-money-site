@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "render_version": 5,
+  "generated_at": "2026-06-18T16:47:12+00:00",
+  "ticker": "LITE",
+  "company": "Lumentum (LITE)",
+  "score": 79,
+  "grade": "C",
+  "tier": "Bronze",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "watch_reason": "Valuation",
+  "front_line": "The light that moves AI's data. Photonics and lasers wiring the datacenter buildout",
+  "thesis": "Lumentum makes the lasers and optical parts that move data as light inside AI data centers. The earnings curve is steepening, not flattening, and the durable edge sits in the boring laser/photonics-manufacturing business the market is ignoring. Good company, wrong price \u2014 watching for the Aug 10 margin print to confirm the moat before paying bull-case prices.",
+  "moat": "Narrow \u2014 durable in lasers, weak and re-bid every cycle in the hyped transceiver line.",
+  "risks": "Inverted asymmetry: -72% bear vs +24% bull at today's price.",
+  "scorecard": {
+    "research_date": "Jun 18, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 96,
+        "note": "Huge AI optical interconnect tailwind"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 88,
+        "note": "New CEO executing sharply"
+      },
+      {
+        "label": "Traction",
+        "score": 91,
+        "note": "Explosive AI revenue, Nvidia-backed"
+      },
+      {
+        "label": "Moat",
+        "score": 75,
+        "note": "Photonics IP, real but contested"
+      },
+      {
+        "label": "Valuation",
+        "score": 62,
+        "note": "Extreme, ~300x FCF"
+      },
+      {
+        "label": "Risk",
+        "score": 70,
+        "note": "Concentration, dilution, valuation air pocket"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 83,
+        "note": "High-growth AI exposure, but at a premium"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$240",
+    "base": "$615",
+    "bull": "$1,055",
+    "verdict": "Watchlist",
+    "current_price": "$854"
+  },
+  "research": {
+    "run_id": "20260618_122502",
+    "research_date": "Jun 18, 2026",
+    "baseline_price": 881.9749755859375,
+    "sp_at_research": 7487.35986328125
+  },
+  "performance": {
+    "current_return": "-4.3%",
+    "sp_return": "+0.2%",
+    "alpha": "-4.5%",
+    "as_of": "Jun 18, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "$LITE: the market is paying a compounder price for the cheap half of the moat. The AI-transceiver hype everyone loves is the most contestable; the durable edge lives in the lasers nobody talks about. Good company, inverted asymmetry. Dead Simple Score 79 \u2014 Watchlist.",
+    "video_talking_points": [
+      "Lumentum makes the lasers and optical parts that move data as light between chips and servers inside AI data centers.",
+      "It's up huge on the AI-optics trade, with EPS roughly tripling across four quarters and analysts overwhelmingly bullish.",
+      "The earnings curve is steepening, not flattening \u2014 that looks like real structural demand, with a durable, ignored moat in laser manufacturing.",
+      "But you're buying perfection: +24% to the bull case versus -72% to the bear \u2014 risking three dollars to make one.",
+      "The verdict flips to Buy if gross margin expands 200+ bps on the Aug 10 call, and to Pass if margins are flat while revenue rises.",
+      "Watch: good company, wrong price today \u2014 you're paying bull-case price before the proof arrives."
+    ],
+    "hook": "",
+    "counter": "",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Massive streams of glowing teal and emerald light traveling through futuristic optical fiber highways connecting advanced digital infrastructure, golden energy pulses moving between data centers, cinematic depth, the hidden backbone powering artifical intelligence and global connectivity, ultra detailed, volumetric lighting, teal-blue, emerald and gold color pallete, otherwise sleek black as needed, modern investment research style, no text, no logos, no people",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

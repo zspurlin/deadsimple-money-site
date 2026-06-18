@@ -1,0 +1,1 @@
+$LITE: the market is paying a compounder price for the cheap half of the moat. The AI-transceiver hype everyone loves is the most contestable; the durable edge lives in the lasers nobody talks about. Good company, inverted asymmetry. Dead Simple Score 79 — Watchlist.

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T16:21:04+00:00",
+  "generated_at": "2026-06-18T16:47:31+00:00",
   "counts": {
     "open": 7,
     "closed": 0,
-    "watchlist": 3
+    "watchlist": 4
   },
   "open": [
     {
@@ -209,6 +209,26 @@
       "card_front_web": "DASH/card_front_web.png",
       "card_back_web": "DASH/card_back_web.png",
       "data": "DASH/card_data.json"
+    },
+    {
+      "ticker": "LITE",
+      "company": "Lumentum (LITE)",
+      "score": 79,
+      "tier": "Bronze",
+      "status": "Watchlist",
+      "front_line": "The light that moves AI's data. Photonics and lasers wiring the datacenter buildout",
+      "alpha": "-4.5%",
+      "current_return": "-4.3%",
+      "sp_return": "+0.2%",
+      "performance_mode": "live",
+      "research_date": "Jun 18, 2026",
+      "dir": "LITE",
+      "card_html": "LITE/card.html",
+      "card_front": "LITE/card_front.png",
+      "card_back": "LITE/card_back.png",
+      "card_front_web": "LITE/card_front_web.png",
+      "card_back_web": "LITE/card_back_web.png",
+      "data": "LITE/card_data.json"
     }
   ]
 }
