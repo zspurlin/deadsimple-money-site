@@ -417,32 +417,6 @@ html, body {
   overflow: hidden;
 }
 
-/* Watching For (back, watchlist cards only) — a single compact row stating the
-   one reason a high-scoring name is still on the bench. Kept to one line so it
-   never eats the scorecard/DCF/ledger budget; never renders on Open/Closed. */
-.watching-for {
-  margin-top: 18px;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-.watching-for .label {
-  font-size: 16px;
-  letter-spacing: 0.26em;
-  text-transform: uppercase;
-  color: var(--tier);
-  font-weight: 700;
-}
-.watching-for .wf-value {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--text);
-  padding: 4px 16px;
-  border: 1.5px solid var(--tier);
-  border-radius: 999px;
-  line-height: 1.25;
-}
-
 /* Dead Simple Scorecard (back) — seven category bars + the headline total.
    Tuned dense so all seven rows + the DCF block + the performance ledger still
    fit the fixed 1080x1512 face without clipping. */
@@ -925,7 +899,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$198</span>
-          <span class="current">Current: $95.01</span>
+          <span class="current">Current: $94.78</span>
         </div>
       </div>
     </div>
@@ -948,8 +922,6 @@ html, body {
       <div class="label">Why I Own It</div>
       <div class="body thesis">ServiceNow&#39;s decade of workflow execution data across thousands of enterprises creates AI training advantages that custom solutions can&#39;t replicate. While AI could commoditize simple workflows, complex multi-system integrations across IT, HR, and business processes remain defensible.</div>
     </div>
-
-    
 
     <div class="scorecard">
       <div class="sc-head">
@@ -1048,9 +1020,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Position Added</span><span class="v">Jun 08, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-16.8%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.0%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v neg">-17.8%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v neg">-17.0%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.2%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v neg">-18.2%</span></div>
     </div>
 
     <div class="back-footer">

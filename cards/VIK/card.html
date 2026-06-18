@@ -54,8 +54,8 @@
   --tier-glow: rgba(232, 185, 35, 0.34);
 }
 .tier-platinum {
-  --tier: #a7d8f5; --tier-soft: #ecf7ff; --tier-deep: #5e90b8;
-  --tier-glow: rgba(125, 200, 247, 0.45);
+  --tier: #d6e7f2; --tier-soft: #ffffff; --tier-deep: #9fb6c6;
+  --tier-glow: rgba(180, 214, 235, 0.40);
 }
 .tier-none {
   --tier: var(--brand-blue); --tier-soft: var(--brand-blue-soft);
@@ -415,32 +415,6 @@ html, body {
   -webkit-line-clamp: 6;
   line-clamp: 6;
   overflow: hidden;
-}
-
-/* Watching For (back, watchlist cards only) — a single compact row stating the
-   one reason a high-scoring name is still on the bench. Kept to one line so it
-   never eats the scorecard/DCF/ledger budget; never renders on Open/Closed. */
-.watching-for {
-  margin-top: 18px;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-.watching-for .label {
-  font-size: 16px;
-  letter-spacing: 0.26em;
-  text-transform: uppercase;
-  color: var(--tier);
-  font-weight: 700;
-}
-.watching-for .wf-value {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--text);
-  padding: 4px 16px;
-  border: 1.5px solid var(--tier);
-  border-radius: 999px;
-  line-height: 1.25;
 }
 
 /* Dead Simple Scorecard (back) — seven category bars + the headline total.
@@ -925,7 +899,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$87</span>
-          <span class="current">Current: $98.49</span>
+          <span class="current">Current: $98.59</span>
         </div>
       </div>
     </div>
@@ -948,13 +922,6 @@ html, body {
       <div class="label">Why I&#39;m Watching It</div>
       <div class="body thesis">Viking owns the one cruise customer everyone wants and few can serve: affluent older travelers who prepay a year ahead for river, ocean, and expedition trips. I&#39;m watching, not buying, because the price sits above base-case fair value on a net-debt figure flagged &#39;finance leases only&#39; — possibly far short of the real number. What flips it to a buy: pull the 10-K, and if true debt is under ~$4B and Aug 17 shows yield rising faster than capacity, add aggressively.</div>
     </div>
-
-    
-    <div class="watching-for">
-      <span class="label">Watching For</span>
-      <span class="wf-value">Valuation</span>
-    </div>
-    
 
     <div class="scorecard">
       <div class="sc-head">
@@ -1053,8 +1020,8 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Watchlist Added</span><span class="v">Jun 18, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-0.3%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+0.0%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v neg">-0.2%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+0.1%</span></div>
       <div class="cell"><span class="k">Alpha</span><span class="v neg">-0.3%</span></div>
     </div>
 
