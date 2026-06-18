@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T18:37:55+00:00",
+  "generated_at": "2026-06-18T19:29:57+00:00",
   "ticker": "MELI",
   "company": "MercadoLibre",
   "score": 92,
@@ -13,11 +13,11 @@
   "moat": "Strong network effects and scale economies create genuine competitive barriers",
   "risks": "Four consecutive quarters of earnings misses suggest structural issues",
   "valuation": {
-    "bear": "$1,673.00",
-    "base": "$1,941.26",
-    "bull": "$2,592.13",
+    "bear": "$1,673",
+    "base": "$1,941.50",
+    "bull": "$2,592",
     "verdict": "Add",
-    "current_price": "$1,611.99"
+    "current_price": "$1,612"
   },
   "research": {
     "run_id": "20260608_182408",
@@ -26,9 +26,9 @@
     "sp_at_research": 7405.72998046875
   },
   "performance": {
-    "current_return": "+1.0%",
-    "sp_return": "+1.2%",
-    "alpha": "-0.2%",
+    "current_return": "+0.8%",
+    "sp_return": "+1.1%",
+    "alpha": "-0.3%",
     "as_of": "Jun 18, 2026",
     "mode": "live"
   },
