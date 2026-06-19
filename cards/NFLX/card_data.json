@@ -18,38 +18,38 @@
     "categories": [
       {
         "label": "Market",
-        "score": 80,
+        "score": 93,
         "note": "Global streaming leader with the largest paying base"
       },
       {
         "label": "Team / Execution",
-        "score": 60,
-        "note": "No management data in input"
+        "score": 96,
+        "note": "Long-tenured insiders with discipline"
       },
       {
         "label": "Traction",
-        "score": 60,
+        "score": 92,
         "note": "$12B FCF is real and strong"
       },
       {
         "label": "Moat",
-        "score": 60,
+        "score": 88,
         "note": "Genuine content-scale moat protects margins"
       },
       {
         "label": "Valuation",
-        "score": 70,
-        "note": "27x FCF is fair for a durable compounder with free ad"
+        "score": 94,
+        "note": "Netflix almost never goes on sale"
       },
       {
         "label": "Risk",
-        "score": 50,
-        "note": "Three of four kill scenarios share one canary"
+        "score": 89,
+        "note": "Multiple compression if growth dissapoints"
       },
       {
         "label": "Portfolio Fit",
-        "score": 80,
-        "note": "Clean satellite-to-core fit for a volatility-tolerant"
+        "score": 97,
+        "note": "Clean fit for a volatility-tolerant investor"
       }
     ]
   },

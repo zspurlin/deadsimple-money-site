@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 6,
-  "generated_at": "2026-06-18T21:33:17+00:00",
+  "generated_at": "2026-06-18T18:38:23+00:00",
   "ticker": "VIK",
   "company": "Viking Holdings (VIK)",
   "score": 89,
@@ -19,38 +19,38 @@
     "categories": [
       {
         "label": "Market",
-        "score": 70,
+        "score": 90,
         "note": "Premium cruise niche is real and high-margin"
       },
       {
         "label": "Team / Execution",
-        "score": 60,
-        "note": "Peak-season quarter missed"
+        "score": 90,
+        "note": "Deep booking visibility"
       },
       {
         "label": "Traction",
-        "score": 60,
+        "score": 93,
         "note": "$1.69B FCF and strong analyst support"
       },
       {
         "label": "Moat",
-        "score": 60,
+        "score": 77,
         "note": "Real brand/habit moat in a narrow niche"
       },
       {
         "label": "Valuation",
-        "score": 50,
-        "note": "Trades above base case on a net-debt figure flagged"
+        "score": 83,
+        "note": "Fairly valued to slightly expensive"
       },
       {
         "label": "Risk",
-        "score": 40,
-        "note": "Hidden-debt risk"
+        "score": 82,
+        "note": "Cyclical and debt-heavy"
       },
       {
         "label": "Portfolio Fit",
-        "score": 60,
-        "note": "A small satellite starter fits a growth sleeve"
+        "score": 88,
+        "note": "Growthy but capital-intensive"
       }
     ]
   },
@@ -68,9 +68,9 @@
     "sp_at_research": 7487.35986328125
   },
   "performance": {
-    "current_return": "+0.2%",
-    "sp_return": "+0.2%",
-    "alpha": "-0.0%",
+    "current_return": "+1.3%",
+    "sp_return": "+0.1%",
+    "alpha": "+1.2%",
     "as_of": "Jun 18, 2026",
     "mode": "live"
   },
