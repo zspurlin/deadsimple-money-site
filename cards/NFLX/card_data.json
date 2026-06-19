@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "render_version": 6,
-  "generated_at": "2026-06-18T21:33:16+00:00",
+  "generated_at": "2026-06-18T20:59:05+00:00",
   "ticker": "NFLX",
   "company": "Netflix",
   "score": 95,
   "grade": "B",
   "tier": "Platinum",
-  "status": "Watchlist",
-  "thesis_label": "Why I'm Watching It",
+  "status": "Open",
+  "thesis_label": "Why I Own It",
   "front_line": "The world's default screen. Now monetizing the attention it already owns.",
-  "thesis": "Netflix is a real cash machine built on the deepest content library on earth, priced fairly at a durable-compounder multiple \u2014 and the ad business is a free option the market hasn't paid for. The moat isn't about price; it's about how cheaply Netflix keeps you. The whole verdict forks on one number: operating margin direction across the next print.",
+  "thesis": "I bought because a $12B cash machine with the deepest library on earth is down ~40% from its highs yet still trades like premium growth \u2014 at 27x FCF that's fair, leaning cheap, and the WB deal sealed it. The ad business is free optionality nobody's paying for. I'm accepting four straight EPS misses and the risk margins are decaying; if operating margin falls a second quarter, I'm out. Until then, I own the engine.",
   "moat": "Genuine content-scale moat protects margins, not price; ads sit outside it entirely.",
   "risks": "Four straight EPS misses, two double-digit, with no explanation in the data.",
   "scorecard": {
@@ -18,38 +18,38 @@
     "categories": [
       {
         "label": "Market",
-        "score": 93,
+        "score": 80,
         "note": "Global streaming leader with the largest paying base"
       },
       {
         "label": "Team / Execution",
-        "score": 96,
-        "note": "Long-tenured insiders with discipline"
+        "score": 60,
+        "note": "No management data in input"
       },
       {
         "label": "Traction",
-        "score": 92,
+        "score": 60,
         "note": "$12B FCF is real and strong"
       },
       {
         "label": "Moat",
-        "score": 88,
+        "score": 60,
         "note": "Genuine content-scale moat protects margins"
       },
       {
         "label": "Valuation",
-        "score": 94,
-        "note": "Netflix almost never goes on sale"
+        "score": 70,
+        "note": "27x FCF is fair for a durable compounder with free ad"
       },
       {
         "label": "Risk",
-        "score": 89,
-        "note": "Multiple compression if growth dissapoints"
+        "score": 50,
+        "note": "Three of four kill scenarios share one canary"
       },
       {
         "label": "Portfolio Fit",
-        "score": 97,
-        "note": "Clean fit for a volatility-tolerant investor"
+        "score": 80,
+        "note": "Clean satellite-to-core fit for a volatility-tolerant"
       }
     ]
   },
@@ -74,11 +74,11 @@
     "mode": "live"
   },
   "lifecycle": {
-    "opened_date": null,
+    "opened_date": "2026-06-18",
     "close_date": null,
     "close_price": null,
     "sp_at_close": null,
-    "open_note": null,
+    "open_note": "Down ~40% from its highs it still trades like a premium growth name, and the WB deal was amazing for them",
     "close_note": null
   },
   "drafts": {

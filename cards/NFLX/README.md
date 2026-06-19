@@ -37,4 +37,4 @@ re-run `python make_media.py 20260618_150502` and re-upload this folder.
 When the position is closed (`python card_lifecycle.py close NFLX`), the
 numbers freeze at the close (`performance.mode = "frozen"`) and no longer change.
 
-Status: Watchlist | Dead Simple Score: 95/100 | Schema v1
+Status: Open | Dead Simple Score: 95/100 | Schema v1
