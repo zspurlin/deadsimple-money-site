@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T21:33:16+00:00",
+  "render_version": 6,
+  "generated_at": "2026-06-19T00:54:49+00:00",
   "ticker": "DPZ",
   "company": "Domino's Pizza",
   "score": 91,
@@ -17,38 +18,38 @@
     "categories": [
       {
         "label": "Market",
-        "score": 84,
+        "score": 70,
         "note": "Large addressable market"
       },
       {
         "label": "Team / Execution",
-        "score": 82,
+        "score": 80,
         "note": "Strong historical execution"
       },
       {
         "label": "Traction",
-        "score": 91,
+        "score": 60,
         "note": "33% market share"
       },
       {
         "label": "Moat",
-        "score": 92,
-        "note": "Decades of operational expertise. Difficult to replace."
+        "score": 60,
+        "note": "Scale advantages weakening as platforms build competing"
       },
       {
         "label": "Valuation",
-        "score": 84,
-        "note": "International expansion and buybacks support long-term intrinsic value growth"
+        "score": 80,
+        "note": "Trading near bear case provides margin of safety"
       },
       {
         "label": "Risk",
-        "score": 88,
-        "note": "Commodity, labor, and franchisee profitability pressures"
+        "score": 50,
+        "note": "High debt load with franchisee economics uncertainty"
       },
       {
         "label": "Portfolio Fit",
-        "score": 90,
-        "note": "A world-class franchise that turns pizza into recurring cash flow"
+        "score": 80,
+        "note": "Clear risk-reward profile suitable for growth-tilted"
       }
     ]
   },
@@ -107,9 +108,8 @@
     "hero": "hero.jpg"
   },
   "image": {
-    "query": "Ultra-detailed 3D visualization of a global franchise empire, thousands of interconnected storefronts linked through glowing operational and financial networks, capital flowing through an asset-light system, intricate logistics and supply chain infrastructure beneath the surface, dark graphite and black color palette with subtle gold illumination, premium institutional investment research aesthetic, elegant depth of field, highly sophisticated, realistic, intricate systems design, symbolizing scale, free cash flow and market dominance, no text, no logos, no people, luxary annual report artwork.",
+    "query": "An intricate compounding machine, interlocking gears of increasing size cascading upward in an elegant exponential spiral, a subtle chain reaction of sleek black-and-gold domino tiles toppling into the mechanism and dissolving into glowing streams of golden light and coins in a self-feeding loop, faint luminous pip-dots on the tiles, polished black obsidian and brushed-gold components, emerald-green energy threading between the gears, subtle deep-blue rim lighting, cinematic 3D render, hyper-detailed, dramatic low three-quarter angle, sleek luxury tech-noir aesthetic, deep matte black background, minimal haze, crisp reflections on glossy surfaces, shallow depth of field, premium product render, 8k, octane render",
     "credit": "",
     "source": "leonardo"
-  },
-  "render_version": 6
+  }
 }
