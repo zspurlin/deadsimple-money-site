@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T21:33:16+00:00",
+  "generated_at": "2026-06-19T22:30:23+00:00",
   "ticker": "AXON",
   "company": "Axon Enterprise",
   "score": 89,
@@ -27,9 +27,9 @@
   },
   "performance": {
     "current_return": "-5.4%",
-    "sp_return": "+3.2%",
-    "alpha": "-8.6%",
-    "as_of": "Jun 18, 2026",
+    "sp_return": "+nan%",
+    "alpha": "+nan%",
+    "as_of": "Jun 19, 2026",
     "mode": "live"
   },
   "lifecycle": {
