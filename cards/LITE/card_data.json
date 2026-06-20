@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 6,
-  "generated_at": "2026-06-19T22:30:23+00:00",
+  "generated_at": "2026-06-19T23:59:33+00:00",
   "ticker": "LITE",
   "company": "Lumentum (LITE)",
   "score": 79,
@@ -69,8 +69,8 @@
   },
   "performance": {
     "current_return": "-3.6%",
-    "sp_return": "+nan%",
-    "alpha": "+nan%",
+    "sp_return": "+0.2%",
+    "alpha": "-3.8%",
     "as_of": "Jun 19, 2026",
     "mode": "live"
   },
