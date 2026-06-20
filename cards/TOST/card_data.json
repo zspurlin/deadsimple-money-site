@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 8,
-  "generated_at": "2026-06-20T16:42:46+00:00",
+  "generated_at": "2026-06-20T17:02:37+00:00",
   "ticker": "TOST",
   "company": "Toast (TOST)",
   "score": 83,
@@ -9,8 +9,9 @@
   "tier": "Silver",
   "status": "Watchlist",
   "thesis_label": "Why I'm Watching It",
+  "watch_reason": "Execution",
   "front_line": "The restaurant's operating system \u2014 and a toll on every check",
-  "thesis": "Toast went deep on restaurants while rivals went broad, and that depth is becoming the industry's default operating system. Every module a restaurant adds is another root it has to tear out to leave, so the moat deepens as customers buy more. It's already profitable, with a shallow downside and large upside \u2014 an asymmetric setup with a hard catalyst nine weeks out.",
+  "thesis": "Toast has the traction of a clear winner; my hesitation is price and durability, not the business. I want a better entry plus proof the unit economics hold \u2014 GPV per location staying healthy, ARR per location no longer diluting as enterprise and international scale, and a durable payments take-rate against Square and Clover. Confirm those and it graduates off the bench; if GPV per location rolls over or the take-rate compresses, it stays here.",
   "moat": "Genuine switching-cost moat on the customer; fragile and contestable on the take rate.",
   "risks": "Take rate is the most contestable variable and Square (equally scaled) could spark a price war.",
   "scorecard": {
@@ -82,13 +83,14 @@
     "close_note": null
   },
   "drafts": {
-    "x_post": "Toast ($TOST) is becoming the default operating system for restaurants \u2014 and the moat deepens with every module a customer adds. Profitable, asymmetric, and a dated catalyst on Aug 3. Dead Simple Score: 83/100. On the watchlist, buying a starter.",
+    "x_post": "$TOST is the operating system restaurants run on \u2014 profitable now, four accelerating earnings beats, and a deepening switching-cost moat. Dead Simple Score 83. Watching for a better entry and proof the take rate holds. Aug 3 decides it.",
     "video_talking_points": [
       "Toast is the technology a restaurant runs on \u2014 payments, ordering, kitchen displays, payroll, online orders, all in one system.",
-      "Why now: it's profitable, earnings have beaten four quarters running with accelerating beats, and a hard catalyst lands August 3.",
+      "Why now: it's profitable, earnings have beaten estimates four quarters running with accelerating beats, and a former bear just flipped.",
       "The bull point: every module a restaurant adds makes leaving harder, so the moat deepens as customers buy more.",
       "The main risk: most revenue is thin-margin payment processing, and the per-check take rate is contestable if Square starts a price war.",
-      "The verdict: a watchlist name with real asymmetry \u2014 buy a starter, let August 3 confirm or kill it."
+      "The verdict: watch and buy a starter \u2014 the asymmetry is real and the catalyst is nine weeks out.",
+      "August 3 confirms or kills it: revenue up 20%+ with EPS, size up; single-digit revenue or dilution over 5%, walk."
     ],
     "hook": "",
     "counter": "",

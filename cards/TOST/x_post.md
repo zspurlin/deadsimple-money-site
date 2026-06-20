@@ -1,1 +1,1 @@
-Toast ($TOST) is becoming the default operating system for restaurants — and the moat deepens with every module a customer adds. Profitable, asymmetric, and a dated catalyst on Aug 3. Dead Simple Score: 83/100. On the watchlist, buying a starter.
+$TOST is the operating system restaurants run on — profitable now, four accelerating earnings beats, and a deepening switching-cost moat. Dead Simple Score 83. Watching for a better entry and proof the take rate holds. Aug 3 decides it.
