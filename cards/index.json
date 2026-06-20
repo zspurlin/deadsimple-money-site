@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-20T00:11:21+00:00",
+  "generated_at": "2026-06-20T16:43:03+00:00",
   "counts": {
     "open": 8,
     "closed": 0,
-    "watchlist": 4
+    "watchlist": 5
   },
   "open": [
     {
@@ -189,6 +189,26 @@
       "card_front_web": "VIK/card_front_web.png",
       "card_back_web": "VIK/card_back_web.png",
       "data": "VIK/card_data.json"
+    },
+    {
+      "ticker": "TOST",
+      "company": "Toast (TOST)",
+      "score": 83,
+      "tier": "Silver",
+      "status": "Watchlist",
+      "front_line": "The restaurant's operating system \u2014 and a toll on every check",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 20, 2026",
+      "dir": "TOST",
+      "card_html": "TOST/card.html",
+      "card_front": "TOST/card_front.png",
+      "card_back": "TOST/card_back.png",
+      "card_front_web": "TOST/card_front_web.png",
+      "card_back_web": "TOST/card_back_web.png",
+      "data": "TOST/card_data.json"
     },
     {
       "ticker": "LNTH",

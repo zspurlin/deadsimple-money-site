@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "render_version": 8,
+  "generated_at": "2026-06-20T16:42:46+00:00",
+  "ticker": "TOST",
+  "company": "Toast (TOST)",
+  "score": 83,
+  "grade": "B",
+  "tier": "Silver",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "The restaurant's operating system \u2014 and a toll on every check",
+  "thesis": "Toast went deep on restaurants while rivals went broad, and that depth is becoming the industry's default operating system. Every module a restaurant adds is another root it has to tear out to leave, so the moat deepens as customers buy more. It's already profitable, with a shallow downside and large upside \u2014 an asymmetric setup with a hard catalyst nine weeks out.",
+  "moat": "Genuine switching-cost moat on the customer; fragile and contestable on the take rate.",
+  "risks": "Take rate is the most contestable variable and Square (equally scaled) could spark a price war.",
+  "scorecard": {
+    "research_date": "Jun 20, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 89,
+        "note": "Massive, still-underdigitized restaurant TAM"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 90,
+        "note": "Now returning cash via buybacks"
+      },
+      {
+        "label": "Traction",
+        "score": 92,
+        "note": "30,000 net locations added in 2025"
+      },
+      {
+        "label": "Moat",
+        "score": 77,
+        "note": "Stickiness and switching costs, not a structural monopoly"
+      },
+      {
+        "label": "Valuation",
+        "score": 73,
+        "note": "Priced for continued execution"
+      },
+      {
+        "label": "Risk",
+        "score": 75,
+        "note": "Slower GPV per location, and ARPU drag. Competitors at heels"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 81,
+        "note": "Clean satellite when priced right"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$20",
+    "base": "$27",
+    "bull": "$45",
+    "verdict": "WATCHLIST",
+    "current_price": "$24.50"
+  },
+  "research": {
+    "run_id": "20260620_122852",
+    "research_date": "Jun 20, 2026",
+    "baseline_price": 24.65999984741211,
+    "sp_at_research": 7500.580078125
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Jun 20, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Toast ($TOST) is becoming the default operating system for restaurants \u2014 and the moat deepens with every module a customer adds. Profitable, asymmetric, and a dated catalyst on Aug 3. Dead Simple Score: 83/100. On the watchlist, buying a starter.",
+    "video_talking_points": [
+      "Toast is the technology a restaurant runs on \u2014 payments, ordering, kitchen displays, payroll, online orders, all in one system.",
+      "Why now: it's profitable, earnings have beaten four quarters running with accelerating beats, and a hard catalyst lands August 3.",
+      "The bull point: every module a restaurant adds makes leaving harder, so the moat deepens as customers buy more.",
+      "The main risk: most revenue is thin-margin payment processing, and the per-check take rate is contestable if Square starts a price war.",
+      "The verdict: a watchlist name with real asymmetry \u2014 buy a starter, let August 3 confirm or kill it."
+    ],
+    "hook": "",
+    "counter": "",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Cinematic ultra-detailed digital illustration. A modern restaurant viewed as a living network powered by invisible technology. Servers move through a busy dining room while glowing data streams connect tables, kitchen stations, handheld devices, payment terminals, online orders, delivery services, and management dashboards. Warm restaurant lighting contrasts with sophisticated digital infrastructure beneath the surface. The Toast ecosystem acts as the central nervous system coordinating every transaction and workflow. Premium enterprise technology aesthetic, realistic environment, subtle teal and amber lighting, depth, atmosphere, volumetric lighting, cinematic composition, highly recognizable at thumbnail size. No text, no logos, no ticker symbols, no watermarks.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
