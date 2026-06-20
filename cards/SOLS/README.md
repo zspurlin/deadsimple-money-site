@@ -32,9 +32,9 @@ Copy this whole folder into the site repo at `public/cards/SOLS/`, then:
 
 The performance block (current return / S&P return / alpha) is a snapshot taken
 when this package was generated (`performance.mode = "live"`). To refresh it,
-re-run `python make_media.py 20260609_141855` and re-upload this folder.
+re-run `python make_media.py SOLS` and re-upload this folder.
 
 When the position is closed (`python card_lifecycle.py close SOLS`), the
 numbers freeze at the close (`performance.mode = "frozen"`) and no longer change.
 
-Status: Watchlist | Dead Simple Score: 86/100 | Schema v1
+Status: Open | Dead Simple Score: 86/100 | Schema v1

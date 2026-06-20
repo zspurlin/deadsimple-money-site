@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T23:59:33+00:00",
+  "render_version": 6,
+  "generated_at": "2026-06-20T00:05:54+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -9,65 +10,9 @@
   "status": "Open",
   "thesis_label": "Why I Own It",
   "front_line": "Data center cooling systems for the AI buildout boom",
-  "thesis": "The short term need for data center cooling, this is an underappreciated stock with solid insider ownership.",
+  "thesis": "I own Solstice because the market is pricing a confusing spin-off, not the multi-tailwind compounder underneath it: the only U.S. uranium-conversion business (~$2.2B backlog), a regulation-forced refrigerant replacement cycle, and pick-and-shovel AI exposure via electronic materials. A ~1.4x-levered balance sheet (~$1.6B liquidity) funds growth and a dividend, so the near-term risk is margin compression, not solvency. Fair price for quality \u2014 and I keep owning it while margins hold near 25%.",
   "moat": "Switching costs only apply to replacements, not new construction",
   "risks": "Consecutive quarters of 15-35% earnings misses during supposed demand boom",
-  "valuation": {
-    "bear": "$68",
-    "base": "$87.50",
-    "bull": "$104",
-    "verdict": "Watchlist",
-    "current_price": "$79.50"
-  },
-  "research": {
-    "run_id": "20260609_141855",
-    "research_date": "Jun 09, 2026",
-    "baseline_price": 85.37000274658203,
-    "sp_at_research": 7568.14990234375
-  },
-  "performance": {
-    "current_return": "+0.2%",
-    "sp_return": "-0.9%",
-    "alpha": "+1.1%",
-    "as_of": "Jun 19, 2026",
-    "mode": "live"
-  },
-  "lifecycle": {
-    "opened_date": "2026-06-15",
-    "close_date": null,
-    "close_price": null,
-    "sp_at_close": null
-  },
-  "drafts": {
-    "x_post": "SOLS: AI data centers need cooling, but this company keeps missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, the execution isn't. Watching for Q2 2026 revenue growth below 8% to confirm they can't capitalize fast enough.",
-    "video_talking_points": [
-      "Solstice makes cooling systems for data centers during the biggest AI buildout in history.",
-      "Every chip gets hotter as AI advances, creating a physics problem that only gets worse.",
-      "Each new contract becomes recurring revenue for 5-7 years as data centers expand.",
-      "They've missed earnings by 15-35% two quarters straight with $1.77B debt against only $142M cash flow.",
-      "The market opportunity is massive but they're executing poorly at 89x free cash flow.",
-      "Watching this one until they prove they can capitalize on the AI boom without breaking their balance sheet."
-    ],
-    "hook": "89x CASH FLOW",
-    "counter": "The AI darling that keeps missing"
-  },
-  "assets": {
-    "card_front": "card_front.png",
-    "card_back": "card_back.png",
-    "card_front_web": "card_front_web.png",
-    "card_back_web": "card_back_web.png",
-    "card_html": "card.html",
-    "youtube_thumbnail": "youtube_thumbnail.jpg",
-    "substack_header": "substack_header.png",
-    "x_post": "x_post.md",
-    "video_talking_points": "video_talking_points.md",
-    "hero": "hero.jpg"
-  },
-  "image": {
-    "query": "Computer or data center COOLING (something related to cooling and AI)",
-    "credit": "",
-    "source": "leonardo"
-  },
   "scorecard": {
     "research_date": "Jun 09, 2026",
     "categories": [
@@ -108,5 +53,63 @@
       }
     ]
   },
-  "render_version": 6
+  "valuation": {
+    "bear": "$68",
+    "base": "$87.50",
+    "bull": "$104",
+    "verdict": "Watchlist",
+    "current_price": "$79.50"
+  },
+  "research": {
+    "run_id": "20260609_141855",
+    "research_date": "Jun 09, 2026",
+    "baseline_price": 85.37000274658203,
+    "sp_at_research": 7568.14990234375
+  },
+  "performance": {
+    "current_return": "+0.2%",
+    "sp_return": "-0.9%",
+    "alpha": "+1.1%",
+    "as_of": "Jun 19, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": "2026-06-15",
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": "The short term need for data center cooling, this is an underappreciated stock with solid insider ownership.",
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "SOLS: AI data centers need cooling, but this company keeps missing earnings by 15-35% while trading at 89x FCF. The physics problem is real, the execution isn't. Watching for Q2 2026 revenue growth below 8% to confirm they can't capitalize fast enough.",
+    "video_talking_points": [
+      "Solstice makes cooling systems for data centers during the biggest AI buildout in history.",
+      "Every chip gets hotter as AI advances, creating a physics problem that only gets worse.",
+      "Each new contract becomes recurring revenue for 5-7 years as data centers expand.",
+      "They've missed earnings by 15-35% two quarters straight with $1.77B debt against only $142M cash flow.",
+      "The market opportunity is massive but they're executing poorly at 89x free cash flow.",
+      "Watching this one until they prove they can capitalize on the AI boom without breaking their balance sheet."
+    ],
+    "hook": "89x CASH FLOW",
+    "counter": "The AI darling that keeps missing",
+    "face": "skeptical"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Computer or data center COOLING (something related to cooling and AI)",
+    "credit": "",
+    "source": "leonardo"
+  }
 }
