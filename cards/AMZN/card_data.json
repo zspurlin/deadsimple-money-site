@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "render_version": 10,
+  "generated_at": "2026-06-21T16:25:27+00:00",
+  "ticker": "AMZN",
+  "company": "Amazon",
+  "score": 91,
+  "grade": "",
+  "tier": "Gold",
+  "status": "Open",
+  "thesis_label": "Why I Own It",
+  "front_line": "The infrastructure layer between demand, delivery, and the internet itself.",
+  "thesis": "Amazon is not just a store. It is the infrastructure layer between consumer demand, delivery, cloud computing, advertising, and the internet economy itself. The bull case is that AWS, ads, retail margins, logistics efficiency, and AI all compound at the same time, turning Amazon from a high-revenue machine into a much better profit machine. An elite business at a fair price that we believe the market is overlooking.",
+  "moat": "Three proven, interlocking moats (AWS switching costs, logistics scale, Prime habit) that defend the installed base far better than the next AI workload.",
+  "risks": "Two consecutive EPS misses (-3.0%, -3.6%) after two large beats \u2014 deceleration warning has already half-fired.",
+  "scorecard": {
+    "research_date": "Jun 21, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 94,
+        "note": "Commerce, logistics, cloud, ads, AI- under one roof"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 93,
+        "note": "A rare record of building impossible businesses"
+      },
+      {
+        "label": "Traction",
+        "score": 86,
+        "note": "Cash flow looks ugly, core engines intact"
+      },
+      {
+        "label": "Moat",
+        "score": 93,
+        "note": "Prime habit, logistics density, AWS switching cost"
+      },
+      {
+        "label": "Valuation",
+        "score": 83,
+        "note": "Enough upside when cash flow normalizes"
+      },
+      {
+        "label": "Risk",
+        "score": 86,
+        "note": "The risk is whether capex becomes structural"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 94,
+        "note": "A near-ideal core satellite"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$220",
+    "base": "$285",
+    "bull": "$340",
+    "verdict": "open",
+    "current_price": "$244.50"
+  },
+  "research": {
+    "run_id": "20260621_114432",
+    "research_date": "Jun 21, 2026",
+    "baseline_price": 244.38999938964844,
+    "sp_at_research": 7500.580078125
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Jun 21, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Amazon ($AMZN) runs four businesses that feed each other. Dead Simple Score: 91/100 \u00b7 Gold. Status: Open.",
+    "video_talking_points": [
+      "Amazon runs four businesses that feed each other.",
+      "Open. An elite, three-moat business trading below its own base case, where the one question that resolves most of the risk lands on a known date \u2014 July 29. The verdict flips toward caution if that print shows a third EPS miss, rising capex guidance, and AWS decelerating below rivals \u2014 that would turn a monitorable timing risk into a confirmed deceleration with the most valuable moat under pressure.",
+      "Moat: Three proven, interlocking moats (AWS switching costs, logistics scale, Prime habit) that defend the installed base far better than the next AI workload.",
+      "Risk: Two consecutive EPS misses (-3.0%, -3.6%) after two large beats \u2014 deceleration warning has already half-fired.",
+      "Verdict: open. Dead Simple Score 91/100."
+    ],
+    "hook": "",
+    "counter": "",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Amazon is not just a store. It is the infrastructure layer between consumer demand, delivery, cloud computing, advertising, and the internet economy itself. The bull case is that AWS, ads, retail margins, logistics efficiency, and AI all compound at the same time, turning Amazon from a high-revenue machine into a much better profit machine. I\u2019m not buying it because it is obviously cheap; I\u2019m buying it because an elite business at a fair price can still be enough.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

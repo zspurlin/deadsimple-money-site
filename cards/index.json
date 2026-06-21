@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T13:41:50+00:00",
+  "generated_at": "2026-06-21T16:31:11+00:00",
   "counts": {
-    "open": 8,
+    "open": 9,
     "closed": 0,
     "watchlist": 5
   },
@@ -86,6 +86,26 @@
       "card_front_web": "MELI/card_front_web.png",
       "card_back_web": "MELI/card_back_web.png",
       "data": "MELI/card_data.json"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "score": 91,
+      "tier": "Gold",
+      "status": "Open",
+      "front_line": "The infrastructure layer between demand, delivery, and the internet itself.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jun 21, 2026",
+      "dir": "AMZN",
+      "card_html": "AMZN/card.html",
+      "card_front": "AMZN/card_front.png",
+      "card_back": "AMZN/card_back.png",
+      "card_front_web": "AMZN/card_front_web.png",
+      "card_back_web": "AMZN/card_back_web.png",
+      "data": "AMZN/card_data.json"
     },
     {
       "ticker": "DPZ",
