@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T23:59:33+00:00",
+  "generated_at": "2026-06-21T13:38:15+00:00",
   "ticker": "MELI",
   "company": "MercadoLibre",
   "score": 92,
@@ -107,5 +107,5 @@
       }
     ]
   },
-  "render_version": 6
+  "render_version": 10
 }

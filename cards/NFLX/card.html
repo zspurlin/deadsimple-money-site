@@ -162,8 +162,9 @@ html, body {
   inset: 38px;
   border-radius: 17px;
 }
-/* YouTube thumbnails stay full-bleed (the picture is the hook). */
-.thumb .hero-bg { inset: 0; border-radius: 0; }
+/* YouTube thumbnail hero: the portrait art is shown whole (sharp, right-anchored)
+   over a soft blurred fill of itself, so the full scene reads with no tight crop. */
+.thumb .hero-blur, .thumb .hero-photo { position: absolute; inset: 0; z-index: 0; }
 /* The Substack header keeps its image inside the gold frame so nothing bleeds
    past the hard edge, and the dark margin doubles as Substack's safe crop zone. */
 .header-img .hero-bg { inset: 20px; border-radius: 18px; }
@@ -638,6 +639,52 @@ html, body {
 }
 
 /* --------------------------------------------------------------------------- */
+/* OBS / VIDEO FULL-SCREEN — 1920 x 1080 (rendered at 2560 x 1440)              */
+/* Presentation mode: the existing portrait face shown large and floating,      */
+/* centered over a blurred, dimmed fill of the hero so the 16:9 frame is full   */
+/* (no empty side margins) and the card is never shrunk into a small middle.    */
+/* --------------------------------------------------------------------------- */
+.obs-stage {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(90% 70% at 50% -10%, rgba(61,130,232,0.10), rgba(0,0,0,0) 55%),
+    linear-gradient(168deg, var(--panel-2) 0%, var(--panel) 46%, var(--ink) 100%);
+}
+.obs-bg { position: absolute; inset: 0; z-index: 0; }
+.obs-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.4) contrast(1.02) brightness(0.40) blur(46px);
+  transform: scale(1.18);
+}
+/* Generated heroes keep more of their color even when blurred behind the card. */
+.obs-bg.gen img { filter: grayscale(0.12) contrast(1.02) brightness(0.46) blur(46px); }
+.obs-dim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: radial-gradient(72% 82% at 50% 50%, rgba(5,7,12,0) 0%, rgba(5,7,12,0.58) 100%);
+}
+/* The full 1080x1512 face, scaled to ~98% of the 1080-tall frame, floating and
+   rounded over the blur. transform keeps it centered without affecting layout. */
+.obs-stage .card-face {
+  position: relative;
+  z-index: 2;
+  flex: none;
+  transform: scale(0.70);
+  transform-origin: center center;
+  border-radius: 30px;
+  box-shadow: 0 50px 130px rgba(0,0,0,0.62);
+}
+
+/* --------------------------------------------------------------------------- */
 /* INTERACTIVE FLIP PAGE                                                        */
 /* --------------------------------------------------------------------------- */
 .flip-stage {
@@ -647,8 +694,8 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 22px;
-  padding: 40px 16px;
+  gap: 12px;
+  padding: 16px 8px;
   background:
     radial-gradient(80% 50% at 50% 0%, rgba(61,130,232,0.10), rgba(0,0,0,0) 60%),
     #05070c;
@@ -682,10 +729,11 @@ html, body {
 }
 .flip-hint {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--faint);
+  opacity: 0.8;
 }
 
 /* --------------------------------------------------------------------------- */
@@ -739,18 +787,38 @@ html, body {
 }
 /* Clip the header scrim to the contained image so the wash stops at the frame. */
 .header-img .hero-scrim { inset: 20px; border-radius: 18px; }
-.thumb .hero-bg img,
+/* The Substack header keeps the heavy duotone (text-forward). */
 .header-img .hero-bg img { filter: grayscale(1) contrast(1.06) brightness(0.88); }
-.thumb .hero-bg.gen img,
 .header-img .hero-bg.gen img { filter: grayscale(0.2) contrast(1.05) brightness(0.92); }
+
+/* Thumbnail hero: a soft, dark, blurred fill of the portrait art covers the whole
+   frame; the sharp, uncropped copy hugs the right and shows the entire scene. Its
+   left edge is masked so it melts into the blur instead of showing a hard seam. */
+.thumb .hero-blur img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.35) brightness(0.42) blur(26px);
+  transform: scale(1.12);
+}
+.thumb .hero-photo { display: flex; justify-content: flex-end; align-items: center; }
+.thumb .hero-photo img {
+  height: 100%; width: auto;
+  max-width: 52%;
+  object-fit: contain;
+  object-position: right center;
+  filter: grayscale(0.12) contrast(1.04) brightness(0.98);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 15%, #000 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 15%, #000 100%);
+}
+.thumb .hero-photo.gen img { filter: grayscale(0.05) contrast(1.03) brightness(1); }
 /* Host cutout, anchored bottom-right. Height-capped (not source-size driven)
    so every expression renders at a consistent, restrained ~MELI scale. */
 .thumb .thumb-face {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-height: 57%;
-  max-width: 40%;
+  max-height: 52%;
+  max-width: 36%;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -758,56 +826,82 @@ html, body {
   z-index: 1;
   filter: drop-shadow(-16px 6px 26px rgba(0,0,0,0.55));
 }
+/* The pointing cutout points away from the left-aligned hook by default; mirror
+   it so the finger always aims at the figure. The shadow flips with it (now
+   falling off-frame to the right), which keeps it clean against the text. */
+.thumb .thumb-face.points { transform: scaleX(-1); }
 
-/* Text column. Sits above the hero + face; narrows when a face is present. */
+/* Top row spans the full width (outside the text cap) so the status badge sits
+   in the true top-right corner instead of floating beside the narrowed text. */
+.thumb .thumb-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+/* Brand lockup reads ~15% larger here so it survives mobile-size playback. */
+.thumb .brand-mark { width: 60px; height: 60px; }
+.thumb .brand-word { font-size: 23px; letter-spacing: 0.26em; }
+
+/* Text column. Fills the height below the top row and stays clear of the
+   right-anchored hero (so the ticker/headline never run under the picture). */
 .thumb .thumb-stack {
   position: relative;
   z-index: 1;
-  height: 100%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 980px;
+  max-width: 700px;
 }
 .thumb.has-face .thumb-stack { max-width: 660px; }
-
-.thumb-top { display: flex; align-items: center; justify-content: space-between; z-index: 1; }
 .thumb .status { font-size: 19px; padding: 12px 28px; }
 
-/* The hook: one jarring metric, the loudest thing on the card. */
-.thumb .thumb-hook {
-  font-size: 132px;
+/* Main block: the ticker is the loudest thing on the thumbnail, with the
+   company beneath it and a single one-idea headline below that. */
+.thumb .thumb-main { display: flex; flex-direction: column; z-index: 1; }
+.thumb .thumb-main .t-sym {
+  font-size: 200px;
   font-weight: 800;
-  line-height: 0.92;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #34e29a;
-  text-shadow: 0 0 32px rgba(52,226,154,0.45), 0 4px 22px rgba(0,0,0,0.7);
-  margin: 6px 0;
+  line-height: 0.86;
+  letter-spacing: -0.01em;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 6px 40px rgba(0,0,0,0.7);
 }
-.thumb.has-face .thumb-hook { font-size: 116px; }
+.thumb.has-face .thumb-main .t-sym { font-size: 176px; }
+.thumb .thumb-main .t-co {
+  margin-top: 10px;
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+  text-shadow: 0 2px 16px rgba(0,0,0,0.7);
+}
 
-/* The counter-narrative headline, heavy and high-contrast. */
-.thumb .thumb-counter {
-  font-size: 56px;
+/* The single supporting headline (one idea, no competing metric). */
+.thumb .thumb-headline {
+  margin-top: 22px;
+  font-size: 64px;
   font-weight: 800;
   line-height: 1.04;
   letter-spacing: -0.01em;
   color: #ffffff;
   text-shadow: 0 2px 18px rgba(0,0,0,0.78);
 }
-.thumb.has-face .thumb-counter { font-size: 50px; }
+.thumb.has-face .thumb-headline { font-size: 58px; }
 
-/* Supporting marks: ticker, company, tier, score — de-emphasized. */
-.thumb .thumb-foot { display: flex; align-items: baseline; gap: 22px; z-index: 1; }
-.thumb .t-sym {
-  font-size: 64px; font-weight: 800; line-height: 0.9;
-  text-shadow: 0 4px 30px rgba(0,0,0,0.7);
-}
-.thumb .t-co { font-size: 26px; color: var(--muted); }
-.thumb .thumb-foot .tier-badge { margin-left: auto; }
+/* Score + tier — grouped as one cluster at the bottom-left. Keeping them left
+   (rather than pushing the score to the right edge) guarantees they never collide
+   with the bottom-right host face at any face width. Both stay prominent and
+   impossible to miss (priority 3). */
+.thumb .thumb-foot { display: flex; align-items: center; gap: 26px; z-index: 1; }
 .thumb .t-score {
-  font-size: 52px; font-weight: 800; font-variant-numeric: tabular-nums;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  font-size: 64px; font-weight: 800; font-variant-numeric: tabular-nums;
   text-shadow: 0 2px 18px rgba(0,0,0,0.7);
 }
 .thumb .t-score .out { color: var(--faint); font-size: 30px; font-weight: 600; }
@@ -1081,13 +1175,14 @@ html, body {
 
       // Fit the card to the viewport. On a 5:7 portrait card the limiting
       // dimension on most screens is height, so size by available height (minus
-      // room for padding + the flip hint) and only fall back to width on narrow
-      // phones. Capped at the native 1080px width to stay pixel-crisp. This lets
-      // the card fill the screen for reading / OBS instead of floating small.
+      // a slim reserve for the flip hint) and only fall back to width on narrow
+      // phones. Capped at the native 1080px width to stay pixel-crisp. The slim
+      // reserve makes the clicked card a large presentation view that nearly
+      // fills the viewport (for reading / OBS / the website modal).
       function fit() {
         var ratio = 1512 / 1080;
-        var availW = window.innerWidth * 0.92;
-        var availH = window.innerHeight - 130;  // padding + "click to flip" hint
+        var availW = window.innerWidth * 0.98;
+        var availH = window.innerHeight - 56;  // slim reserve for the flip hint
         var w = Math.min(availW, availH / ratio, 1080);
         w = Math.max(280, w);
         var s = document.documentElement.style;
