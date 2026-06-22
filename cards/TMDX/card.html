@@ -688,8 +688,8 @@ html, body {
 /* INTERACTIVE FLIP PAGE                                                        */
 /* --------------------------------------------------------------------------- */
 .flip-stage {
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 100vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1025,7 +1025,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$108</span>
-          <span class="current">Current: $78.76</span>
+          <span class="current">Current: $75.68</span>
         </div>
       </div>
     </div>
@@ -1148,9 +1148,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Position Added</span><span class="v">Jun 15, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v pos">+5.0%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v neg">-0.8%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v pos">+5.9%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+0.9%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v neg">-1.1%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+2.0%</span></div>
     </div>
 
     <div class="back-footer">
@@ -1182,7 +1182,7 @@ html, body {
       function fit() {
         var ratio = 1512 / 1080;
         var availW = window.innerWidth * 0.98;
-        var availH = window.innerHeight - 56;  // slim reserve for the flip hint
+        var availH = window.innerHeight - 72;  // reserve: stage padding + gap + flip hint
         var w = Math.min(availW, availH / ratio, 1080);
         w = Math.max(280, w);
         var s = document.documentElement.style;
