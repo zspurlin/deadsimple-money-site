@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Base $370 with a $585 bull that needs a durable franchise plus real pipeline value.",
+      "committee": "Fair at $375, right on base, with the $585 bull sitting 45% above the highest street target of $403.",
+      "verdict": "green"
+    },
+    {
+      "category": "Growth",
+      "my_view": "Base assumes VYJUVEK keeps growing strongly in the US plus international expansion.",
+      "committee": "The decisive VYJUVEK revenue growth number is absent from every source, so continued growth is assumed, not proven, with saturation unresolved.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Exceptional margins as a commercial reality supporting the FCF story.",
+      "committee": "Margins are real via $238M FCF, but the specific 'exceptional' figure was never disclosed and remains a claim.",
+      "verdict": "green"
+    },
+    {
+      "category": "Moat",
+      "my_view": "A regulatory monopoly today with a platform that could spawn follow-on products.",
+      "committee": "The regulatory monopoly on VYJUVEK is genuine and durable for years, but the platform premium justifying $11B is still theoretical.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Cash funds pipeline optionality.",
+      "committee": "$814M net cash plus $238M/yr FCF is funded optionality that materially de-risks the no-second-product kill scenario.",
+      "verdict": "green"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Overpaying for one product with an uncertain pipeline.",
+      "committee": "US DEB saturation flattening VYJUVEK growth re-rates the whole company toward $205 because the price carries zero cushion.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Do not grant a platform multiple prematurely.",
+      "committee": "The $585 bull sits 45% above the analysts who actually hold the revenue data, so the upside is a contrarian duration bet with no external anchor.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "The Aug 3 earnings print.",
+      "committee": "Sequential VYJUVEK revenue growth driven by new-patient starts on Aug 3 is the single number that resolves the saturation debate.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Strong",
+    "pct": 90
+  },
+  "confidence": {
+    "label": "High",
+    "why": "The three anchors converge on a genuine monopoly priced at fair value with the decisive revenue number missing and a dated catalyst that resolves most of the debate."
+  },
+  "final_verdict": "Excellent business at a fair price, but the entry is a coin-flip into Aug 3 and patience costs almost nothing, so watchlist is the honest posture."
+}
