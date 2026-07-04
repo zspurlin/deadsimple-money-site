@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-03T22:32:33+00:00",
+  "generated_at": "2026-07-04T20:24:53+00:00",
   "counts": {
     "open": 9,
     "closed": 0,
-    "watchlist": 5
+    "watchlist": 6
   },
   "open": [
     {
@@ -209,6 +209,26 @@
       "card_front_web": "VIK/card_front_web.png",
       "card_back_web": "VIK/card_back_web.png",
       "data": "VIK/card_data.json"
+    },
+    {
+      "ticker": "KRYS",
+      "company": "Krystal Biotech (KRYS)",
+      "score": 85,
+      "tier": "Silver",
+      "status": "Watchlist",
+      "front_line": "A profitable gene-therapy platform \u2014 if one great product can become a durable engine.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jul 04, 2026",
+      "dir": "KRYS",
+      "card_html": "KRYS/card.html",
+      "card_front": "KRYS/card_front.png",
+      "card_back": "KRYS/card_back.png",
+      "card_front_web": "KRYS/card_front_web.png",
+      "card_back_web": "KRYS/card_back_web.png",
+      "data": "KRYS/card_data.json"
     },
     {
       "ticker": "TOST",

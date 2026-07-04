@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "render_version": 11,
+  "generated_at": "2026-07-04T20:22:27+00:00",
+  "ticker": "KRYS",
+  "company": "Krystal Biotech (KRYS)",
+  "score": 85,
+  "grade": "",
+  "tier": "Silver",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "front_line": "A profitable gene-therapy platform \u2014 if one great product can become a durable engine.",
+  "thesis": "Watchlist. The business is genuinely excellent, but the price already assumes the durability the research hasn't proven, and one revenue print resolves most of the debate \u2014 so patience is nearly free. This moves to Open if the Aug 3 print shows sustained double-digit sequential VYJUVEK growth driven by new-patient starts (not price), ideally with a disclosed retention figure.",
+  "moat": "A genuine regulatory monopoly around one drug \u2014 narrow but durable for years \u2014 dressed up as a platform it hasn't yet earned.",
+  "risks": "Stock trades right on base case ($375 vs $370) with zero valuation cushion \u2014 deceleration re-rates the whole company, not just stalls it.",
+  "scorecard": {
+    "research_date": "Jul 04, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 73,
+        "note": "Small, rare in fact"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 88,
+        "note": "Management reached profitable commercial scale"
+      },
+      {
+        "label": "Traction",
+        "score": 83,
+        "note": "Real profits and repeat-dose demand are showing up"
+      },
+      {
+        "label": "Moat",
+        "score": 86,
+        "note": "A genuine regulatory monopoly around one drug"
+      },
+      {
+        "label": "Valuation",
+        "score": 71,
+        "note": "Fair value at base with real cash flow"
+      },
+      {
+        "label": "Risk",
+        "score": 74,
+        "note": "Risks are unusually clean- all depends on VYJUVEK"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 84,
+        "note": "Aggressive growth, potential second leg appears"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$205",
+    "base": "$370",
+    "bull": "$585",
+    "verdict": "watchlist",
+    "current_price": "$375"
+  },
+  "research": {
+    "run_id": "20260704_155926",
+    "research_date": "Jul 04, 2026",
+    "baseline_price": 375.07000732421875,
+    "sp_at_research": 7483.240234375
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Jul 04, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Krystal Biotech (KRYS) ($KRYS): Krystal makes gene therapy you spread on the skin instead of injecting into the body. Dead Simple Score: 85/100 \u00b7 Silver. Status: Watchlist.",
+    "video_talking_points": [
+      "Krystal makes gene therapy you spread on the skin instead of injecting into the body.",
+      "Watchlist. The business is genuinely excellent, but the price already assumes the durability the research hasn't proven, and one revenue print resolves most of the debate \u2014 so patience is nearly free. This moves to Open if the Aug 3 print shows sustained double-digit sequential VYJUVEK growth driven by new-patient starts (not price), ideally with a disclosed retention figure.",
+      "Moat: A genuine regulatory monopoly around one drug \u2014 narrow but durable for years \u2014 dressed up as a platform it hasn't yet earned.",
+      "Risk: Stock trades right on base case ($375 vs $370) with zero valuation cushion \u2014 deceleration re-rates the whole company, not just stalls it.",
+      "Verdict: watchlist. Dead Simple Score 85/100."
+    ],
+    "hook": "7% UPSIDE",
+    "counter": "THE BULL NEEDS 56%",
+    "face": "pointing"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "A cinematic premium biotech hero image for an investment research card, dark charcoal and deep navy background, a glowing glass gene-therapy vial at the center, inside the vial a delicate golden DNA helix made of light, subtle skin-cell texture patterns and microscopic cellular structures around it, elegant high-end laboratory environment, rare disease medicine theme, commercial biotech platform, precision medicine, profitable genetic therapy, moody dramatic lighting, gold highlights, red accent glow, ultra-detailed, realistic, sharp focus, luxury financial research aesthetic, no text, no logos, no people, no medical horror, no needles, no blood, no cartoon, 16:9",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
