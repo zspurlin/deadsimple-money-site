@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-04T20:38:19+00:00",
+  "generated_at": "2026-07-04T21:01:18+00:00",
   "counts": {
-    "open": 9,
+    "open": 10,
     "closed": 0,
-    "watchlist": 6
+    "watchlist": 5
   },
   "open": [
     {
@@ -186,6 +186,26 @@
       "card_front_web": "SOLS/card_front_web.png",
       "card_back_web": "SOLS/card_back_web.png",
       "data": "SOLS/card_data.json"
+    },
+    {
+      "ticker": "LNTH",
+      "company": "Lantheus (LNTH)",
+      "score": 81,
+      "tier": "Silver",
+      "status": "Open",
+      "front_line": "The maps before the medicine.",
+      "alpha": "\u2014",
+      "current_return": "\u2014",
+      "sp_return": "\u2014",
+      "performance_mode": "live",
+      "research_date": "Jun 15, 2026",
+      "dir": "LNTH",
+      "card_html": "LNTH/card.html",
+      "card_front": "LNTH/card_front.png",
+      "card_back": "LNTH/card_back.png",
+      "card_front_web": "LNTH/card_front_web.png",
+      "card_back_web": "LNTH/card_back_web.png",
+      "data": "LNTH/card_data.json"
     }
   ],
   "closed": [],
@@ -249,26 +269,6 @@
       "card_front_web": "TOST/card_front_web.png",
       "card_back_web": "TOST/card_back_web.png",
       "data": "TOST/card_data.json"
-    },
-    {
-      "ticker": "LNTH",
-      "company": "Lantheus (LNTH)",
-      "score": 81,
-      "tier": "Silver",
-      "status": "Watchlist",
-      "front_line": "The maps before the medicine.",
-      "alpha": "+0.2%",
-      "current_return": "-0.6%",
-      "sp_return": "-0.8%",
-      "performance_mode": "live",
-      "research_date": "Jun 15, 2026",
-      "dir": "LNTH",
-      "card_html": "LNTH/card.html",
-      "card_front": "LNTH/card_front.png",
-      "card_back": "LNTH/card_back.png",
-      "card_front_web": "LNTH/card_front_web.png",
-      "card_back_web": "LNTH/card_back_web.png",
-      "data": "LNTH/card_data.json"
     },
     {
       "ticker": "DASH",
