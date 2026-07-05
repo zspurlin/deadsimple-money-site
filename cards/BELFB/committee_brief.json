@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Possibly cheap after the ~20% drop; base case $245 needs testing against normalized earnings.",
+      "committee": "Arithmetic settles it \u2014 $55M over 12.1M shares is a real ~63x P/E and ~50x FCF, and price already sits ~9% above your own base.",
+      "verdict": "red"
+    },
+    {
+      "category": "Growth",
+      "my_view": "Strong recent growth suggests a technical reset, not a broken business.",
+      "committee": "The +17% Q1 is a rebound off a 16% FY2024 collapse on a +6% five-year CAGR \u2014 real but unproven as durable compounding.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Worried margins are cyclical and could normalize from the 39% peak.",
+      "committee": "Gross margin rose from 34% to 38% during the FY2024 revenue collapse, which is strong structural evidence that partly falsifies your fear.",
+      "verdict": "green"
+    },
+    {
+      "category": "Moat",
+      "my_view": "Mission-critical design-in stickiness gives durable switching costs.",
+      "committee": "The switching-cost moat is genuine in defense/aero but narrow and unsized, and the 16% FY2024 drop proves it can't smooth the cycle.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Not explicitly assessed in the initial thesis.",
+      "committee": "Share count fell 14.1M to 12.1M \u2014 buybacks, not dilution \u2014 but 1.3x leverage caps that story if EBITDA reverts in a downturn.",
+      "verdict": "green"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Cyclicality, margin normalization, and dilution from a recent offering.",
+      "committee": "A cyclical priced like a compounder faces a double-hit on earnings and multiple, with no margin of safety at today's price.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "You named obscurity attraction and 52-week anchoring as your own biases.",
+      "committee": "Your 'offering overhang' explanation is likely fictional \u2014 share count fell \u2014 so the benign selloff story evaporates and the obscurity edge is already gone with JPMorgan in and 8 of 9 analysts bullish.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "July earnings timing is the overlooked catalyst.",
+      "committee": "The July 29 gross-margin print \u2014 at/above ~38% with double-digit growth confirms durability, below ~35% confirms the peak \u2014 decides everything.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Moderate",
+    "pct": 79
+  },
+  "confidence": {
+    "label": "High",
+    "why": "The action, valuation read, and watch items converge cleanly across every document, with disagreement confined to whether the stock was ever cheap."
+  },
+  "final_verdict": "A genuinely good business priced like a compounder \u2014 watchlist is the disciplined call until one dated July print settles durability."
+}

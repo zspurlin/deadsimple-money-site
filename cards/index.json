@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-05T17:31:37+00:00",
+  "generated_at": "2026-07-05T18:12:53+00:00",
   "counts": {
     "open": 10,
     "closed": 0,
-    "watchlist": 5
+    "watchlist": 6
   },
   "open": [
     {
@@ -269,6 +269,26 @@
       "card_front_web": "TOST/card_front_web.png",
       "card_back_web": "TOST/card_back_web.png",
       "data": "TOST/card_data.json"
+    },
+    {
+      "ticker": "BELFB",
+      "company": "Bel Fuse Inc.",
+      "score": 80,
+      "tier": "Bronze",
+      "status": "Watchlist",
+      "front_line": "Tiny Parts. Big Stakes.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jul 05, 2026",
+      "dir": "BELFB",
+      "card_html": "BELFB/card.html",
+      "card_front": "BELFB/card_front.png",
+      "card_back": "BELFB/card_back.png",
+      "card_front_web": "BELFB/card_front_web.png",
+      "card_back_web": "BELFB/card_back_web.png",
+      "data": "BELFB/card_data.json"
     },
     {
       "ticker": "DASH",

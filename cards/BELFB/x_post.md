@@ -1,0 +1,1 @@
+Bel Fuse Inc. ($BELFB): Bel Fuse makes the small, unglamorous electronic parts that live inside bigger machines: fuses, circuit protectors, connectors, magnetics, and power modules. Dead Simple Score: 80/100 · Bronze. Status: Watchlist.
