@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Base $130 with price ~18% below at $109.89, read as fair-to-cheap.",
+      "committee": "Fair, leaning cheap given lumpy FCF ($493M FY24 vs $372M TTM) that lifts a normalized yield toward 6-7%, but there is no margin of safety against the $85 bear.",
+      "verdict": "green"
+    },
+    {
+      "category": "Growth",
+      "my_view": "The revenue plateau is the crux and 'Execution' is the deciding question.",
+      "committee": "We agree growth is unproven, but flat revenue with rising per-share profit and 16%/40% earnings beats makes this a multiple question, not a quality one.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Margins were an implied concern given the 30%-to-20% operating drop.",
+      "committee": "The feared 'reset' is likely anchoring error since FY24's 30% was a lone spike, the real baseline is high-20s, and Q1 FY26 bounced to 22%.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Moat",
+      "my_view": "High-quality niche leader, durable by implication.",
+      "committee": "Narrow but genuine on regulatory lock-in plus hard-to-replicate radiopharmacy logistics, though concentrated in one plateaued franchise and freshly exposed by two manufacturing setbacks.",
+      "verdict": "green"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Not stated in the initial thesis.",
+      "committee": "Retiring ~9% of shares out of FCF into a stock that doubled ($47 to $110) with a clean 0.3x-levered balance sheet is a confidence signal, not just EPS flattering.",
+      "verdict": "green"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "'Execution' \u2014 growth doesn't return.",
+      "committee": "Multiple compression on a persistent plateau (26x on a flat business) is the most likely kill and requires nothing to break; an FDA action naming a commercial facility is the fastest-moving one.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Not stated; the thesis rested on action, DCF, and tagline only.",
+      "committee": "You are arguing plateau-vs-ceiling on an undisclosed product/segment revenue mix \u2014 the single number that settles bull versus bear, and neither side has it.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "The July 30 earnings print settling whether the plateau is a pause or a ceiling.",
+      "committee": "July 30 revenue growth is the right anchor \u2014 above ~8% weakens the plateau thesis; flat again with operating margin below 20% likely ends the growth story.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Strong",
+    "pct": 91
+  },
+  "confidence": {
+    "label": "High",
+    "why": "Risks are unusually legible and resolve on one dated binary catalyst, but the deciding segment-mix number is undisclosed, so conviction is high on the posture and lower on the underlying business."
+  },
+  "final_verdict": "A genuinely good, fairly priced niche leader where the Watchlist call is earned \u2014 resumed growth is unproven and the revenue mix that would settle it is blacked out, so wait for July 30."
+}
