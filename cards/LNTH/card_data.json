@@ -1,16 +1,17 @@
 {
   "schema_version": 1,
   "render_version": 11,
-  "generated_at": "2026-07-04T21:00:45+00:00",
+  "generated_at": "2026-07-06T01:36:27+00:00",
   "ticker": "LNTH",
   "company": "Lantheus (LNTH)",
   "score": 81,
   "grade": "C",
   "tier": "Silver",
-  "status": "Open",
-  "thesis_label": "Why I Own It",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "watch_reason": "Valuation",
   "front_line": "The maps before the medicine.",
-  "thesis": "I bought Lantheus because it's the toll booth every prostate patient passes through before treatment, still growing volume at ~18.6x free cash flow. I think the market is overreacting to temporary manufacturing worries and underrating management's execution. I'm accepting that CMS and insurers set the price, not the company. I'd rethink this if the pass-through clock expires soon or price per scan slips.",
+  "thesis": "One product, PYLARIFY, is basically the whole story \u2014 and its growth just went from a 38% five-year rate to +1% in a quarter. Every dose is a fresh sale, no contracts, so flat volume is the moat being tested in real time. What keeps this on the watchlist instead of the discard pile: $118M of quarterly net income, margins already back to 22%, and 9% of the shares retired in 18 months. The two facts that would settle it are still missing; the July 30 print should supply them.",
   "moat": "Advantages may erode",
   "risks": "Pricing is controlled by CMS and insurers, not Lantheus; pass-through status can reset margin overnight.",
   "scorecard": {
@@ -70,15 +71,15 @@
     "current_return": "\u2014",
     "sp_return": "\u2014",
     "alpha": "\u2014",
-    "as_of": "Jul 04, 2026",
+    "as_of": "Jul 05, 2026",
     "mode": "live"
   },
   "lifecycle": {
-    "opened_date": "2026-07-04",
+    "opened_date": null,
     "close_date": null,
     "close_price": null,
     "sp_at_close": null,
-    "open_note": "High-quality radiopharma leader with a proven execution track record trading below my estimate of intrinsic value. I belive the market is overreacting to temporary manufacturing concerns while underestimating management's long-term growth targets.",
+    "open_note": null,
     "close_note": null
   },
   "drafts": {
@@ -91,8 +92,8 @@
       "The load-bearing fact, the reimbursement clock, is unverified \u2014 so committing capital now is buying blind.",
       "Verdict: watch, and flip it to a small check once the pass-through date and Aug 4 pricing confirm."
     ],
-    "hook": "RENTED FROM THE GOVERNMENT",
-    "counter": "NOT A GROWTH STOCK",
+    "hook": "26.5X?",
+    "counter": "OR 15X?",
     "face": "skeptical"
   },
   "assets": {
@@ -102,6 +103,8 @@
     "card_back_web": "card_back_web.png",
     "front_obs": "front_obs.png",
     "back_obs": "back_obs.png",
+    "committee_brief": "committee_brief.png",
+    "committee_brief_data": "committee_brief.json",
     "card_html": "card.html",
     "youtube_thumbnail": "youtube_thumbnail.jpg",
     "substack_header": "substack_header.png",

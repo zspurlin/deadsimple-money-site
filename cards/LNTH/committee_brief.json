@@ -2,60 +2,60 @@
   "rows": [
     {
       "category": "Intrinsic Value",
-      "my_view": "Base $130 with price ~18% below at $109.89, read as fair-to-cheap.",
-      "committee": "Fair, leaning cheap given lumpy FCF ($493M FY24 vs $372M TTM) that lifts a normalized yield toward 6-7%, but there is no margin of safety against the $85 bear.",
-      "verdict": "green"
+      "my_view": "Base $130 with mispriced upside, bull to $186.",
+      "committee": "Fair at $109.89 with ~18% to base, but the bull $186 leans on platform optionality that has produced only rejections.",
+      "verdict": "yellow"
     },
     {
       "category": "Growth",
-      "my_view": "The revenue plateau is the crux and 'Execution' is the deciding question.",
-      "committee": "We agree growth is unproven, but flat revenue with rising per-share profit and 16%/40% earnings beats makes this a multiple question, not a quality one.",
+      "my_view": "Durable compounder with platform adding future growth.",
+      "committee": "Revenue is flat (+1% YoY off a +38% CAGR); any per-share growth comes from buybacks, not revenue.",
       "verdict": "yellow"
     },
     {
       "category": "Margins",
-      "my_view": "Margins were an implied concern given the 30%-to-20% operating drop.",
-      "committee": "The feared 'reset' is likely anchoring error since FY24's 30% was a lone spike, the real baseline is high-20s, and Q1 FY26 bounced to 22%.",
+      "my_view": "The cash engine is durable.",
+      "committee": "FY2025 operating margin fell 30%\u219220%, but Q1 bounced to 22%; the trough may have passed, but the cause is undisclosed and unproven.",
       "verdict": "yellow"
     },
     {
       "category": "Moat",
-      "my_view": "High-quality niche leader, durable by implication.",
-      "committee": "Narrow but genuine on regulatory lock-in plus hard-to-replicate radiopharmacy logistics, though concentrated in one plateaued franchise and freshly exposed by two manufacturing setbacks.",
-      "verdict": "green"
+      "my_view": "A real cash engine that could fund a broader radiopharma platform.",
+      "committee": "The fresh-dose logistics network is a genuine but narrow moat around a single product with zero switching costs, and the platform extension is unproven.",
+      "verdict": "yellow"
     },
     {
       "category": "Capital Allocation",
-      "my_view": "Not stated in the initial thesis.",
-      "committee": "Retiring ~9% of shares out of FCF into a stock that doubled ($47 to $110) with a clean 0.3x-levered balance sheet is a confidence signal, not just EPS flattering.",
+      "my_view": "Disciplined; a stated buy condition.",
+      "committee": "The ~9% share reduction in 18 months on 0.3x leverage is genuinely disciplined and is the load-bearing beam of the base case.",
       "verdict": "green"
     },
     {
       "category": "Biggest Risk",
-      "my_view": "'Execution' \u2014 growth doesn't return.",
-      "committee": "Multiple compression on a persistent plateau (26x on a flat business) is the most likely kill and requires nothing to break; an FDA action naming a commercial facility is the fastest-moving one.",
+      "my_view": "PYLARIFY peak, concentration, and execution.",
+      "committee": "Zero switching costs mean the flat +1% quarter is the moat being tested in real time, and it is visible now but unresolved.",
       "verdict": "yellow"
     },
     {
       "category": "Biggest Blind Spot",
-      "my_view": "Not stated; the thesis rested on action, DCF, and tagline only.",
-      "committee": "You are arguing plateau-vs-ceiling on an undisclosed product/segment revenue mix \u2014 the single number that settles bull versus bear, and neither side has it.",
+      "my_view": "Self-named FOMO and attraction to muddy setups.",
+      "committee": "The segment mix (PYLARIFY's revenue share) is absent from every source, so the entire concentration question cannot be closed today, and you are emotionally anchored to a platform story that only produced FDA rejections.",
       "verdict": "red"
     },
     {
       "category": "Most Important Watch Item",
-      "my_view": "The July 30 earnings print settling whether the plateau is a pause or a ceiling.",
-      "committee": "July 30 revenue growth is the right anchor \u2014 above ~8% weakens the plateau thesis; flat again with operating margin below 20% likely ends the growth story.",
+      "my_view": "Platform optionality converting to a named second product.",
+      "committee": "The July 30 print: PYLARIFY volume trend and whether operating margin holds \u226522% will resolve durability in one identifiable event.",
       "verdict": "yellow"
     }
   ],
   "alignment": {
-    "label": "Strong",
-    "pct": 91
+    "label": "Moderate",
+    "pct": 80
   },
   "confidence": {
-    "label": "High",
-    "why": "Risks are unusually legible and resolve on one dated binary catalyst, but the deciding segment-mix number is undisclosed, so conviction is high on the posture and lower on the underlying business."
+    "label": "Moderate",
+    "why": "The two thesis-gating facts\u2014PYLARIFY's revenue share and the cause of the FY2025 margin dip\u2014are absent from all sources, so the durability question stays genuinely open until July 30."
   },
-  "final_verdict": "A genuinely good, fairly priced niche leader where the Watchlist call is earned \u2014 resumed growth is unproven and the revenue mix that would settle it is blacked out, so wait for July 30."
+  "final_verdict": "The thesis narrows from hidden platform to hidden per-share compounder and survives as an evidence-gated watchlist that must not convert on price."
 }

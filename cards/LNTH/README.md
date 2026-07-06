@@ -11,6 +11,8 @@ anywhere as-is.
 - `card_front.png` / `card_back.png` — full-resolution card images for social.
 - `card_front_web.png` / `card_back_web.png` — downsampled previews for the website grid.
 - `front_obs.png` / `back_obs.png` — 16:9 full-screen versions (5760x3240) for OBS / YouTube video.
+- `committee_brief.png` — 16:9 Investment Committee Brief slide (OBS/YouTube-ready).
+- `committee_brief.json` — the brief's canonical data (hand-editable; re-render with `python make_committee.py LNTH --render-only`).
 - `youtube_thumbnail.jpg` — 16:9 thumbnail (JPEG, under YouTube's 2 MB limit).
 - `substack_header.png` — 2:1 header.
 - `x_post.md` — X/socials post draft.
@@ -38,4 +40,4 @@ re-run `python make_media.py LNTH` and re-upload this folder.
 When the position is closed (`python card_lifecycle.py close LNTH`), the
 numbers freeze at the close (`performance.mode = "frozen"`) and no longer change.
 
-Status: Open | Dead Simple Score: 81/100 | Schema v1
+Status: Watchlist | Dead Simple Score: 81/100 | Schema v1

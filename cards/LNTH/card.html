@@ -823,13 +823,15 @@ html, body {
 }
 .thumb .hero-photo.gen img { filter: grayscale(0.05) contrast(1.03) brightness(1); }
 /* Host cutout, anchored bottom-right. Height-capped (not source-size driven)
-   so every expression renders at a consistent, restrained ~MELI scale. */
+   so every expression renders at a consistent, restrained scale. Sized so the
+   hook/counter stack clearly dominates — the words are the product; the face
+   supports the brand without competing with the text. */
 .thumb .thumb-face {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-height: 52%;
-  max-width: 36%;
+  max-height: 44%;
+  max-width: 30%;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -1003,6 +1005,167 @@ html, body {
   font-size: 22px; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--text); font-weight: 700; font-variant-numeric: tabular-nums;
 }
+
+/* --------------------------------------------------------------------------- */
+/* INVESTMENT COMMITTEE BRIEF — 1920 x 1080 presentation slide                  */
+/* One-page committee review: 4-column table (Category | My View | Committee |  */
+/* color-bar Verdict) + three bottom callouts. OBS/YouTube-ready as rendered.   */
+/* --------------------------------------------------------------------------- */
+.icb-stage {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  padding: 42px 72px 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(90% 70% at 50% -10%, rgba(61,130,232,0.10), rgba(0,0,0,0) 55%),
+    linear-gradient(168deg, var(--panel-2) 0%, var(--panel) 46%, var(--ink) 100%);
+}
+
+.icb-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--hairline-2);
+}
+.icb-kicker {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 20px;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--brand-blue-soft);
+  font-weight: 700;
+}
+.icb-logo { height: 34px; width: auto; }
+.icb-title h1 {
+  margin: 10px 0 0;
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--text);
+}
+.icb-company {
+  margin-left: 20px;
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.icb-meta { display: flex; gap: 44px; }
+.icb-meta-item { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.icb-meta-label {
+  font-size: 14px; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--faint); font-weight: 700;
+}
+.icb-meta-value {
+  font-size: 24px; color: var(--text); font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Table: category rail | two equal prose columns | narrow verdict bar. */
+.icb-table {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+.icb-row {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 44px;
+  gap: 0 30px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--hairline);
+}
+.icb-row:last-child { border-bottom: none; }
+.icb-head {
+  padding: 0 0 12px;
+  font-size: 16px;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--faint);
+  font-weight: 700;
+  border-bottom: 1px solid var(--hairline-2);
+}
+.icb-head .icb-cat { font-size: 16px; color: var(--faint); }
+.icb-cat {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--brand-blue-soft);
+  letter-spacing: 0.02em;
+}
+.icb-cell {
+  font-size: 19px;
+  line-height: 1.3;
+  color: var(--text);
+}
+.icb-cell + .icb-cell { color: #d7deea; }
+
+/* Verdict: a solid vertical bar, nothing else. */
+.icb-verdict-col { display: flex; justify-content: center; height: 100%; }
+.icb-bar {
+  display: block;
+  width: 14px;
+  min-height: 46px;
+  height: 100%;
+  border-radius: 7px;
+}
+.icb-green  { background: var(--bull); box-shadow: 0 0 14px rgba(87, 208, 138, 0.35); }
+.icb-yellow { background: var(--base); box-shadow: 0 0 14px rgba(242, 193, 78, 0.35); }
+.icb-red    { background: var(--bear); box-shadow: 0 0 14px rgba(255, 107, 107, 0.35); }
+
+/* Bottom callouts. */
+.icb-callouts {
+  display: grid;
+  grid-template-columns: 360px 1fr 1fr;
+  gap: 22px;
+  margin-top: 18px;
+}
+.icb-callout {
+  background: rgba(13, 19, 32, 0.72);
+  border: 1px solid var(--hairline-2);
+  border-radius: 16px;
+  padding: 18px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.icb-callout-label {
+  font-size: 14px; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--faint); font-weight: 700;
+}
+.icb-align { display: flex; align-items: baseline; gap: 16px; }
+.icb-align-pct {
+  font-size: 46px; font-weight: 800; color: var(--text); line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.icb-align-word {
+  font-size: 24px; font-weight: 700; color: var(--brand-blue-soft);
+  letter-spacing: 0.04em;
+}
+.icb-conf-word {
+  font-size: 26px; font-weight: 800; color: var(--text); line-height: 1;
+}
+.icb-callout-text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.3;
+  color: var(--muted);
+}
+.icb-final { border-color: color-mix(in srgb, var(--brand-blue) 45%, var(--hairline-2)); }
+.icb-final-text {
+  margin: 2px 0 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 23px;
+  line-height: 1.32;
+  color: var(--text);
+}
 </style>
 </head>
 <body>
@@ -1021,7 +1184,7 @@ html, body {
         <img class="brand-mark" src="data:image/png;base64,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EmW/4AK7q2UpghCp28sagyQdL1LLnn6RK750llYtW4M0TIjUr7ogSUX2Wo42L/lEYltabJwQaUONK5KTSlYj2wVPsNvSYuOESDte1tS1VdlqpMjnOhl3Q5xuPGSjhEhb3lXW/lvLaqTkLS2rETZKiLTnXS0HN1a0GokzI6UGiRBho4RImz5WdNaW1cjTCBE2Soi0aauWby5pNVJDU0CRITIZd3M3td0gSUOESLt2zqfVFK5r2dLSpQW3CJG2vTmfFl0U7qQp9sncG+Up9Vlezr0CPREi7Tut5Aj5GlYj6iJwixBp31YNNYd0wm/pMw/bJZ6lleoi5kXYCCEyDPuVnPprNZLPlhYbIUSG46iCtt8aurQU12GGEBmO4re1Urtv6QX2UkPESoSNECLDMqrget3SVyNFtvpOxlYibIYQGZ6i6w6He1XcH15qEBs6pHdCZHh2KjiksfR7MmxpQSJEhumo8M+69BAp9YBLIULvhMgwbZ9Pyw2SCra0Yl2kxCARIvROiAxX6XMjpReKS9zSEiL0TogM11bhtRFbWkuajLsW6RqO1achQmTYSq6NCJE8ViP0SogM23app/ymwcOSW1Z35l4pgxChV0KEkmsjRddFCr1fZDr3CqyREGG/4KPibWktz0qEXgkRQqmrkXQ8fMlKDF8rEXolRAgFH28efZp7pRwldmgJEXolRAipwO4oj+WV2qHlgip6I0S4UerMSMlbWnFyvcQ7WqxG6I0Q4YaVSJ4SVyNChN4IEW7ELa3iviEe7nXfEEuewlZcZ9CECLPcH768EkPk77lXYE2ECLNKDZGS6yJmRRg0IcKseGGVQvFySnxe0Bshwm0KxcspcTvLSoTeCBFuc0/GcrZL+wulI+GhF0KE24oLkXSib7EKnRWBXggRbit1CtvxJ8sp+XnRECHCbVsFn+oLFEaIsEiJIVJym6/tLAZLiLBIqUeglKrULUBYu2884oViS+lPi94YiBJ/6i95JVLi3+2o8B8GHM3SiGdXV1dDfwYAZLKdBUA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJANiECQDYhAkA2IQJAnhDC/wOKDPJw+O1I7wAAAABJRU5ErkJggg==" alt="">
         <span class="brand-word">Dead Simple Research</span>
       </div>
-      <span class="status is-open">Open</span>
+      <span class="status is-watchlist">Watchlist</span>
     </div>
 
     <div class="headline">
@@ -1064,10 +1227,15 @@ html, body {
     </div>
 
     <div class="section">
-      <div class="label">Why I Own It</div>
-      <div class="body thesis">I bought Lantheus because it&#39;s the toll booth every prostate patient passes through before treatment, still growing volume at ~18.6x free cash flow. I think the market is overreacting to temporary manufacturing worries and underrating management&#39;s execution. I&#39;m accepting that CMS and insurers set the price, not the company. I&#39;d rethink this if the pass-through clock expires soon or price per scan slips.</div>
+      <div class="label">Why I&#39;m Watching It</div>
+      <div class="body thesis">One product, PYLARIFY, is basically the whole story — and its growth just went from a 38% five-year rate to +1% in a quarter. Every dose is a fresh sale, no contracts, so flat volume is the moat being tested in real time. What keeps this on the watchlist instead of the discard pile: $118M of quarterly net income, margins already back to 22%, and 9% of the shares retired in 18 months. The two facts that would settle it are still missing; the July 30 print should supply them.</div>
     </div>
 
+    
+    <div class="watching-for">
+      <span class="label">Watching For</span>
+      <span class="wf-value">Valuation</span>
+    </div>
     
 
     <div class="scorecard">
@@ -1156,7 +1324,7 @@ html, body {
     <div class="dcf">
       <div class="dcf-title">
         <span>Dead Simple DCF</span>
-        <span class="verdict-pill">Open</span>
+        <span class="verdict-pill">Watchlist</span>
       </div>
       <div class="dcf-rows">
         <div class="dcf-row bear"><span class="dot"></span><span class="k">Bear</span><span class="v">$85</span></div>
@@ -1166,7 +1334,7 @@ html, body {
     </div>
 
     <div class="ledger">
-      <div class="cell"><span class="k">Position Added</span><span class="v">Jul 04, 2026</span></div>
+      <div class="cell"><span class="k">Watchlist Added</span><span class="v">Jun 15, 2026</span></div>
       <div class="cell"><span class="k">Current Return</span><span class="v ">—</span></div>
       <div class="cell"><span class="k">S&amp;P Return</span><span class="v ">—</span></div>
       <div class="cell"><span class="k">Alpha</span><span class="v ">—</span></div>
@@ -1174,7 +1342,7 @@ html, body {
 
     <div class="back-footer">
       <span class="word">Dead Simple Research</span>
-      <span class="word">LNTH · Open</span>
+      <span class="word">LNTH · Watchlist</span>
     </div>
 
   </div>
