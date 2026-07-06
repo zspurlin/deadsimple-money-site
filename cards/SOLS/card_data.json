@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "render_version": 10,
-  "generated_at": "2026-07-02T20:40:29+00:00",
+  "render_version": 11,
+  "generated_at": "2026-07-06T16:36:04+00:00",
   "ticker": "SOLS",
   "company": "Solstice Advanced Materials",
   "score": 86,
@@ -67,10 +67,10 @@
     "sp_at_research": 7568.14990234375
   },
   "performance": {
-    "current_return": "-6.1%",
-    "sp_return": "-1.1%",
-    "alpha": "-4.9%",
-    "as_of": "Jul 02, 2026",
+    "current_return": "-19.6%",
+    "sp_return": "-0.5%",
+    "alpha": "-19.1%",
+    "as_of": "Jul 06, 2026",
     "mode": "live"
   },
   "lifecycle": {
