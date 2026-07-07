@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-07T17:42:15+00:00",
+  "generated_at": "2026-07-07T18:39:45+00:00",
   "counts": {
     "open": 9,
     "closed": 0,
@@ -359,10 +359,10 @@
       "score": 49,
       "tier": null,
       "status": "Pass",
-      "front_line": "The science may be real. The stock still asks me to pay for the ending before the movie starts.",
-      "alpha": "-2.4%",
-      "current_return": "-2.4%",
-      "sp_return": "+0.0%",
+      "front_line": "The science may be real. The stock still asks you to pay for the ending before the movie starts",
+      "alpha": "-3.0%",
+      "current_return": "-3.0%",
+      "sp_return": "-0.0%",
       "performance_mode": "live",
       "research_date": "Jul 07, 2026",
       "dir": "IONQ",

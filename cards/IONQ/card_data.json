@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-07-07T17:39:06+00:00",
+  "generated_at": "2026-07-07T18:39:01+00:00",
   "ticker": "IONQ",
   "company": "IonQ",
   "score": 49,
@@ -9,9 +9,9 @@
   "tier": null,
   "status": "Pass",
   "thesis_label": "Why I'm Not Buying",
-  "pass_reason": "A product that currently has little to no utility",
-  "front_line": "The science may be real. The stock still asks me to pay for the ending before the movie starts.",
-  "thesis": "IonQ may become one of the most important quantum companies in the world, but that is not the same thing as being an investable stock today. The company has real momentum and early commercial traction, but the current thesis still depends on technical milestones, long commercialization timelines, government/enterprise adoption, and future use cases that are not yet mature enough to underwrite with confidence. At this stage, IONQ feels less like a business I can value and more like a public-market venture bet \u2014 and the committee is not willing to pay a certainty multiple for a probability-weighted dream.",
+  "pass_reason": "Commercial utility is still unproven",
+  "front_line": "The science may be real. The stock still asks you to pay for the ending before the movie starts",
+  "thesis": "IonQ may become one of the most important quantum companies in the world, but that is not the same thing as being investable today. The company has real momentum and early commercial traction, but the thesis still depends on technical milestones, long commercialization timelines, and future use cases that are not mature enough to underwrite with confidence.",
   "moat": "Differentiated technology in an unresolved architecture race is a bet, not a moat \u2014 distribution is rented from rivals and switching costs are near-zero.",
   "risks": "Gross margin fell 63% \u2192 40% \u2192 24% \u2014 the opposite of a scaling platform, and the single most damning number in the packet.",
   "scorecard": {
@@ -68,9 +68,9 @@
     "sp_at_research": 7516.6298828125
   },
   "performance": {
-    "current_return": "-2.4%",
-    "sp_return": "+0.0%",
-    "alpha": "-2.4%",
+    "current_return": "-3.0%",
+    "sp_return": "-0.0%",
+    "alpha": "-3.0%",
     "as_of": "Jul 07, 2026",
     "mode": "live"
   },
@@ -91,8 +91,8 @@
       "Risk: Gross margin fell 63% \u2192 40% \u2192 24% \u2014 the opposite of a scaling platform, and the single most damning number in the packet.",
       "Verdict: pass. Dead Simple Score 49/100."
     ],
-    "hook": "GROSS MARGIN 63% TO 24%",
-    "counter": "THE PLATFORM THAT GETS COSTLIER",
+    "hook": "QUANTUM DREAM",
+    "counter": "STOCK NIGHTMARE",
     "face": "pointing"
   },
   "assets": {
