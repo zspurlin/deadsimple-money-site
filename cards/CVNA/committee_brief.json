@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "CVNA is very overvalued at $70, even after the 28% pullback from its high.",
+      "committee": "We agree it's expensive: ~35x GAAP earnings and a 1% FCF yield price durable growth, structural margins, and open credit markets all at once, and even the cheaper 25.7x read is rich for a cyclical dealer.",
+      "verdict": "green"
+    },
+    {
+      "category": "Growth",
+      "my_view": "Not addressed directly beyond the overvaluation call.",
+      "committee": "Revenue reaccelerated +52% in Q1, but the five-year line is a V-shape that fell to $10.77B in FY23, so runway exists while durability is unproven and units-sold data is missing.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Not addressed directly.",
+      "committee": "The gross margin climb from 7% to 21% may be a used-car pricing cycle rather than a moat, and a 3-4 point give-back would roughly halve a 9% operating margin.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Moat",
+      "my_view": "Implied weak as part of the overvaluation view.",
+      "committee": "We agree the moat is narrow: a real but cyclical scale edge in reconditioning and logistics, with no network effect, no switching cost, and a weak brand that must buy demand through advertising.",
+      "verdict": "green"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Not addressed.",
+      "committee": "Shares expanded ~70% in one year (661M to 1.12B FY24-FY25), quietly diluting the recovery story, with the cause undisclosed in the materials.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Overvaluation is the risk.",
+      "committee": "The deeper risk is that the margin recovery is cyclical (GPU roll-over) and that profit leans on selling loans, so earnings could crater on a credit wobble even if cars keep selling.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "None stated; the owner has no falsification trigger and treats the 28% pullback as partial validation.",
+      "committee": "You are treating a pullback from a 1,095% three-year run as evidence of fair value and owning a conclusion with no kill-switch, which risks a pass you regret if July 29 GPU proves structural.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "Not addressed.",
+      "committee": "Gross profit per unit direction against Manheim used-car prices on the July 29 print is the single number that settles whether the margin is structural or a cycle.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Strong",
+    "pct": 88
+  },
+  "confidence": {
+    "label": "Moderate",
+    "why": "The valuation and moat calls are strongly supported, but the metrics that decide the thesis \u2014 GPU, units, finance mix, and real debt \u2014 are entirely absent from the materials."
+  },
+  "final_verdict": "Overvalued instinct is right, but it needs a written kill-switch, not permanent avoidance \u2014 Watchlist until July 29 GPU decides it."
+}

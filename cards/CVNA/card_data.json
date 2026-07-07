@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "render_version": 12,
+  "generated_at": "2026-07-07T03:04:13+00:00",
+  "ticker": "CVNA",
+  "company": "Carvana (CVNA)",
+  "score": 58,
+  "grade": "",
+  "tier": null,
+  "status": "Pass",
+  "thesis_label": "Why I'm Not Buying",
+  "front_line": "The turnaround is real. The investability is not.",
+  "thesis": "Carvana\u2019s Q1 2026 numbers are genuinely strong: 187k retail units sold, revenue of $6.43B, net income of $405M, and adjusted EBITDA of $672M. So the \u201cpass\u201d works best if it concedes the comeback first, then says the committee still rejected it because the thesis depends on too many things staying perfect: used-car demand, financing conditions, unit economics, accounting trust, related-party complexity, and valuation sentiment.",
+  "moat": "A real scale-economics edge in reconditioning and logistics, but narrow, cyclical, and never tested through a downturn \u2014 no network effects or switching costs.",
+  "risks": "Net income tripled FY24\u2192FY25 (+570%) while operating cash flow grew only ~13%; TTM net income now exceeds TTM operating cash flow.",
+  "scorecard": {
+    "research_date": "Jul 06, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 72,
+        "note": "I see lots of cars. Just me"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 74,
+        "note": "A genuinely impressive turnaround from near-bankruptcy"
+      },
+      {
+        "label": "Traction",
+        "score": 64,
+        "note": "Revenue and margins inflecting up, but too much uncertainty lies ahead"
+      },
+      {
+        "label": "Moat",
+        "score": 58,
+        "note": "Scale-economics edge in reconditioning and logistics, thin"
+      },
+      {
+        "label": "Valuation",
+        "score": 39,
+        "note": "~35x GAAP earnings and a 1% FCF yield price durable growth"
+      },
+      {
+        "label": "Risk",
+        "score": 44,
+        "note": "Not enough room"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 38,
+        "note": "I'd prefer puts"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$45",
+    "base": "$65",
+    "bull": "$80",
+    "verdict": "pass",
+    "current_price": "$70.50"
+  },
+  "research": {
+    "run_id": "20260706_223949",
+    "research_date": "Jul 06, 2026",
+    "baseline_price": 70.37999725341797,
+    "sp_at_research": 7537.43017578125
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Jul 06, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Carvana (CVNA) ($CVNA): Carvana sells used cars online. Dead Simple Score: 58/100. Status: Pass.",
+    "video_talking_points": [
+      "Carvana sells used cars online.",
+      "Watchlist.\n\nWatchlist because the business is genuinely improving but the price already prices the good outcome as the base case, and the one number that decides it \u2014 GPU direction against used-car prices \u2014 is still invisible. The verdict flips to a real opportunity if the July 29 print shows stable-to-rising GPU with margin credited to reconditioning cost-outs (not \"market conditions\"), operating cash flow converging toward net income, and filings confirming a genuinely clean balance sheet; it hardens into a firm pass if GPU rolls over while units grow.",
+      "Moat: A real scale-economics edge in reconditioning and logistics, but narrow, cyclical, and never tested through a downturn \u2014 no network effects or switching costs.",
+      "Risk: Net income tripled FY24\u2192FY25 (+570%) while operating cash flow grew only ~13%; TTM net income now exceeds TTM operating cash flow.",
+      "Verdict: pass. Dead Simple Score 58/100."
+    ],
+    "hook": "PROFIT TRIPLED",
+    "counter": "CASH BARELY MOVED",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "committee_brief": "committee_brief.png",
+    "committee_brief_data": "committee_brief.json",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Cinematic financial research hero image for a YouTube stock analysis about passing on Carvana. A dramatic used-car vending machine / online car marketplace concept in the distance, glowing neon lights, rows of shiny used cars, but the foreground shows a red \u201cPASS\u201d stamp on an investment committee report, scattered valuation papers, debt documents, and margin notes. Mood is skeptical but not apocalyptic: impressive comeback story, but too much risk under the surface. Dark blue and charcoal finance aesthetic, clean premium editorial style, high contrast lighting, subtle AI investment committee vibe, no real company logo, no readable brand names, no ticker symbols, no text except the large red PASS stamp, cinematic 16:9, sharp detail, modern YouTube thumbnail composition, professional financial media artwork. no real logos, no Carvana logo, no distorted cars, no messy unreadable text, no cartoon style, no meme style, no people with deformed faces, no extra fingers, no overcomplicated background, no stock chart clutter, no cheap crypto aesthetic",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

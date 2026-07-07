@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-06T22:45:01+00:00",
+  "generated_at": "2026-07-07T03:16:42+00:00",
   "counts": {
     "open": 9,
     "closed": 0,
-    "watchlist": 7
+    "watchlist": 7,
+    "pass": 1
   },
   "open": [
     {
@@ -329,6 +330,28 @@
       "card_front_web": "LITE/card_front_web.png",
       "card_back_web": "LITE/card_back_web.png",
       "data": "LITE/card_data.json"
+    }
+  ],
+  "pass": [
+    {
+      "ticker": "CVNA",
+      "company": "Carvana (CVNA)",
+      "score": 58,
+      "tier": null,
+      "status": "Pass",
+      "front_line": "The turnaround is real. The investability is not.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jul 06, 2026",
+      "dir": "CVNA",
+      "card_html": "CVNA/card.html",
+      "card_front": "CVNA/card_front.png",
+      "card_back": "CVNA/card_back.png",
+      "card_front_web": "CVNA/card_front_web.png",
+      "card_back_web": "CVNA/card_back_web.png",
+      "data": "CVNA/card_data.json"
     }
   ]
 }
