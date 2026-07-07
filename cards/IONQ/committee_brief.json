@@ -2,60 +2,60 @@
   "rows": [
     {
       "category": "Intrinsic Value",
-      "my_view": "Skeptical of hype, asking what would have to happen to justify a $17B valuation.",
-      "committee": "Expensive at 92x sales \u2014 the price already assumes IonQ wins the science race and 10x's revenue, so we agree there is no margin of safety.",
+      "my_view": "Skeptical from the start, asking what would have to happen for a $17B valuation to make sense rather than assuming it does.",
+      "committee": "The committee agrees fully: at 92x sales the price already assumes IonQ wins a binary science race and 10x's revenue, leaving no margin of safety.",
       "verdict": "green"
     },
     {
       "category": "Growth",
-      "my_view": "The +755% Q1 jump may be real adoption or just pilots, grants, and acquired hardware.",
-      "committee": "Growth is dazzling but its organic-vs-acquired quality is a black box until the 2026-08-04 print, so the number cannot yet be trusted as adoption.",
-      "verdict": "yellow"
+      "my_view": "Questioned whether the +755% Q1 jump reflects real adoption or just pilots, grants, and lumpy contracts.",
+      "committee": "The committee shares the doubt: the growth is dazzling but its organic-vs-acquired composition is a black box until the 2026-08-04 print.",
+      "verdict": "green"
     },
     {
       "category": "Margins",
-      "my_view": "Commercialization realism is unproven and worth probing.",
-      "committee": "Gross margin fell 63% to 40% to 24% \u2014 the opposite of a scaling platform \u2014 and whether this is temporary hardware mix or structural erosion is the decisive open question.",
-      "verdict": "red"
+      "my_view": "Wanted commercialization realism probed rather than assumed.",
+      "committee": "The committee agrees the 63% to 40% to 24% gross-margin slide is the single most damning number, likely mix-driven but unproven until disclosure.",
+      "verdict": "green"
     },
     {
       "category": "Moat",
-      "my_view": "Do not assume durability; test it against big-tech and pure-play rivals.",
-      "committee": "Unproven \u2014 distribution is rented from Amazon, Microsoft, and Google who build their own hardware, switching costs are near-zero, and the whole moat hinges on trapped-ion winning an unresolved architecture race.",
-      "verdict": "yellow"
+      "my_view": "Insisted durability be tested against big-tech and pure-play rivals, not assumed.",
+      "committee": "The committee agrees the moat is unproven: distribution is rented from cloud rivals, switching costs are near-zero, and everything hinges on trapped-ion winning an unresolved architecture race.",
+      "verdict": "green"
     },
     {
       "category": "Capital Allocation",
-      "my_view": "Scrutinize dilution and capital needs as a survival risk.",
-      "committee": "Shares rose 280M to 373M \u2014 roughly $4B issued against only $300M of burn \u2014 which reads as opportunistic high-multiple M&A currency, less desperate than a bleed but only viable while the multiple stays inflated.",
+      "my_view": "Flagged dilution and capital requirements as a risk to scrutinize, implicitly a survival bleed.",
+      "committee": "The committee agrees dilution is heavy but reframes it as opportunistic M&A currency \u2014 ~$4B of stock issued against ~$300M burn \u2014 that only works while the multiple stays inflated.",
       "verdict": "yellow"
     },
     {
       "category": "Biggest Risk",
-      "my_view": "Timeline risk \u2014 hype without adoption if commercialization is a decade out.",
-      "committee": "We agree the killer is timing: ~$425M annual burn and dilution happen now while the payoff is distant and unproven, so you can be right on IonQ and wrong on IONQ.",
-      "verdict": "yellow"
+      "my_view": "Named timeline and hype without adoption as the core danger.",
+      "committee": "The committee agrees timing is the killer: ~$425M annual burn happens now while the payoff is a distant, unforecastable science bet with no margin of safety.",
+      "verdict": "green"
     },
     {
       "category": "Biggest Blind Spot",
-      "my_view": "Treated the '$463M net cash' figure and dilution largely as a survival threat.",
-      "committee": "The $463M figure is an arithmetic error \u2014 $2.03B cash minus $30.4M debt is ~$2.0B net cash and ~5 years of runway \u2014 and the real trap you missed is the warrant accounting, where a stock decline triggers a GAAP 'loss' that reflexively feeds more selling.",
-      "verdict": "red"
+      "my_view": "Not specified; the brief did not anticipate the warrant-accounting reflexivity trap.",
+      "committee": "The owner underweighted that the +$805M GAAP 'profit' reverses into an ugly loss on any stock decline, creating a self-reinforcing down-quarter trap for anyone screening on reported EPS.",
+      "verdict": "yellow"
     },
     {
       "category": "Most Important Watch Item",
-      "my_view": "Not specified.",
-      "committee": "The 2026-08-04 Q2 print \u2014 specifically gross-margin direction and the organic-vs-acquired revenue mix \u2014 resolves margin, growth quality, share count, and cash in a single disclosure.",
+      "my_view": "Not specified as a single item.",
+      "committee": "The 2026-08-04 Q2 print is the one event that resolves everything \u2014 gross-margin direction, organic revenue mix, share count, and cash \u2014 and settles whether this is a platform or a narrative.",
       "verdict": "yellow"
     }
   ],
   "alignment": {
     "label": "Strong",
-    "pct": 96
+    "pct": 92
   },
   "confidence": {
     "label": "High",
-    "why": "The skeptical brief and the evidence-based house view converge on every weighted dimension, and the decisive disclosure is a known date one month away."
+    "why": "The skeptical brief and the evidence converge on nearly every weighted dimension, and the decisive data is one known disclosure date away."
   },
-  "final_verdict": "Narrative-priced speculation with real runway but no proven adoption \u2014 correctly a watchlist bet whose fate hinges entirely on the next earnings print."
+  "final_verdict": "Correctly a pass for now \u2014 the skeptical instinct held, this is narrative-priced speculation at 92x sales, and the one disclosure that could change the picture prints on 2026-08-04."
 }
