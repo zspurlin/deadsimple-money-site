@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Skeptical of hype, asking what would have to happen to justify a $17B valuation.",
+      "committee": "Expensive at 92x sales \u2014 the price already assumes IonQ wins the science race and 10x's revenue, so we agree there is no margin of safety.",
+      "verdict": "green"
+    },
+    {
+      "category": "Growth",
+      "my_view": "The +755% Q1 jump may be real adoption or just pilots, grants, and acquired hardware.",
+      "committee": "Growth is dazzling but its organic-vs-acquired quality is a black box until the 2026-08-04 print, so the number cannot yet be trusted as adoption.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Commercialization realism is unproven and worth probing.",
+      "committee": "Gross margin fell 63% to 40% to 24% \u2014 the opposite of a scaling platform \u2014 and whether this is temporary hardware mix or structural erosion is the decisive open question.",
+      "verdict": "red"
+    },
+    {
+      "category": "Moat",
+      "my_view": "Do not assume durability; test it against big-tech and pure-play rivals.",
+      "committee": "Unproven \u2014 distribution is rented from Amazon, Microsoft, and Google who build their own hardware, switching costs are near-zero, and the whole moat hinges on trapped-ion winning an unresolved architecture race.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Scrutinize dilution and capital needs as a survival risk.",
+      "committee": "Shares rose 280M to 373M \u2014 roughly $4B issued against only $300M of burn \u2014 which reads as opportunistic high-multiple M&A currency, less desperate than a bleed but only viable while the multiple stays inflated.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Timeline risk \u2014 hype without adoption if commercialization is a decade out.",
+      "committee": "We agree the killer is timing: ~$425M annual burn and dilution happen now while the payoff is distant and unproven, so you can be right on IonQ and wrong on IONQ.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Treated the '$463M net cash' figure and dilution largely as a survival threat.",
+      "committee": "The $463M figure is an arithmetic error \u2014 $2.03B cash minus $30.4M debt is ~$2.0B net cash and ~5 years of runway \u2014 and the real trap you missed is the warrant accounting, where a stock decline triggers a GAAP 'loss' that reflexively feeds more selling.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "Not specified.",
+      "committee": "The 2026-08-04 Q2 print \u2014 specifically gross-margin direction and the organic-vs-acquired revenue mix \u2014 resolves margin, growth quality, share count, and cash in a single disclosure.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Strong",
+    "pct": 96
+  },
+  "confidence": {
+    "label": "High",
+    "why": "The skeptical brief and the evidence-based house view converge on every weighted dimension, and the decisive disclosure is a known date one month away."
+  },
+  "final_verdict": "Narrative-priced speculation with real runway but no proven adoption \u2014 correctly a watchlist bet whose fate hinges entirely on the next earnings print."
+}

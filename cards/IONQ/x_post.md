@@ -1,0 +1,1 @@
+IonQ ($IONQ) builds quantum computers using trapped ions — individual charged atoms held in place and manipulated with lasers to run calculations that classical computers struggle with. Dead Simple Score: 49/100. Status: Pass.

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "render_version": 12,
+  "generated_at": "2026-07-07T17:39:06+00:00",
+  "ticker": "IONQ",
+  "company": "IonQ",
+  "score": 49,
+  "grade": "",
+  "tier": null,
+  "status": "Pass",
+  "thesis_label": "Why I'm Not Buying",
+  "pass_reason": "A product that currently has little to no utility",
+  "front_line": "The science may be real. The stock still asks me to pay for the ending before the movie starts.",
+  "thesis": "IonQ may become one of the most important quantum companies in the world, but that is not the same thing as being an investable stock today. The company has real momentum and early commercial traction, but the current thesis still depends on technical milestones, long commercialization timelines, government/enterprise adoption, and future use cases that are not yet mature enough to underwrite with confidence. At this stage, IONQ feels less like a business I can value and more like a public-market venture bet \u2014 and the committee is not willing to pay a certainty multiple for a probability-weighted dream.",
+  "moat": "Differentiated technology in an unresolved architecture race is a bet, not a moat \u2014 distribution is rented from rivals and switching costs are near-zero.",
+  "risks": "Gross margin fell 63% \u2192 40% \u2192 24% \u2014 the opposite of a scaling platform, and the single most damning number in the packet.",
+  "scorecard": {
+    "research_date": "Jul 07, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 70,
+        "note": "Quantum COULD be enormous"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 58,
+        "note": "Management scaled revenue and kept the company funded"
+      },
+      {
+        "label": "Traction",
+        "score": 53,
+        "note": "The +755% headline is dazzling"
+      },
+      {
+        "label": "Moat",
+        "score": 41,
+        "note": "Differentiated technology in an unresolved architecture"
+      },
+      {
+        "label": "Valuation",
+        "score": 22,
+        "note": "92x sales already prices in winning a binary science race"
+      },
+      {
+        "label": "Risk",
+        "score": 44,
+        "note": "Risks are obvious and monitorable. I wait."
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 52,
+        "note": "Real asymmetry, if two clean monitoring signals fit"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$28",
+    "base": "$40",
+    "bull": "$55",
+    "verdict": "pass",
+    "current_price": "$46"
+  },
+  "research": {
+    "run_id": "20260707_131811",
+    "research_date": "Jul 07, 2026",
+    "baseline_price": 47.540000915527344,
+    "sp_at_research": 7516.6298828125
+  },
+  "performance": {
+    "current_return": "-2.4%",
+    "sp_return": "+0.0%",
+    "alpha": "-2.4%",
+    "as_of": "Jul 07, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "IonQ ($IONQ) builds quantum computers using trapped ions \u2014 individual charged atoms held in place and manipulated with lasers to run calculations that classical computers struggle with. Dead Simple Score: 49/100. Status: Pass.",
+    "video_talking_points": [
+      "IonQ builds quantum computers using trapped ions \u2014 individual charged atoms held in place and manipulated with lasers to run calculations that classical computers struggle with.",
+      "Watchlist.\n\nWatchlist because the payoff is real but the price already assumes the win, and the single most important number \u2014 organic revenue mix and gross-margin direction \u2014 resolves on the next earnings print. It moves to Open if the Q2 report shows gross margin recovering toward 40%+ with disclosed organic quantum-access usage as the growth driver; it stays off the table if margin sits at or below 24% for another quarter while shares keep climbing.",
+      "Moat: Differentiated technology in an unresolved architecture race is a bet, not a moat \u2014 distribution is rented from rivals and switching costs are near-zero.",
+      "Risk: Gross margin fell 63% \u2192 40% \u2192 24% \u2014 the opposite of a scaling platform, and the single most damning number in the packet.",
+      "Verdict: pass. Dead Simple Score 49/100."
+    ],
+    "hook": "GROSS MARGIN 63% TO 24%",
+    "counter": "THE PLATFORM THAT GETS COSTLIER",
+    "face": "pointing"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "committee_brief": "committee_brief.png",
+    "committee_brief_data": "committee_brief.json",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Cinematic financial research hero image for a YouTube stock analysis about IonQ and quantum computing as a PASS. A futuristic quantum computer chamber glowing with blue and violet light, suspended ion-like particles and laser beams in the background, but in the foreground an AI investment committee report is stamped with a bold red \u201cPASS\u201d. The scene should feel awe-inspiring but skeptical: incredible science, uncertain commercialization, long timelines, hope priced as certainty. Dark blue, charcoal, and electric violet finance aesthetic, premium editorial style, clean composition, high contrast lighting, subtle futuristic lab atmosphere, no real company logos, no ticker symbols, no readable text except the red PASS stamp, cinematic 16:9, sharp detail, modern YouTube thumbnail hero image, sophisticated financial media artwork. no real logos, no IonQ logo, no ticker symbols, no messy unreadable text, no cartoon style, no crypto aesthetic, no sci-fi fantasy armor, no astronauts, no exploding planets, no deformed people, no extra fingers, no cheap neon clutter, no overcomplicated stock charts.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
