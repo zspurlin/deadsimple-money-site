@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NRG5QN52');</script>
-<!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NRG5QN52');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MELI — Dead Simple Research card</title>
@@ -246,6 +246,10 @@ html, body {
   background: var(--faint);
   box-shadow: 0 0 22px rgba(93, 107, 133, 0.35), 0 6px 22px rgba(0, 0, 0, 0.5);
 }
+.status.is-pass {
+  background: #e8c53d;
+  box-shadow: 0 0 26px rgba(232, 197, 61, 0.40), 0 6px 22px rgba(0, 0, 0, 0.5);
+}
 
 /* --- FRONT (editorial poster over the duotone hero) ----------------------- */
 .front .card-inner { justify-content: space-between; }
@@ -308,6 +312,33 @@ html, body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+/* PASS verdict stamp (front, pass cards only) — replaces the tier badge and
+   Dead Simple Score chip. Reads as a rubber stamp: uppercase, slightly rotated,
+   dashed amber border on a dark plate (matches the site's pass tiles, which use
+   a 2px dashed #e8c53d border). */
+.pass-stamp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 44px;
+  border: 2px dashed #e8c53d;
+  border-radius: 12px;
+  background: rgba(5, 7, 12, 0.55);
+  color: #e8c53d;
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: 0.30em;
+  text-indent: 0.30em; /* re-center: letter-spacing pads only the right edge */
+  text-transform: uppercase;
+  line-height: 1;
+  transform: rotate(-7deg);
+  transform-origin: center;
+  margin: 14px 0 0 6px;
+  box-shadow: 0 0 34px rgba(232, 197, 61, 0.22), 0 6px 22px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
 }
 
 .score-chip {
@@ -459,6 +490,34 @@ html, body {
   border: 1.5px solid var(--tier);
   border-radius: 999px;
   line-height: 1.25;
+}
+
+/* What Would Change My Mind (back, pass cards only) — a short single line under
+   the Pass Reason row. Clamped to two lines so it never eats the scorecard/DCF/
+   ledger budget. */
+.change-mind {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.change-mind .label {
+  font-size: 16px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--tier);
+  font-weight: 700;
+}
+.change-mind .cm-value {
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.4;
+  color: var(--text);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
 }
 
 /* Dead Simple Scorecard (back) — seven category bars + the headline total.
@@ -1176,10 +1235,10 @@ html, body {
 </style>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRG5QN52"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRG5QN52"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="flip-stage">
     <div class="flip-scene">
       <div class="flip" id="card" role="button" tabindex="0" aria-label="Flip card">
@@ -1203,12 +1262,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="company">MercadoLibre</div>
       <div class="badges">
         
+        
         <div class="tier-badge"><span class="dot"></span><span class="label">GOLD</span></div>
         
         <div class="score-chip">
           <span class="v">92</span>
           <span class="k">Dead Simple Score</span>
         </div>
+        
       </div>
     </div>
 
@@ -1218,7 +1279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$1,941.50</span>
-          <span class="current">Current: $1,805.43</span>
+          <span class="current">Current: $1,816.71</span>
         </div>
       </div>
     </div>
@@ -1241,6 +1302,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="label">Why I Own It</div>
       <div class="body thesis">MELI has built irreplaceable financial infrastructure with genuine network effects across underpenetrated markets. Trading at only 7x free cash flow despite $11.8B annual generation, it&#39;s capturing a multi-decade digital transformation while the market prices in modest expectations.</div>
     </div>
+
+    
+
+    
 
     
 
@@ -1341,9 +1406,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="ledger">
       <div class="cell"><span class="k">Researched</span><span class="v">Jun 10, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v pos">+12.0%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.8%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v pos">+10.2%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+12.7%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.3%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+11.4%</span></div>
     </div>
 
     <div class="back-footer">
