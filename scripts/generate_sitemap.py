@@ -22,7 +22,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 def card_urls() -> list[str]:
     index = json.loads((REPO_ROOT / "cards" / "index.json").read_text(encoding="utf-8"))
     urls = set()
-    for section in ("open", "closed", "watchlist"):
+    for section in ("open", "closed", "watchlist", "pass"):
         for card in index.get(section, []):
             card_html = card.get("card_html")
             if card_html:

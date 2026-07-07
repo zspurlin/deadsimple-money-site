@@ -47,6 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       --accent: #3d82e8;
       --pos: #57d08a;
       --neg: #ff6b6b;
+      --pass-amber: #e8c53d;
       --serif: "Playfair Display", "Didot", "Bodoni 72", Georgia, "Times New Roman", serif;
       --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     }
@@ -140,6 +141,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .tile-meta .right { text-align: right; }
     .tile-ret { font-size: 1.05rem; font-weight: 700; font-variant-numeric: tabular-nums; }
     .tile-ret.pos { color: var(--pos); } .tile-ret.neg { color: var(--neg); } .tile-ret.flat { color: var(--muted); }
+
+    /* Pass tiles: stamped-rejected look. Dashed amber border instead of the
+       solid panel hairline, muted color that lifts on hover. */
+    .tile.pass { position: relative; }
+    .tile.pass img {
+      border: 2px dashed var(--pass-amber);
+      filter: saturate(0.75);
+      transition: filter 160ms ease;
+    }
+    .tile.pass:hover img { filter: saturate(1); }
+    .tile.pass .stamp {
+      position: absolute; top: 0.9rem; left: 0.9rem; z-index: 2;
+      transform: rotate(-8deg);
+      padding: 0.25rem 0.7rem; border: 2px dashed var(--pass-amber); border-radius: 6px;
+      color: var(--pass-amber); background: rgba(5, 7, 12, 0.65);
+      font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+      pointer-events: none;
+    }
+    .tile-alpha.dodged { color: var(--pos); }
+    .tile-alpha.gotaway { color: var(--neg); }
 
     /* Track-record strip: the public scoreboard, computed from index.json. */
     .track-record {
@@ -248,6 +269,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <button class="tab active" data-bucket="open">Open <span class="count" data-count="open"></span></button>
       <button class="tab" data-bucket="watchlist">Watchlist <span class="count" data-count="watchlist"></span></button>
       <button class="tab" data-bucket="closed">Closed <span class="count" data-count="closed"></span></button>
+      <button class="tab" data-bucket="pass">Pass <span class="count" data-count="pass"></span></button>
     </nav>
 
     <main class="gallery" id="gallery" aria-live="polite"></main>
@@ -270,11 +292,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <script>
-    const BUCKETS = ["open", "watchlist", "closed"];
+    const BUCKETS = ["open", "watchlist", "closed", "pass"];
     const EMPTY = {
       open: "No open positions yet.",
       watchlist: "Nothing on the watchlist yet.",
-      closed: "No closed positions yet."
+      closed: "No closed positions yet.",
+      pass: "No passes yet. The committee hasn't flunked anyone \u2014 yet."
     };
     let DATA = null;
     let active = "open";
@@ -293,26 +316,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       return Number.isFinite(n) ? n : null;
     }
 
+    // The verdict on a pass, since the pass date. The win condition inverts:
+    // the stock lagging the S&P means the pass is working.
+    function passVerdict(alpha) {
+      const n = pct(alpha);
+      if (n === null) return `<span class="tile-alpha flat">\u2014</span>`;
+      const margin = Math.abs(n).toFixed(1) + "%";
+      if (n < 0) return `<span class="tile-alpha dodged">Dodged ${margin}</span>`;
+      if (n > 0) return `<span class="tile-alpha gotaway">It Got Away ${margin}</span>`;
+      return `<span class="tile-alpha flat">Dead Even</span>`;
+    }
+
     function tile(item) {
       const dir = item.dir || item.ticker;
       const alpha = item.alpha || "\u2014";
+      const isPass = (item.status || "").toLowerCase() === "pass";
       const isClosed = (item.status || "").toLowerCase() === "closed"
         || (item.performance_mode || "") === "frozen";
       const ret = item.current_return || "\u2014";
-      const right = isClosed
+      const right = (isClosed && !isPass)
         ? `<span class="tile-alpha-label">Return @ Close</span>
            <span class="tile-ret ${alphaClass(ret)}">${ret}</span>`
         : `<span class="tile-sub">${item.research_date || ""}</span>`;
+      const left = isPass
+        ? `<span class="tile-alpha-label">Since the Pass</span>
+           ${passVerdict(alpha)}`
+        : `<span class="tile-alpha-label">Alpha vs S&amp;P</span>
+           <span class="tile-alpha ${alphaClass(alpha)}">${alpha}</span>`;
       const a = document.createElement("a");
-      a.className = "tile";
+      a.className = isPass ? "tile pass" : "tile";
       a.href = `cards/${dir}/card.html`;
       a.innerHTML = `
+        ${isPass ? '<span class="stamp" aria-hidden="true">Pass</span>' : ""}
         <img src="cards/${dir}/card_front_web.png" alt="${item.ticker} card" loading="lazy" />
         <div class="tile-meta">
-          <span>
-            <span class="tile-alpha-label">Alpha vs S&amp;P</span>
-            <span class="tile-alpha ${alphaClass(alpha)}">${alpha}</span>
-          </span>
+          <span>${left}</span>
           <span class="right">${right}</span>
         </div>`;
       a.addEventListener("click", (e) => {
@@ -339,6 +377,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="stat"><span class="v">${positions.length}</span><span class="k">Positions Tracked</span></div>
         <div class="stat"><span class="v ${avgCls}">${fmt(avg)}</span><span class="k">Avg Alpha vs S&amp;P</span></div>
         <div class="stat"><span class="v">${beating}<span style="color:var(--faint);font-weight:400"> / ${alphas.length}</span></span><span class="k">Beating the S&amp;P</span></div>`;
+      // Passes aren't calls on the book, so they get their own stat: a "good
+      // pass" is one where the stock has lagged the S&P since the pass.
+      const passAlphas = (DATA.pass || []).map(p => pct(p.alpha)).filter(v => v !== null);
+      if (passAlphas.length > 0) {
+        const good = passAlphas.filter(v => v < 0).length;
+        strip.innerHTML += `
+        <div class="stat"><span class="v">${good}<span style="color:var(--faint);font-weight:400"> / ${passAlphas.length}</span></span><span class="k">Good Passes</span></div>`;
+      }
       strip.hidden = false;
     }
 
