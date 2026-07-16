@@ -1,0 +1,1 @@
+Tencent Holdings (TCEHY) ($TCEHY): Tencent is the company behind WeChat — the app over a billion people in China use every day to message, pay, read news, and run their small businesses. Dead Simple Score: 93/100 · Platinum. Status: Open.

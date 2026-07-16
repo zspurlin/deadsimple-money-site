@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-15T22:28:34+00:00",
+  "generated_at": "2026-07-16T03:38:48+00:00",
   "counts": {
-    "open": 9,
+    "open": 10,
     "closed": 0,
     "watchlist": 7,
     "pass": 2
@@ -47,6 +47,26 @@
       "card_front_web": "NOW/card_front_web.png",
       "card_back_web": "NOW/card_back_web.png",
       "data": "NOW/card_data.json"
+    },
+    {
+      "ticker": "TCEHY",
+      "company": "Tencent Holdings (TCEHY)",
+      "score": 93,
+      "tier": "Platinum",
+      "status": "Open",
+      "front_line": "Tencent can fund the AI race without asking shareholders to fund the experiment.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Jul 15, 2026",
+      "dir": "TCEHY",
+      "card_html": "TCEHY/card.html",
+      "card_front": "TCEHY/card_front.png",
+      "card_back": "TCEHY/card_back.png",
+      "card_front_web": "TCEHY/card_front_web.png",
+      "card_back_web": "TCEHY/card_back_web.png",
+      "data": "TCEHY/card_data.json"
     },
     {
       "ticker": "ELF",

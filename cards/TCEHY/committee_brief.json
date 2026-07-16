@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Undervalued at ~16x; the ~23% YTD drop to $61.25 against $95-104 targets is a China discount to arbitrage.",
+      "committee": "The 2.4x P/E is a currency illusion; the honest number is ~16x trailing / ~12x forward, which is fair-to-cheap and 'cheap' only if the discount closes.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Growth",
+      "my_view": "A reinforcing cash engine where AI strengthens the core.",
+      "committee": "Growth has settled at ~7-8%, largely a recovery off the 2022 regulatory trough rather than a new accelerating trend.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Margins are expanding and the cash engine is strong.",
+      "committee": "Gross margin hit a record 58%, but operating margin at 33% is still 15 points below its FY2021 peak of 48% \u2014 opex is where AI spend hides.",
+      "verdict": "red"
+    },
+    {
+      "category": "Moat",
+      "my_view": "A very wide moat built on WeChat and a diverse cash engine.",
+      "committee": "Agreed \u2014 WeChat's billion-user network and switching costs are one of the world's widest consumer moats, with ByteDance contesting only the ad growth edge.",
+      "verdict": "green"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Funds AI and returns capital without dilution.",
+      "committee": "The buyback runs only ~1%/yr against RMB 466B idle cash and doubling capex, so 'returns capital' is thinner than claimed and may itself drive the discount.",
+      "verdict": "red"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "The China discount may be a permanent feature, not an opportunity (self-flagged).",
+      "committee": "Agreed \u2014 the structural China/ADR discount is the dominant, unmonitorable risk, and the company can compound while the stock goes nowhere for years.",
+      "verdict": "green"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Over-weighting Manus (self-flagged).",
+      "committee": "The ~16x P/E anchor is unreliable because GAAP earnings carry investment-portfolio noise \u2014 FY2023 net income fell 39% while revenue rose 10% \u2014 a distortion the thesis never priced.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "Multiple normalization if the discount closes.",
+      "committee": "Watch the ADR discount to the Hong Kong 0700.HK line \u2014 if it persists or widens through two quarters of rising earnings, the discount was structural, not an opportunity.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Moderate",
+    "pct": 78
+  },
+  "confidence": {
+    "label": "Moderate",
+    "why": "The business quality is well-evidenced and the dominant risk is clearly identified, but the entire payoff hinges on an unmonitorable China/ADR discount and on GAAP earnings polluted by portfolio noise."
+  },
+  "final_verdict": "Correctly opened as a monitored satellite \u2014 a wide-moat cash machine bought at a fair, not cheap, price where the return hinges on a discount the owner himself flagged as his weakest leg."
+}

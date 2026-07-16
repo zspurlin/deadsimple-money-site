@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "render_version": 12,
+  "generated_at": "2026-07-16T03:35:30+00:00",
+  "ticker": "TCEHY",
+  "company": "Tencent Holdings (TCEHY)",
+  "score": 93,
+  "grade": "",
+  "tier": "Platinum",
+  "status": "Open",
+  "thesis_label": "Why I Own It",
+  "front_line": "Tencent can fund the AI race without asking shareholders to fund the experiment.",
+  "thesis": "Tencent\u2019s gaming, advertising, payments, and cloud businesses generate the cash to fund major AI investment while repurchasing shares and preserving current profitability. Its ecosystem gives Tencent several ways to win from AI, including better advertising, stronger games, cloud demand, and new products distributed through WeChat. The proposed Manus investment is one example: if completed, Tencent would become the AI-agent company\u2019s largest shareholder and further strengthen its position in China\u2019s growing AI industry.",
+  "moat": "WeChat's billion-user network and near-total switching costs are one of the world's widest consumer moats; held below elite only because ByteDance contests the ad growth engine.",
+  "risks": "Operating margin (33%) is still 15 points below its FY2021 peak (48%) even as gross margin hit a record \u2014 opex is where AI spend is hiding.",
+  "scorecard": {
+    "research_date": "Jul 15, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 89,
+        "note": "A dominant ecosystem spanning messaging, gaming, payments, ads, and cloud"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 86,
+        "note": "Management expanded gross margins while shrinking share count"
+      },
+      {
+        "label": "Traction",
+        "score": 93,
+        "note": "The cash engine is visibly working"
+      },
+      {
+        "label": "Moat",
+        "score": 96,
+        "note": "WeChat's billion-user network and near-total switching"
+      },
+      {
+        "label": "Valuation",
+        "score": 93,
+        "note": "Cheap at ~15x trailing and ~12x forward"
+      },
+      {
+        "label": "Risk",
+        "score": 91,
+        "note": "Business risks are clear and monitorable"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 93,
+        "note": "Strong fit with genuine asymmetry and AI upside"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$50",
+    "base": "$80",
+    "bull": "$110",
+    "verdict": "open",
+    "current_price": "$61.50"
+  },
+  "research": {
+    "run_id": "20260715_225834",
+    "research_date": "Jul 15, 2026",
+    "baseline_price": 61.25,
+    "sp_at_research": 7572.39990234375
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Jul 15, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Tencent Holdings (TCEHY) ($TCEHY): Tencent is the company behind WeChat \u2014 the app over a billion people in China use every day to message, pay, read news, and run their small businesses. Dead Simple Score: 93/100 \u00b7 Platinum. Status: Open.",
+    "video_talking_points": [
+      "Tencent is the company behind WeChat \u2014 the app over a billion people in China use every day to message, pay, read news, and run their small businesses.",
+      "Open. A wide-moat cash machine at a fair-to-cheap multiple with modest downside and multiple-normalization upside deserves capital as a monitored satellite \u2014 but the payoff, not the business, is the bet. The verdict flips to Watchlist or Close if FY2026 FCF falls below ~RMB 190B while capex climbs, or if the discount to 0700.HK widens through two quarters of rising earnings.",
+      "Moat: WeChat's billion-user network and near-total switching costs are one of the world's widest consumer moats; held below elite only because ByteDance contests the ad growth engine.",
+      "Risk: Operating margin (33%) is still 15 points below its FY2021 peak (48%) even as gross margin hit a record \u2014 opex is where AI spend is hiding.",
+      "Verdict: open. Dead Simple Score 93/100."
+    ],
+    "hook": "THE CHEAPEST AI GIANT?",
+    "counter": "16X EARNINGS",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "committee_brief": "committee_brief.png",
+    "committee_brief_data": "committee_brief.json",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "A vast cinematic city at blue hour viewed from a high architectural perspective, its streets, waterways, buildings and public spaces subtly connected by elegant threads of light, forming the suggestion of a living neural network without looking futuristic or science-fiction. One calm central intersection quietly connects entertainment, communication, commerce, payments and computing, represented only through varied flows of people and light rather than literal icons. The city should feel enormous, organized and deeply embedded in everyday life\u2014an invisible digital infrastructure rather than a technology advertisement. Premium editorial photography, restrained black, charcoal, deep jade and muted electric-blue palette, slight atmospheric haze, realistic materials, sophisticated lighting, clean composition, abstract but believable, cinematic depth, subtle sense of scale and compounding connectivity. Wide horizontal website hero, generous dark negative space on the left for headline text, primary visual interest centered toward the right, ultra-detailed, photorealistic.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
