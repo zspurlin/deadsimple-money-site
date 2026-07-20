@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-07-17T20:26:56+00:00",
+  "generated_at": "2026-07-20T15:27:38+00:00",
   "ticker": "IONQ",
   "company": "IonQ",
   "score": 49,
@@ -69,9 +69,9 @@
   },
   "performance": {
     "current_return": "-26.8%",
-    "sp_return": "-0.8%",
-    "alpha": "-26.1%",
-    "as_of": "Jul 17, 2026",
+    "sp_return": "-0.5%",
+    "alpha": "-26.3%",
+    "as_of": "Jul 20, 2026",
     "mode": "live"
   },
   "lifecycle": {
