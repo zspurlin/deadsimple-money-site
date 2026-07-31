@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-07-31T15:36:19+00:00",
+  "generated_at": "2026-07-31T18:10:47+00:00",
   "ticker": "ELF",
   "company": "e.l.f. Beauty (ELF)",
   "score": 92,
@@ -67,9 +67,9 @@
     "sp_at_research": 7420.10009765625
   },
   "performance": {
-    "current_return": "+32.5%",
-    "sp_return": "+0.2%",
-    "alpha": "+32.3%",
+    "current_return": "+33.6%",
+    "sp_return": "+0.8%",
+    "alpha": "+32.7%",
     "as_of": "Jul 31, 2026",
     "mode": "live"
   },
