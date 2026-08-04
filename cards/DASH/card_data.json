@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-03T20:42:50+00:00",
+  "generated_at": "2026-08-04T15:43:44+00:00",
   "ticker": "DASH",
   "company": "DoorDash (DASH)",
   "score": 80,
@@ -67,10 +67,10 @@
     "sp_at_research": 7511.35009765625
   },
   "performance": {
-    "current_return": "+17.9%",
-    "sp_return": "+1.2%",
-    "alpha": "+16.7%",
-    "as_of": "Aug 03, 2026",
+    "current_return": "+18.8%",
+    "sp_return": "+2.6%",
+    "alpha": "+16.2%",
+    "as_of": "Aug 04, 2026",
     "mode": "live"
   },
   "lifecycle": {
