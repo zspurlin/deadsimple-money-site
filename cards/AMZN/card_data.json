@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-07T00:46:36+00:00",
+  "generated_at": "2026-08-07T14:31:40+00:00",
   "ticker": "AMZN",
   "company": "Amazon",
   "score": 91,
@@ -67,9 +67,9 @@
     "sp_at_research": 7500.580078125
   },
   "performance": {
-    "current_return": "+11.4%",
-    "sp_return": "+2.8%",
-    "alpha": "+8.6%",
+    "current_return": "+13.1%",
+    "sp_return": "+3.3%",
+    "alpha": "+9.8%",
     "as_of": "Aug 07, 2026",
     "mode": "live"
   },
