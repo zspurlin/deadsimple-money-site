@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-07T14:31:41+00:00",
+  "generated_at": "2026-08-07T20:05:19+00:00",
   "ticker": "KRYS",
   "company": "Krystal Biotech (KRYS)",
   "score": 85,
@@ -67,9 +67,9 @@
     "sp_at_research": 7483.240234375
   },
   "performance": {
-    "current_return": "-13.9%",
-    "sp_return": "+3.5%",
-    "alpha": "-17.4%",
+    "current_return": "-13.0%",
+    "sp_return": "+3.7%",
+    "alpha": "-16.6%",
     "as_of": "Aug 07, 2026",
     "mode": "live"
   },
