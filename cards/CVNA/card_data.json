@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-10T20:07:56+00:00",
+  "generated_at": "2026-08-10T22:05:52+00:00",
   "ticker": "CVNA",
   "company": "Carvana (CVNA)",
   "score": 58,
@@ -69,7 +69,7 @@
   "performance": {
     "current_return": "+5.4%",
     "sp_return": "+2.9%",
-    "alpha": "+2.6%",
+    "alpha": "+2.5%",
     "as_of": "Aug 10, 2026",
     "mode": "live"
   },
