@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-12T14:35:41+00:00",
+  "generated_at": "2026-08-12T17:27:04+00:00",
   "ticker": "VIK",
   "company": "Viking Holdings (VIK)",
   "score": 89,
@@ -68,9 +68,9 @@
     "sp_at_research": 7487.35986328125
   },
   "performance": {
-    "current_return": "+6.7%",
-    "sp_return": "+3.4%",
-    "alpha": "+3.3%",
+    "current_return": "+7.2%",
+    "sp_return": "+3.5%",
+    "alpha": "+3.7%",
     "as_of": "Aug 12, 2026",
     "mode": "live"
   },
