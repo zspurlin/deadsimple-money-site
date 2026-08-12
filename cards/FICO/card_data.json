@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "render_version": 12,
+  "generated_at": "2026-08-08T21:35:57+00:00",
+  "ticker": "FICO",
+  "company": "Fair Isaac (FICO)",
+  "score": 97,
+  "grade": "",
+  "tier": "Platinum",
+  "status": "Open",
+  "thesis_label": "Why I Own It",
+  "front_line": "A toll booth on consumer credit that quietly compounds through pricing power, mission-critical software, and near-impossible replacement risk.",
+  "thesis": "Fair Isaac (FICO) combines an irreplaceable credit-scoring standard with high-margin decision-management software, creating exceptional recurring cash flow and pricing power. Despite a premium valuation, the business has consistently compounded intrinsic value through durable competitive advantages, capital-light economics, and disciplined capital allocation.",
+  "moat": "Owns the embedded standard of US credit via coordination-cost switching, strong but contested at the mortgage edge.",
+  "risks": "FHFA/VantageScore competition attacks the most inelastic, highest-margin slice \u2014 and it appears in zero grounded sources here, so the magnitude is genuinely unverified.",
+  "scorecard": {
+    "research_date": "Aug 08, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 89,
+        "note": "Consumer-credit decisioning is vast"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 97,
+        "note": "Elite compounding of revenue"
+      },
+      {
+        "label": "Traction",
+        "score": 94,
+        "note": "+26% revenue and 54% margins show the thesis working now"
+      },
+      {
+        "label": "Moat",
+        "score": 86,
+        "note": "Owns the embedded standard of US credit via"
+      },
+      {
+        "label": "Valuation",
+        "score": 88,
+        "note": "Rare discount for an amazing business"
+      },
+      {
+        "label": "Risk",
+        "score": 89,
+        "note": "AI risks are inflated, virtual monopoly"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 99,
+        "note": "Good valuation for an elite business model"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$1,025",
+    "base": "$1,630",
+    "bull": "$2,150",
+    "verdict": "open",
+    "current_price": "$1,041.50"
+  },
+  "research": {
+    "run_id": "20260808_171611",
+    "research_date": "Aug 08, 2026",
+    "baseline_price": 1041.4000244140625,
+    "sp_at_research": 7757.64013671875
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Aug 08, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Fair Isaac (FICO) ($FICO): FICO owns the credit score most US lenders use to decide who gets a loan and at what rate. Dead Simple Score: 97/100 \u00b7 Platinum. Status: Open.",
+    "video_talking_points": [
+      "FICO owns the credit score most US lenders use to decide who gets a loan and at what rate.",
+      "Open. The asymmetry is real and the moat is genuinely strong, so a de-rated standard-owner at its own bear case deserves capital as a monitored satellite \u2014 but this is an asymmetric bet on one unconfirmed fact, not the near-certain compounder the 97 implied. Confidence moved from Zack's \"irreplaceable / near-impossible replacement\" starting hypothesis to \"strong but contested at one specific edge\": the research confirmed the moat and the attractive price, but weakened the certainty \u2014 the stock's own price is voting against \"irreplaceable.\" What would change the verdict: the Nov 3 print \u2014 double-digit mortgage-score growth with reaffirmed price hikes pushes toward \"confirmed compounder\"; single-digit growth or silence on mortgage pricing pushes toward Close.",
+      "Moat: Owns the embedded standard of US credit via coordination-cost switching, strong but contested at the mortgage edge.",
+      "Risk: FHFA/VantageScore competition attacks the most inelastic, highest-margin slice \u2014 and it appears in zero grounded sources here, so the magnitude is genuinely unverified.",
+      "Verdict: open. Dead Simple Score 97/100."
+    ],
+    "hook": "REVENUE +26%",
+    "counter": "STOCK CUT IN HALF",
+    "face": "pointing"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "committee_brief": "committee_brief.png",
+    "committee_brief_data": "committee_brief.json",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "Ultra-realistic cinematic editorial illustration of a massive digital toll bridge connecting consumers and the global financial system, with millions of invisible data streams flowing across it. A sophisticated AI-powered decision engine sits at the center, quietly directing banks, mortgages, credit cards, and lending decisions. Modern financial institutions surround the bridge with glowing skyscrapers and secure data centers. Blue and gold lighting, premium corporate aesthetic, ultra-detailed, photorealistic, dramatic atmosphere, volumetric lighting, depth of field, 8K, no people, no text, no logos, symbolizes pricing power, network effects, trust, and an invisible financial monopoly.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

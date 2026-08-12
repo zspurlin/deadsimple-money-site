@@ -1,6 +1,6 @@
-# VIK — Dead Simple Research card package
+# FICO — Dead Simple Research card package
 
-One folder = one ticker. Everything shareable for VIK lives here, and every
+One folder = one ticker. Everything shareable for FICO lives here, and every
 file is standalone (CSS and images are embedded), so the folder can be copied
 anywhere as-is.
 
@@ -12,7 +12,7 @@ anywhere as-is.
 - `card_front_web.png` / `card_back_web.png` — downsampled previews for the website grid.
 - `front_obs.png` / `back_obs.png` — 16:9 full-screen versions (5760x3240) for OBS / YouTube video.
 - `committee_brief.png` — 16:9 Investment Committee Brief slide (OBS/YouTube-ready).
-- `committee_brief.json` — the brief's canonical data (hand-editable; re-render with `python make_committee.py VIK --render-only`).
+- `committee_brief.json` — the brief's canonical data (hand-editable; re-render with `python make_committee.py FICO --render-only`).
 - `youtube_thumbnail.jpg` — 16:9 thumbnail (JPEG, under YouTube's 2 MB limit).
 - `substack_header.png` — 2:1 header.
 - `x_post.md` — X/socials post draft.
@@ -26,7 +26,7 @@ Post `card_front.png` / `card_back.png`, `youtube_thumbnail.jpg`,
 
 ## Use on the website (deadsimple.money)
 
-Copy this whole folder into the site repo at `public/cards/VIK/`, then:
+Copy this whole folder into the site repo at `public/cards/FICO/`, then:
 
 - Embed or link `card.html` as the live card artifact.
 - Read `card_data.json` for any custom layout (status, Dead Simple Score, alpha vs S&P).
@@ -35,9 +35,9 @@ Copy this whole folder into the site repo at `public/cards/VIK/`, then:
 
 The performance block (current return / S&P return / alpha) is a snapshot taken
 when this package was generated (`performance.mode = "live"`). To refresh it,
-re-run `python make_media.py VIK` and re-upload this folder.
+re-run `python make_media.py 20260808_171611` and re-upload this folder.
 
-When the position is closed (`python card_lifecycle.py close VIK`), the
+When the position is closed (`python card_lifecycle.py close FICO`), the
 numbers freeze at the close (`performance.mode = "frozen"`) and no longer change.
 
-Status: Open | Dead Simple Score: 89/100 | Schema v1
+Status: Open | Dead Simple Score: 97/100 | Schema v1

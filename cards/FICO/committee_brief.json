@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Premium but compounding, with base $1,630 well above the $1,041 price and ~57% upside.",
+      "committee": "We agree the setup is asymmetric at Zack's own bear case ($1,025), but the upside to base rests entirely on one unconfirmed variable, mortgage pricing durability.",
+      "verdict": "green"
+    },
+    {
+      "category": "Growth",
+      "my_view": "Continued software growth plus durable pricing power sustains double-digit compounding.",
+      "committee": "The +26% Q3 print may be a mortgage price-hike step that laps hard back toward the ~11% five-year CAGR, and we cannot confirm durability from the packet.",
+      "verdict": "red"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Implicitly durable and expanding via capital-light economics.",
+      "committee": "At 87% gross and 54% operating, margins are near a structural ceiling and the ~16-point tailwind since FY2021 is nearly spent.",
+      "verdict": "red"
+    },
+    {
+      "category": "Moat",
+      "my_view": "Irreplaceable standard with near-impossible replacement risk.",
+      "committee": "The standard is genuine and decades-deep, but the market halved the stock while numbers improved, so 'strong but contested at the mortgage edge' is the honest read, not 'near-untouchable.'",
+      "verdict": "red"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Disciplined capital allocation retiring stock at a discount.",
+      "committee": "Share count fell from 29.3M to 21.6M, but the buyback and the 4.2x leverage are the same decision, leaving cash at just 1% of market cap with no cushion by design.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Moat erosion via pricing pressure, lost relevance, tech disruption, or deteriorating allocation.",
+      "committee": "We agree the load-bearing risk is mortgage-score pricing power under the VantageScore/FHFA threat, though that threat appears in zero grounded sources here and its magnitude is unverified.",
+      "verdict": "green"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Assumes the ~48% drawdown is a fear-driven discount on an irreplaceable business.",
+      "committee": "The drawdown is at least as consistent with a ~38x bubble multiple normalizing to ~20x while fundamentals improved, a question the thesis never asked.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "Whether pricing power survives regulatory and competitive erosion.",
+      "committee": "Mortgage-score revenue growth on the Nov 3 call: staying above 12% YoY confirms the compounder, single digits or silence on price hikes means 'irreplaceable' was wrong.",
+      "verdict": "green"
+    }
+  ],
+  "alignment": {
+    "label": "Moderate",
+    "pct": 56
+  },
+  "confidence": {
+    "label": "Moderate",
+    "why": "The business quality and asymmetric entry are directly supported by the data, but the driving threat is unsourced and the load-bearing variable stays unresolved until Nov 3."
+  },
+  "final_verdict": "A genuine standard-owner bought at its own bear case, correctly held Open as a monitored asymmetric satellite rather than the near-certain compounder the thesis implied."
+}

@@ -1,13 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T20:20:58+00:00",
+  "generated_at": "2026-08-12T21:59:57+00:00",
   "counts": {
-    "open": 10,
+    "open": 12,
     "closed": 0,
-    "watchlist": 7,
+    "watchlist": 6,
     "pass": 2
   },
   "open": [
+    {
+      "ticker": "FICO",
+      "company": "Fair Isaac (FICO)",
+      "score": 97,
+      "tier": "Platinum",
+      "status": "Open",
+      "front_line": "A toll booth on consumer credit that quietly compounds through pricing power, mission-critical software, and near-impossible replacement risk.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Aug 08, 2026",
+      "dir": "FICO",
+      "card_html": "FICO/card.html",
+      "card_front": "FICO/card_front.png",
+      "card_back": "FICO/card_back.png",
+      "card_front_web": "FICO/card_front_web.png",
+      "card_back_web": "FICO/card_back_web.png",
+      "data": "FICO/card_data.json"
+    },
     {
       "ticker": "NFLX",
       "company": "Netflix",
@@ -189,6 +209,26 @@
       "data": "AXON/card_data.json"
     },
     {
+      "ticker": "VIK",
+      "company": "Viking Holdings (VIK)",
+      "score": 89,
+      "tier": "Gold",
+      "status": "Open",
+      "front_line": "Destination-first cruising for the thinking traveler. No kids, no casinos \u2014 just curious, affluent grown-ups",
+      "alpha": "\u2014",
+      "current_return": "\u2014",
+      "sp_return": "\u2014",
+      "performance_mode": "live",
+      "research_date": "Jun 18, 2026",
+      "dir": "VIK",
+      "card_html": "VIK/card.html",
+      "card_front": "VIK/card_front.png",
+      "card_back": "VIK/card_back.png",
+      "card_front_web": "VIK/card_front_web.png",
+      "card_back_web": "VIK/card_back_web.png",
+      "data": "VIK/card_data.json"
+    },
+    {
       "ticker": "SOLS",
       "company": "Solstice Advanced Materials",
       "score": 86,
@@ -211,26 +251,6 @@
   ],
   "closed": [],
   "watchlist": [
-    {
-      "ticker": "VIK",
-      "company": "Viking Holdings (VIK)",
-      "score": 89,
-      "tier": "Gold",
-      "status": "Watchlist",
-      "front_line": "Destination-first cruising for the thinking traveler. No kids, no casinos \u2014 just curious, affluent grown-ups",
-      "alpha": "+3.9%",
-      "current_return": "+7.4%",
-      "sp_return": "+3.5%",
-      "performance_mode": "live",
-      "research_date": "Jun 18, 2026",
-      "dir": "VIK",
-      "card_html": "VIK/card.html",
-      "card_front": "VIK/card_front.png",
-      "card_back": "VIK/card_back.png",
-      "card_front_web": "VIK/card_front_web.png",
-      "card_back_web": "VIK/card_back_web.png",
-      "data": "VIK/card_data.json"
-    },
     {
       "ticker": "KRYS",
       "company": "Krystal Biotech (KRYS)",
