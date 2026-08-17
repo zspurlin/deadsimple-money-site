@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-14T20:02:31+00:00",
+  "generated_at": "2026-08-17T14:00:18+00:00",
   "ticker": "LNTH",
   "company": "Lantheus (LNTH)",
   "score": 81,
@@ -68,10 +68,10 @@
     "sp_at_research": 7483.240234375
   },
   "performance": {
-    "current_return": "-8.1%",
-    "sp_return": "+4.0%",
-    "alpha": "-12.2%",
-    "as_of": "Aug 14, 2026",
+    "current_return": "-8.2%",
+    "sp_return": "+3.9%",
+    "alpha": "-12.0%",
+    "as_of": "Aug 17, 2026",
     "mode": "live"
   },
   "lifecycle": {
