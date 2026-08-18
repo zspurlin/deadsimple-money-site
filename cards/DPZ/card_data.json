@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-18T17:02:01+00:00",
+  "generated_at": "2026-08-18T19:48:41+00:00",
   "ticker": "DPZ",
   "company": "Domino's Pizza",
   "score": 91,
@@ -67,9 +67,9 @@
     "sp_at_research": 7431.4599609375
   },
   "performance": {
-    "current_return": "+5.0%",
-    "sp_return": "+3.7%",
-    "alpha": "+1.4%",
+    "current_return": "+4.2%",
+    "sp_return": "+3.6%",
+    "alpha": "+0.7%",
     "as_of": "Aug 18, 2026",
     "mode": "live"
   },
