@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-17T21:48:24+00:00",
+  "generated_at": "2026-08-18T14:04:04+00:00",
   "ticker": "BELFB",
   "company": "Bel Fuse Inc.",
   "score": 80,
@@ -68,10 +68,10 @@
     "sp_at_research": 7483.240234375
   },
   "performance": {
-    "current_return": "+11.6%",
-    "sp_return": "+3.5%",
-    "alpha": "+8.1%",
-    "as_of": "Aug 17, 2026",
+    "current_return": "+6.3%",
+    "sp_return": "+3.0%",
+    "alpha": "+3.3%",
+    "as_of": "Aug 18, 2026",
     "mode": "live"
   },
   "lifecycle": {
