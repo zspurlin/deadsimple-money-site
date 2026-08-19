@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-18T21:46:04+00:00",
+  "generated_at": "2026-08-19T14:05:37+00:00",
   "ticker": "TCEHY",
   "company": "Tencent Holdings (TCEHY)",
   "score": 93,
@@ -67,10 +67,10 @@
     "sp_at_research": 7572.39990234375
   },
   "performance": {
-    "current_return": "-7.9%",
-    "sp_return": "+1.6%",
-    "alpha": "-9.5%",
-    "as_of": "Aug 18, 2026",
+    "current_return": "-6.4%",
+    "sp_return": "+1.9%",
+    "alpha": "-8.3%",
+    "as_of": "Aug 19, 2026",
     "mode": "live"
   },
   "lifecycle": {
