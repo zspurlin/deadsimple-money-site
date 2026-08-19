@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 12,
-  "generated_at": "2026-08-19T19:49:32+00:00",
+  "generated_at": "2026-08-19T22:01:13+00:00",
   "ticker": "FICO",
   "company": "Fair Isaac (FICO)",
   "score": 97,
@@ -67,9 +67,9 @@
     "sp_at_research": 7757.64013671875
   },
   "performance": {
-    "current_return": "+11.1%",
-    "sp_return": "-0.7%",
-    "alpha": "+11.7%",
+    "current_return": "+11.5%",
+    "sp_return": "-0.6%",
+    "alpha": "+12.2%",
     "as_of": "Aug 19, 2026",
     "mode": "live"
   },
