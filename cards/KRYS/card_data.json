@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "render_version": 12,
-  "generated_at": "2026-08-21T21:47:01+00:00",
+  "render_version": 11,
+  "generated_at": "2026-07-04T20:22:27+00:00",
   "ticker": "KRYS",
   "company": "Krystal Biotech (KRYS)",
   "score": 85,
@@ -67,10 +67,10 @@
     "sp_at_research": 7483.240234375
   },
   "performance": {
-    "current_return": "-7.6%",
-    "sp_return": "+2.6%",
-    "alpha": "-10.2%",
-    "as_of": "Aug 21, 2026",
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Jul 04, 2026",
     "mode": "live"
   },
   "lifecycle": {
@@ -90,8 +90,8 @@
       "Risk: Stock trades right on base case ($375 vs $370) with zero valuation cushion \u2014 deceleration re-rates the whole company, not just stalls it.",
       "Verdict: watchlist. Dead Simple Score 85/100."
     ],
-    "hook": "7% UPSIDE",
-    "counter": "THE BULL NEEDS 56%",
+    "hook": "PROFITABLE BIOTECH",
+    "counter": "WRONG PRICE?",
     "face": "pointing"
   },
   "assets": {

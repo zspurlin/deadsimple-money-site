@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Fair price below the $285 base, with upside if a free-cash-flow machine emerges from the capex build.",
+      "committee": "Fair not cheap at 14.4x EV/EBITDA and 29x GAAP, but every DCF value silently assumes an FCF recovery the enriched data flags as currently unverifiable.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Growth",
+      "my_view": "Still compounding with more upside than the market appreciates.",
+      "committee": "Confirmed and stronger than framed \u2014 the latest quarter reaccelerated to +17% versus the +11% five-year CAGR at a $742B base.",
+      "verdict": "green"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Retail improving, ads high-margin, operating leverage coming.",
+      "committee": "Confirmed \u2014 operating margin went 5% to 12-13% with Q1 at 13%, a genuine transformation at massive scale.",
+      "verdict": "green"
+    },
+    {
+      "category": "Moat",
+      "my_view": "One of the highest-quality, most durable businesses on earth.",
+      "committee": "Strong \u2014 four self-reinforcing moats no rival can copy across all fronts, though the flywheel now leans on record capex proving it compounds rather than merely defends.",
+      "verdict": "green"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "A maturing FCF era where capex should convert to cash.",
+      "committee": "Reframed \u2014 TTM capex ($151B) has crossed above operating cash flow ($148.5B) for the first time, so the build is now partly debt-financed and normalization is unproven.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Full credit is already priced in, the 'wait if' condition.",
+      "committee": "Timing and dead-money risk plus a debt-financed build \u2014 even flawless execution can produce years of sideways return while the owner's own FCF rule (-$2.47B TTM) is failing.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Over-crediting the company's inevitability, self-named.",
+      "committee": "The owner's claimed edge \u2014 underwriting segment by segment \u2014 is impossible here because AWS growth, ad revenue, and segment margins are entirely absent, so the core thesis is literally unresolvable today and rests on faith until July 30.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "AWS, ads, and margin all compounding at once.",
+      "committee": "AWS revenue growth on the July 30 print \u2014 20%+ and leading Azure/Google means the capex is investment; sub-15% and trailing means it is a defense bill.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Strong",
+    "pct": 89
+  },
+  "confidence": {
+    "label": "Moderate",
+    "why": "The business-quality half of the thesis is elite and well-evidenced, but the FCF-compounder half rests entirely on segment data absent from the packet until July 30."
+  },
+  "final_verdict": "Elite business at a fair price survives scrutiny as a patience bet, but the 'overlooked FCF compounder' framing must be dropped and July 30 must earn the open call."
+}

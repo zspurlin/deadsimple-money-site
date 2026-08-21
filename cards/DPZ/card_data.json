@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "render_version": 12,
-  "generated_at": "2026-08-21T21:47:00+00:00",
+  "render_version": 11,
+  "generated_at": "2026-06-19T00:54:49+00:00",
   "ticker": "DPZ",
   "company": "Domino's Pizza",
   "score": 91,
@@ -67,10 +67,10 @@
     "sp_at_research": 7431.4599609375
   },
   "performance": {
-    "current_return": "+5.5%",
-    "sp_return": "+3.3%",
-    "alpha": "+2.3%",
-    "as_of": "Aug 21, 2026",
+    "current_return": "-3.5%",
+    "sp_return": "+0.9%",
+    "alpha": "-4.5%",
+    "as_of": "Jun 18, 2026",
     "mode": "live"
   },
   "lifecycle": {
@@ -91,8 +91,8 @@
       "The risk-reward is compelling at current prices, but the debt load demands proof franchisee economics can hold up.",
       "This is a leveraged bet on whether franchise royalties can survive the shift to third-party delivery platforms."
     ],
-    "hook": "$4.9B IN DEBT",
-    "counter": "Not a pizza stock",
+    "hook": "52-week low",
+    "counter": "I did the math",
     "face": "pointing"
   },
   "assets": {

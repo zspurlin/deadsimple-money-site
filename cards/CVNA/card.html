@@ -1132,13 +1132,10 @@ html, body {
   font-variant-numeric: tabular-nums;
 }
 
-/* Table: category rail | two equal prose columns | narrow verdict bar.
-   overflow: hidden is the last-resort clip — the template's auto-fit script
-   shrinks the cell font first, so rows can never paint over the callouts. */
+/* Table: category rail | two equal prose columns | narrow verdict bar. */
 .icb-table {
   flex: 1;
   min-height: 0;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   margin-top: 14px;
@@ -1163,13 +1160,13 @@ html, body {
 }
 .icb-head .icb-cat { font-size: 16px; color: var(--faint); }
 .icb-cat {
-  font-size: var(--icb-cat, 22px);
+  font-size: 22px;
   font-weight: 700;
   color: var(--brand-blue-soft);
   letter-spacing: 0.02em;
 }
 .icb-cell {
-  font-size: var(--icb-cell, 19px);
+  font-size: 19px;
   line-height: 1.3;
   color: var(--text);
 }
@@ -1276,7 +1273,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$65</span>
-          <span class="current">Current: $69.89</span>
+          <span class="current">Current: $70.38</span>
         </div>
       </div>
     </div>
@@ -1403,9 +1400,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Passed</span><span class="v">Jul 06, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-0.7%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+1.8%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v neg">-2.5%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+0.0%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+0.0%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+0.0%</span></div>
     </div>
 
     <div class="back-footer">

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "render_version": 12,
-  "generated_at": "2026-08-21T21:47:00+00:00",
+  "render_version": 11,
+  "generated_at": "2026-06-18T18:37:34+00:00",
   "ticker": "ELF",
   "company": "e.l.f. Beauty (ELF)",
   "score": 92,
@@ -67,10 +67,10 @@
     "sp_at_research": 7420.10009765625
   },
   "performance": {
-    "current_return": "+63.7%",
-    "sp_return": "+3.4%",
-    "alpha": "+60.3%",
-    "as_of": "Aug 21, 2026",
+    "current_return": "+4.5%",
+    "sp_return": "+1.0%",
+    "alpha": "+3.5%",
+    "as_of": "Jun 18, 2026",
     "mode": "live"
   },
   "lifecycle": {
@@ -90,8 +90,8 @@
       "The main risk: the whole thesis rests on growth not slowing, and the beats are already shrinking.",
       "The verdict: buy as a small satellite \u2014 clean asymmetry with a kill-switch on a known earnings date."
     ],
-    "hook": "",
-    "counter": "",
+    "hook": "Everyone thinks they missed it",
+    "counter": "I don't",
     "face": "confident"
   },
   "assets": {

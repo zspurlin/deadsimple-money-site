@@ -2,60 +2,60 @@
   "rows": [
     {
       "category": "Intrinsic Value",
-      "my_view": "Base $370 with a $585 bull that needs a durable franchise plus real pipeline value.",
-      "committee": "Fair at $375, right on base, with the $585 bull sitting 45% above the highest street target of $403.",
-      "verdict": "green"
+      "my_view": "Expensive but watchlist-worthy at $375, with a bear $205 / base $370 / bull $585 range.",
+      "committee": "The price sits ~1% above your own $370 base with zero cushion, so your own conservative buy rule points to pass-at-this-price, not a hopeful watchlist.",
+      "verdict": "yellow"
     },
     {
       "category": "Growth",
-      "my_view": "Base assumes VYJUVEK keeps growing strongly in the US plus international expansion.",
-      "committee": "The decisive VYJUVEK revenue growth number is absent from every source, so continued growth is assumed, not proven, with saturation unresolved.",
+      "my_view": "Growth is decelerating (473% to 34% to 32%) and the population-ceiling risk is real.",
+      "committee": "The Y/Y read overstates saturation since Q1's $116.4M runs ~20% above FY25's quarterly pace, but with no disclosed DEB penetration the ceiling stays genuinely unresolved.",
       "verdict": "yellow"
     },
     {
       "category": "Margins",
-      "my_view": "Exceptional margins as a commercial reality supporting the FCF story.",
-      "committee": "Margins are real via $238M FCF, but the specific 'exceptional' figure was never disclosed and remains a claim.",
+      "my_view": "Exceptional at 93% gross / 57% FCF and they must stay exceptional.",
+      "committee": "We agree the margins are elite and clean; the only real threat is a payer clawback dropping gross margin below ~90%.",
       "verdict": "green"
     },
     {
       "category": "Moat",
-      "my_view": "A regulatory monopoly today with a platform that could spawn follow-on products.",
-      "committee": "The regulatory monopoly on VYJUVEK is genuine and durable for years, but the platform premium justifying $11B is still theoretical.",
+      "my_view": "Real but may be one-product, protected by regulatory lock-in and switching costs.",
+      "committee": "The moat is genuine but narrow, bounded to a few-thousand-patient market and unproven beyond VYJUVEK, so the market inside it can saturate even as the wall holds.",
       "verdict": "yellow"
     },
     {
       "category": "Capital Allocation",
-      "my_view": "Cash funds pipeline optionality.",
-      "committee": "$814M net cash plus $238M/yr FCF is funded optionality that materially de-risks the no-second-product kill scenario.",
-      "verdict": "green"
+      "my_view": "Reinvesting the cash intelligently into a second product is the open question.",
+      "committee": "Firepower is bigger than you assumed (~$814M, not $492M), and the paid-for reusable factory helps, but 19% ROE on 54% net margins says cash is outrunning reinvestment opportunity.",
+      "verdict": "yellow"
     },
     {
       "category": "Biggest Risk",
-      "my_view": "Overpaying for one product with an uncertain pipeline.",
-      "committee": "US DEB saturation flattening VYJUVEK growth re-rates the whole company toward $205 because the price carries zero cushion.",
+      "my_view": "One product at a platform valuation, exposed to concentration and payer risk.",
+      "committee": "Agreed exactly: this is one great drug priced as a compounder, and the annuity multiple re-rates to $205 if the platform never converts.",
       "verdict": "yellow"
     },
     {
       "category": "Biggest Blind Spot",
-      "my_view": "Do not grant a platform multiple prematurely.",
-      "committee": "The $585 bull sits 45% above the analysts who actually hold the revenue data, so the upside is a contrarian duration bet with no external anchor.",
+      "my_view": "Concentration, payer, and pipeline risk are the things you're watching.",
+      "committee": "You treat redosing purely as recurring revenue, but a lifelong weekly gel only earns if patients keep dosing, and no persistence or adherence data exists in the packet to confirm the annuity doesn't leak.",
       "verdict": "red"
     },
     {
       "category": "Most Important Watch Item",
-      "my_view": "The Aug 3 earnings print.",
-      "committee": "Sequential VYJUVEK revenue growth driven by new-patient starts on Aug 3 is the single number that resolves the saturation debate.",
+      "my_view": "The Aug 3 call for pipeline naming and penetration disclosure.",
+      "committee": "The one deciding datapoint is Aug 3 Y/Y growth plus whether management names a dosed, distinct-tissue second program with a readout timeline; silence is the loudest possible tell.",
       "verdict": "yellow"
     }
   ],
   "alignment": {
     "label": "Strong",
-    "pct": 90
+    "pct": 84
   },
   "confidence": {
     "label": "High",
-    "why": "The three anchors converge on a genuine monopoly priced at fair value with the decisive revenue number missing and a dated catalyst that resolves most of the debate."
+    "why": "The business quality is confirmed with hard numbers and the risks are unusually legible with a clean dated catalyst, though the two thesis-deciding facts remain absent."
   },
-  "final_verdict": "Excellent business at a fair price, but the entry is a coin-flip into Aug 3 and patience costs almost nothing, so watchlist is the honest posture."
+  "final_verdict": "Elite business at the wrong price with two decisive facts still missing; watchlist is earned, but your own rules lean closer to pass-at-this-price than a hopeful hold."
 }

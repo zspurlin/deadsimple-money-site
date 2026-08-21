@@ -1,13 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NRG5QN52');</script>
-  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KRYS — Dead Simple Research card</title>
@@ -246,10 +239,6 @@ html, body {
   background: var(--faint);
   box-shadow: 0 0 22px rgba(93, 107, 133, 0.35), 0 6px 22px rgba(0, 0, 0, 0.5);
 }
-.status.is-pass {
-  background: #e8c53d;
-  box-shadow: 0 0 26px rgba(232, 197, 61, 0.40), 0 6px 22px rgba(0, 0, 0, 0.5);
-}
 
 /* --- FRONT (editorial poster over the duotone hero) ----------------------- */
 .front .card-inner { justify-content: space-between; }
@@ -312,33 +301,6 @@ html, body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-}
-
-/* PASS verdict stamp (front, pass cards only) — replaces the tier badge and
-   Dead Simple Score chip. Reads as a rubber stamp: uppercase, slightly rotated,
-   dashed amber border on a dark plate (matches the site's pass tiles, which use
-   a 2px dashed #e8c53d border). */
-.pass-stamp {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 14px 44px;
-  border: 2px dashed #e8c53d;
-  border-radius: 12px;
-  background: rgba(5, 7, 12, 0.55);
-  color: #e8c53d;
-  font-size: 64px;
-  font-weight: 800;
-  letter-spacing: 0.30em;
-  text-indent: 0.30em; /* re-center: letter-spacing pads only the right edge */
-  text-transform: uppercase;
-  line-height: 1;
-  transform: rotate(-7deg);
-  transform-origin: center;
-  margin: 14px 0 0 6px;
-  box-shadow: 0 0 34px rgba(232, 197, 61, 0.22), 0 6px 22px rgba(0, 0, 0, 0.5);
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(2px);
 }
 
 .score-chip {
@@ -490,34 +452,6 @@ html, body {
   border: 1.5px solid var(--tier);
   border-radius: 999px;
   line-height: 1.25;
-}
-
-/* What Would Change My Mind (back, pass cards only) — a short single line under
-   the Pass Reason row. Clamped to two lines so it never eats the scorecard/DCF/
-   ledger budget. */
-.change-mind {
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-.change-mind .label {
-  font-size: 16px;
-  letter-spacing: 0.26em;
-  text-transform: uppercase;
-  color: var(--tier);
-  font-weight: 700;
-}
-.change-mind .cm-value {
-  font-family: var(--serif);
-  font-size: 22px;
-  line-height: 1.4;
-  color: var(--text);
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  overflow: hidden;
 }
 
 /* Dead Simple Scorecard (back) — seven category bars + the headline total.
@@ -889,15 +823,13 @@ html, body {
 }
 .thumb .hero-photo.gen img { filter: grayscale(0.05) contrast(1.03) brightness(1); }
 /* Host cutout, anchored bottom-right. Height-capped (not source-size driven)
-   so every expression renders at a consistent, restrained scale. Sized so the
-   hook/counter stack clearly dominates — the words are the product; the face
-   supports the brand without competing with the text. */
+   so every expression renders at a consistent, restrained ~MELI scale. */
 .thumb .thumb-face {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-height: 44%;
-  max-width: 30%;
+  max-height: 52%;
+  max-width: 36%;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -1071,177 +1003,9 @@ html, body {
   font-size: 22px; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--text); font-weight: 700; font-variant-numeric: tabular-nums;
 }
-
-/* --------------------------------------------------------------------------- */
-/* INVESTMENT COMMITTEE BRIEF — 1920 x 1080 presentation slide                  */
-/* One-page committee review: 4-column table (Category | My View | Committee |  */
-/* color-bar Verdict) + three bottom callouts. OBS/YouTube-ready as rendered.   */
-/* --------------------------------------------------------------------------- */
-.icb-stage {
-  position: relative;
-  width: 1920px;
-  height: 1080px;
-  padding: 42px 72px 42px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  background:
-    radial-gradient(90% 70% at 50% -10%, rgba(61,130,232,0.10), rgba(0,0,0,0) 55%),
-    linear-gradient(168deg, var(--panel-2) 0%, var(--panel) 46%, var(--ink) 100%);
-}
-
-.icb-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--hairline-2);
-}
-.icb-kicker {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  font-size: 20px;
-  letter-spacing: 0.30em;
-  text-transform: uppercase;
-  color: var(--brand-blue-soft);
-  font-weight: 700;
-}
-.icb-logo { height: 34px; width: auto; }
-.icb-title h1 {
-  margin: 10px 0 0;
-  font-size: 54px;
-  font-weight: 800;
-  line-height: 1;
-  color: var(--text);
-}
-.icb-company {
-  margin-left: 20px;
-  font-size: 26px;
-  font-weight: 400;
-  color: var(--muted);
-}
-.icb-meta { display: flex; gap: 44px; }
-.icb-meta-item { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
-.icb-meta-label {
-  font-size: 14px; letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--faint); font-weight: 700;
-}
-.icb-meta-value {
-  font-size: 24px; color: var(--text); font-weight: 700;
-  font-variant-numeric: tabular-nums;
-}
-
-/* Table: category rail | two equal prose columns | narrow verdict bar.
-   overflow: hidden is the last-resort clip — the template's auto-fit script
-   shrinks the cell font first, so rows can never paint over the callouts. */
-.icb-table {
-  flex: 1;
-  min-height: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  margin-top: 14px;
-}
-.icb-row {
-  display: grid;
-  grid-template-columns: 300px 1fr 1fr 44px;
-  gap: 0 30px;
-  align-items: center;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--hairline);
-}
-.icb-row:last-child { border-bottom: none; }
-.icb-head {
-  padding: 0 0 12px;
-  font-size: 16px;
-  letter-spacing: 0.20em;
-  text-transform: uppercase;
-  color: var(--faint);
-  font-weight: 700;
-  border-bottom: 1px solid var(--hairline-2);
-}
-.icb-head .icb-cat { font-size: 16px; color: var(--faint); }
-.icb-cat {
-  font-size: var(--icb-cat, 22px);
-  font-weight: 700;
-  color: var(--brand-blue-soft);
-  letter-spacing: 0.02em;
-}
-.icb-cell {
-  font-size: var(--icb-cell, 19px);
-  line-height: 1.3;
-  color: var(--text);
-}
-.icb-cell + .icb-cell { color: #d7deea; }
-
-/* Verdict: a solid vertical bar, nothing else. */
-.icb-verdict-col { display: flex; justify-content: center; height: 100%; }
-.icb-bar {
-  display: block;
-  width: 14px;
-  min-height: 46px;
-  height: 100%;
-  border-radius: 7px;
-}
-.icb-green  { background: var(--bull); box-shadow: 0 0 14px rgba(87, 208, 138, 0.35); }
-.icb-yellow { background: var(--base); box-shadow: 0 0 14px rgba(242, 193, 78, 0.35); }
-.icb-red    { background: var(--bear); box-shadow: 0 0 14px rgba(255, 107, 107, 0.35); }
-
-/* Bottom callouts. */
-.icb-callouts {
-  display: grid;
-  grid-template-columns: 360px 1fr 1fr;
-  gap: 22px;
-  margin-top: 18px;
-}
-.icb-callout {
-  background: rgba(13, 19, 32, 0.72);
-  border: 1px solid var(--hairline-2);
-  border-radius: 16px;
-  padding: 18px 26px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-.icb-callout-label {
-  font-size: 14px; letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--faint); font-weight: 700;
-}
-.icb-align { display: flex; align-items: baseline; gap: 16px; }
-.icb-align-pct {
-  font-size: 46px; font-weight: 800; color: var(--text); line-height: 1;
-  font-variant-numeric: tabular-nums;
-}
-.icb-align-word {
-  font-size: 24px; font-weight: 700; color: var(--brand-blue-soft);
-  letter-spacing: 0.04em;
-}
-.icb-conf-word {
-  font-size: 26px; font-weight: 800; color: var(--text); line-height: 1;
-}
-.icb-callout-text {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.3;
-  color: var(--muted);
-}
-.icb-final { border-color: color-mix(in srgb, var(--brand-blue) 45%, var(--hairline-2)); }
-.icb-final-text {
-  margin: 2px 0 0;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 23px;
-  line-height: 1.32;
-  color: var(--text);
-}
 </style>
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRG5QN52"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <div class="flip-stage">
     <div class="flip-scene">
       <div class="flip" id="card" role="button" tabindex="0" aria-label="Flip card">
@@ -1265,14 +1029,12 @@ html, body {
       <div class="company">Krystal Biotech (KRYS)</div>
       <div class="badges">
         
-        
         <div class="tier-badge"><span class="dot"></span><span class="label">SILVER</span></div>
         
         <div class="score-chip">
           <span class="v">85</span>
           <span class="k">Dead Simple Score</span>
         </div>
-        
       </div>
     </div>
 
@@ -1282,7 +1044,7 @@ html, body {
         <span class="label">Base DCF Case</span>
         <div class="value-col">
           <span class="value">$370</span>
-          <span class="current">Current: $346.56</span>
+          <span class="current">Current: $375.07</span>
         </div>
       </div>
     </div>
@@ -1305,10 +1067,6 @@ html, body {
       <div class="label">Why I&#39;m Watching It</div>
       <div class="body thesis">Watchlist. The business is genuinely excellent, but the price already assumes the durability the research hasn&#39;t proven, and one revenue print resolves most of the debate — so patience is nearly free. This moves to Open if the Aug 3 print shows sustained double-digit sequential VYJUVEK growth driven by new-patient starts (not price), ideally with a disclosed retention figure.</div>
     </div>
-
-    
-
-    
 
     
 
@@ -1409,9 +1167,9 @@ html, body {
 
     <div class="ledger">
       <div class="cell"><span class="k">Watchlist Added</span><span class="v">Jul 04, 2026</span></div>
-      <div class="cell"><span class="k">Current Return</span><span class="v neg">-7.6%</span></div>
-      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+2.6%</span></div>
-      <div class="cell"><span class="k">Alpha</span><span class="v neg">-10.2%</span></div>
+      <div class="cell"><span class="k">Current Return</span><span class="v pos">+0.0%</span></div>
+      <div class="cell"><span class="k">S&amp;P Return</span><span class="v pos">+0.0%</span></div>
+      <div class="cell"><span class="k">Alpha</span><span class="v pos">+0.0%</span></div>
     </div>
 
     <div class="back-footer">

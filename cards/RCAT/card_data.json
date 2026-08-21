@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "render_version": 12,
+  "generated_at": "2026-08-21T23:57:43+00:00",
+  "ticker": "RCAT",
+  "company": "Red Cat Holdings",
+  "score": 74,
+  "grade": "",
+  "tier": null,
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "watch_reason": "Execution",
+  "front_line": "American-made battlefield robotics at the point where validation must become scale.",
+  "thesis": "Watchlist. The Army win is real and the asymmetry is real, but you are paying platform prices for a business that has proven it can ship units \u2014 not make money \u2014 while a near-forced dilution clock ticks. This moves to Open on the one combination every agent named: gross margin sustained above 25% for two straight quarters alongside disclosure of a firm, funded multi-year SRR contract \u2014 ideally at a price no higher than the base case.",
+  "moat": "One emerging regulatory/qualification advantage, but zero pricing power today (3% margin) resting on a possibly-unfunded selection and near-total customer concentration.",
+  "risks": "Q1 FY2027 burned $91.3M FCF in a single quarter \u2014 nearly all of FY2026's $95.8M \u2014 leaving roughly 1.4 quarters of runway and a near-certain dilutive raise.",
+  "scorecard": {
+    "research_date": "Aug 21, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 83,
+        "note": "No doubts about the market size"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 62,
+        "note": "Cleared hardest external gate (Army) but much to prove"
+      },
+      {
+        "label": "Traction",
+        "score": 52,
+        "note": "Revenue is loud"
+      },
+      {
+        "label": "Moat",
+        "score": 39,
+        "note": "One emerging regulatory/qualification advantage"
+      },
+      {
+        "label": "Valuation",
+        "score": 44,
+        "note": "\"Early production\" means 3% is the shape of the business, not a phase"
+      },
+      {
+        "label": "Risk",
+        "score": 58,
+        "note": "Monitorable, at least"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 67,
+        "note": "Asymmetry albeit still not yet attractive enough"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$3.50",
+    "base": "$8",
+    "bull": "$27.50",
+    "verdict": "watchlist",
+    "current_price": "$9.50"
+  },
+  "research": {
+    "run_id": "20260821_190155",
+    "research_date": "Aug 21, 2026",
+    "baseline_price": 9.619999885559082,
+    "sp_at_research": 7674.3701171875
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Aug 21, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Red Cat Holdings ($RCAT): Red Cat makes small military drones in the United States. Dead Simple Score: 74/100. Status: Watchlist.",
+    "video_talking_points": [
+      "Red Cat makes small military drones in the United States.",
+      "Watchlist. The Army win is real and the asymmetry is real, but you are paying platform prices for a business that has proven it can ship units \u2014 not make money \u2014 while a near-forced dilution clock ticks. This moves to Open on the one combination every agent named: gross margin sustained above 25% for two straight quarters alongside disclosure of a firm, funded multi-year SRR contract \u2014 ideally at a price no higher than the base case.",
+      "Moat: One emerging regulatory/qualification advantage, but zero pricing power today (3% margin) resting on a possibly-unfunded selection and near-total customer concentration.",
+      "Risk: Q1 FY2027 burned $91.3M FCF in a single quarter \u2014 nearly all of FY2026's $95.8M \u2014 leaving roughly 1.4 quarters of runway and a near-certain dilutive raise.",
+      "Verdict: watchlist. Dead Simple Score 74/100."
+    ],
+    "hook": "12 MONTHS OF CASH",
+    "counter": "GONE IN ONE QUARTER",
+    "face": "confident"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "committee_brief": "committee_brief.png",
+    "committee_brief_data": "committee_brief.json",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "A solitary crimson geometric wedge breaking through a dark wall of distorted signal static, then multiplying behind the barrier into hundreds of smaller coordinated forms arranged in a precise expanding formation. The surrounding landscape shifts from fragmented chaos into an engineered grid, symbolizing battlefield validation becoming industrial scale and networked autonomy. Moody graphite, gunmetal, ash, and muted military green with one deep red accent. Cinematic lighting, volumetric haze, sophisticated abstract editorial art, premium financial-magazine aesthetic, high contrast, dramatic depth, visually striking but restrained. No literal drones, aircraft, soldiers, weapons, flags, text, numbers, logos, or company branding.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

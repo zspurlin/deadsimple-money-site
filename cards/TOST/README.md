@@ -10,6 +10,7 @@ anywhere as-is.
 - `card_data.json` — structured data (score, tier, thesis, valuation, performance vs the S&P 500).
 - `card_front.png` / `card_back.png` — full-resolution card images for social.
 - `card_front_web.png` / `card_back_web.png` — downsampled previews for the website grid.
+- `front_obs.png` / `back_obs.png` — 16:9 full-screen versions (2560x1440) for OBS / YouTube video.
 - `youtube_thumbnail.jpg` — 16:9 thumbnail (JPEG, under YouTube's 2 MB limit).
 - `substack_header.png` — 2:1 header.
 - `x_post.md` — X/socials post draft.

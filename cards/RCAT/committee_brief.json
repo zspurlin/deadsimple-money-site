@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Base case $8.00 with a bear $3.50 and bull $27.50, and watchlist implies the price is ahead of fair value.",
+      "committee": "Expensive at 27.6x sales on $53M revenue and ~20% above the owner's own $8 base case, so today's price already pays for a platform the financials do not yet contain.",
+      "verdict": "green"
+    },
+    {
+      "category": "Growth",
+      "my_view": "Revenue is real but must prove quality against lumpy, episodic government demand.",
+      "committee": "Agree \u2014 the +381% quarter is loud but the path whipsaws violently ($4.6M to $17.8M to $7.3M to $40.7M) and ships near-margin-free with no disclosed funded backlog.",
+      "verdict": "green"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Margins must expand materially from current levels \u2014 this is the crux of the thesis.",
+      "committee": "Agree this is the crux, with one reservation: the 3% may be structural or early-lot pricing, and the $52M net-loss-vs-cash gap suggests part is working-capital build the data can't yet separate.",
+      "verdict": "green"
+    },
+    {
+      "category": "Moat",
+      "my_view": "The Army qualification is an emerging structural advantage if the selection becomes funded.",
+      "committee": "The China-free qualification barrier is a genuine seed, but it is unproven, rests on a possibly-unfunded selection, and the 3% gross margin is the direct refutation of pricing power today.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Treat the product family as optionality and watch for dilution without per-share value.",
+      "committee": "The 'optionality' is being funded by active cash burn and dilution now \u2014 a paid position, not a free option \u2014 with shares up from 48M to 152M in four years.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Dilution and low margin before the economics prove out.",
+      "committee": "Same risks, but sharper: Q1 burned $91.3M FCF \u2014 nearly all of last year's $95.8M \u2014 leaving ~1.4 quarters of runway, so a raise is near-imminent, not distant.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Mistaking acquisition breadth for a coherent platform.",
+      "committee": "The runway was read at the smoother TTM pace, missing the quarterly burn detonation, and the entry-price problem \u2014 a stock that already ran to $18.78 and fell 49% with the base case below current price.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "Follow-on Army funding and broadening orders.",
+      "committee": "Gross margin sustained above 25% for two consecutive quarters alongside disclosure of a firm, funded multi-year SRR contract \u2014 the one combination that flips this to Open.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Strong",
+    "pct": 88
+  },
+  "confidence": {
+    "label": "High",
+    "why": "The owner pre-registered the exact doubts \u2014 margin quality, funded-versus-objective, dilution \u2014 that the run independently confirmed, leaving only degree, not direction, in dispute."
+  },
+  "final_verdict": "The watchlist is earned: an asymmetric, unbuilt business priced above its own base case with a near-forced dilution clock, waiting on margin proof and a funded contract."
+}
