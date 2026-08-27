@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Meaningfully undervalued with a $13 base against $8.45.",
+      "committee": "Price sits near the $7 bear with real asymmetry, but the $13 base is live only if the mix shift proves real on Nov 11.",
+      "verdict": "green"
+    },
+    {
+      "category": "Growth",
+      "my_view": "Total revenue can fall while intrinsic earnings power rises as low-margin procurement rolls off.",
+      "committee": "The mechanism is legitimate, but a 20% revenue drop may be demand decay rather than deliberate mix shift until segment dollars confirm it.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Mix shift lifts margins and operating leverage lets cash flow grow faster than revenue.",
+      "committee": "Gross margin fell 29%\u219213% every year as revenue grew and capex scaled faster than sales, so operating leverage has zero historical support.",
+      "verdict": "red"
+    },
+    {
+      "category": "Moat",
+      "my_view": "An entrenched, deep integration layer built on the Dell relationship.",
+      "committee": "The switching-cost story is entirely unverified and scale has worked against margins, so this is a plausible position, not a proven moat.",
+      "verdict": "red"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Capex is capacity investment that will pay off as AI-rack demand arrives.",
+      "committee": "Capex compounded to $32.7M while even peak-year FY2025 threw off just 0.9% FCF margin, and ~50% share dilution in four years quietly eroded the cheap multiple.",
+      "verdict": "red"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Dell dependence \u2014 whether this is a durable business or just outsourced Dell labor.",
+      "committee": "Same read: Dell concentration is the thesis-killer, and the owner front-ran the entire skeptic critique in one sentence.",
+      "verdict": "green"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Cited his own ~46%/~84% segment percentages as confirmed proof of the mix shift.",
+      "committee": "Those are percentages on an undisclosed base, not dollar growth \u2014 the thesis rests on gross-profit dollars nobody has yet seen, alongside silent dilution and a 0.9% peak FCF margin.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "The rack-scale AI demand inflection.",
+      "committee": "Total gross-profit dollars YoY on the Nov 11 print: up while revenue falls confirms the mix shift; down alongside revenue confirms demand decay.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Weak",
+    "pct": 63
+  },
+  "confidence": {
+    "label": "Moderate",
+    "why": "The setup is unusually monitorable and resolves on one date and one disclosure, but the single most decision-relevant fact \u2014 Dell concentration and segment dollars \u2014 is absent from every source."
+  },
+  "final_verdict": "A legitimate coin-flip-sized open on genuine asymmetry, but the operating-leverage and moat claims fail the evidence, so conviction waits on the Nov 11 print."
+}

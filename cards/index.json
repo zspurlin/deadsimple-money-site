@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T22:23:36+00:00",
+  "generated_at": "2026-08-27T20:45:55+00:00",
   "counts": {
     "open": 12,
     "closed": 0,
-    "watchlist": 7,
+    "watchlist": 8,
     "pass": 2
   },
   "open": [
@@ -370,6 +370,26 @@
       "card_front_web": "LITE/card_front_web.png",
       "card_back_web": "LITE/card_back_web.png",
       "data": "LITE/card_data.json"
+    },
+    {
+      "ticker": "TSSI",
+      "company": "TSS, Inc.",
+      "score": 79,
+      "tier": "Bronze",
+      "status": "Watchlist",
+      "front_line": "The hidden assembly line behind the AI infrastructure boom",
+      "alpha": "-4.2%",
+      "current_return": "-4.1%",
+      "sp_return": "+0.1%",
+      "performance_mode": "live",
+      "research_date": "Aug 27, 2026",
+      "dir": "TSSI",
+      "card_html": "TSSI/card.html",
+      "card_front": "TSSI/card_front.png",
+      "card_back": "TSSI/card_back.png",
+      "card_front_web": "TSSI/card_front_web.png",
+      "card_back_web": "TSSI/card_back_web.png",
+      "data": "TSSI/card_data.json"
     },
     {
       "ticker": "RCAT",
