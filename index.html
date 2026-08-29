@@ -164,8 +164,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     /* Track-record strip: the public scoreboard, computed from index.json. */
     .track-record {
-      display: flex; justify-content: center; flex-wrap: wrap; gap: clamp(1.6rem, 6vw, 3.2rem);
-      max-width: 620px; margin: 0 auto 0.5rem; padding: 1.1rem 1.6rem;
+      display: flex; justify-content: center; flex-wrap: wrap; gap: clamp(1.4rem, 4vw, 2.6rem);
+      max-width: 980px; margin: 0 auto 0.5rem; padding: 1.1rem 1.6rem;
       border: 1px solid var(--hairline); border-radius: 14px;
       background: rgba(13, 19, 32, 0.55);
     }
@@ -338,10 +338,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         ? `<span class="tile-alpha-label">Return @ Close</span>
            <span class="tile-ret ${alphaClass(ret)}">${ret}</span>`
         : `<span class="tile-sub">${item.research_date || ""}</span>`;
+      const alphaLabel = isClosed ? "Locked Alpha vs S&amp;P" : "Alpha vs S&amp;P";
       const left = isPass
         ? `<span class="tile-alpha-label">Since the Pass</span>
            ${passVerdict(alpha)}`
-        : `<span class="tile-alpha-label">Alpha vs S&amp;P</span>
+        : `<span class="tile-alpha-label">${alphaLabel}</span>
            <span class="tile-alpha ${alphaClass(alpha)}">${alpha}</span>`;
       const a = document.createElement("a");
       a.className = isPass ? "tile pass" : "tile";
@@ -361,30 +362,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       return a;
     }
 
-    // Public scoreboard: count actual positions (open + closed), their average
-    // alpha, and how many are beating the S&P. Watchlist names are not calls.
+    // Public scoreboard. Open stats are live; closed stats are frozen at close
+    // (locked alpha vs S&P). Watchlist names are not calls. Passes invert:
+    // lagging the S&P is a good pass.
     function renderTrackRecord() {
       const strip = document.getElementById("trackRecord");
       if (!DATA) { strip.hidden = true; return; }
-      const positions = [...(DATA.open || []), ...(DATA.closed || [])];
-      const alphas = positions.map(p => pct(p.alpha)).filter(v => v !== null);
-      if (alphas.length === 0) { strip.hidden = true; return; }
-      const avg = alphas.reduce((s, v) => s + v, 0) / alphas.length;
-      const beating = alphas.filter(v => v > 0).length;
-      const avgCls = avg > 0 ? "pos" : (avg < 0 ? "neg" : "");
-      const fmt = v => `${v >= 0 ? "+" : ""}${v.toFixed(1)}%`;
-      strip.innerHTML = `
-        <div class="stat"><span class="v">${positions.length}</span><span class="k">Positions Tracked</span></div>
-        <div class="stat"><span class="v ${avgCls}">${fmt(avg)}</span><span class="k">Avg Alpha vs S&amp;P</span></div>
-        <div class="stat"><span class="v">${beating}<span style="color:var(--faint);font-weight:400"> / ${alphas.length}</span></span><span class="k">Beating the S&amp;P</span></div>`;
-      // Passes aren't calls on the book, so they get their own stat: a "good
-      // pass" is one where the stock has lagged the S&P since the pass.
+      const open = DATA.open || [];
+      const closed = DATA.closed || [];
+      const openAlphas = open.map(p => pct(p.alpha)).filter(v => v !== null);
+      const closedAlphas = closed.map(p => pct(p.alpha)).filter(v => v !== null);
       const passAlphas = (DATA.pass || []).map(p => pct(p.alpha)).filter(v => v !== null);
+      if (open.length === 0 && closedAlphas.length === 0 && passAlphas.length === 0) {
+        strip.hidden = true;
+        return;
+      }
+      const avgCls = v => v > 0 ? "pos" : (v < 0 ? "neg" : "");
+      const fmt = v => `${v >= 0 ? "+" : ""}${v.toFixed(1)}%`;
+      const frac = (n, d) => `${n}<span style="color:var(--faint);font-weight:400"> / ${d}</span>`;
+      let html = "";
+      if (open.length > 0) {
+        html += `<div class="stat"><span class="v">${open.length}</span><span class="k">Open Positions</span></div>`;
+        if (openAlphas.length > 0) {
+          const avg = openAlphas.reduce((s, v) => s + v, 0) / openAlphas.length;
+          const beating = openAlphas.filter(v => v > 0).length;
+          html += `
+        <div class="stat"><span class="v ${avgCls(avg)}">${fmt(avg)}</span><span class="k">Avg Alpha vs S&amp;P</span></div>
+        <div class="stat"><span class="v">${frac(beating, openAlphas.length)}</span><span class="k">Beating the S&amp;P</span></div>`;
+        }
+      }
+      if (closedAlphas.length > 0) {
+        const locked = closedAlphas.reduce((s, v) => s + v, 0) / closedAlphas.length;
+        const beating = closedAlphas.filter(v => v > 0).length;
+        html += `
+        <div class="stat"><span class="v ${avgCls(locked)}">${fmt(locked)}</span><span class="k">Locked Alpha vs S&amp;P</span></div>
+        <div class="stat"><span class="v">${frac(beating, closedAlphas.length)}</span><span class="k">Closed beating S&amp;P</span></div>`;
+      }
       if (passAlphas.length > 0) {
         const good = passAlphas.filter(v => v < 0).length;
-        strip.innerHTML += `
-        <div class="stat"><span class="v">${good}<span style="color:var(--faint);font-weight:400"> / ${passAlphas.length}</span></span><span class="k">Good Passes</span></div>`;
+        html += `
+        <div class="stat"><span class="v">${frac(good, passAlphas.length)}</span><span class="k">Good Passes</span></div>`;
       }
+      strip.innerHTML = html;
       strip.hidden = false;
     }
 
