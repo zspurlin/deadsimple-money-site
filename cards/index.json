@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-29T20:30:25+00:00",
+  "generated_at": "2026-08-29T21:12:11+00:00",
   "counts": {
     "open": 11,
     "closed": 1,
-    "watchlist": 8,
+    "watchlist": 9,
     "pass": 2
   },
   "open": [
@@ -252,6 +252,26 @@
     }
   ],
   "watchlist": [
+    {
+      "ticker": "KARO",
+      "company": "Karooooo (KARO)",
+      "score": 87,
+      "tier": "Silver",
+      "status": "Watchlist",
+      "front_line": "Karooooo is quietly building the operating system for everything that moves.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Aug 29, 2026",
+      "dir": "KARO",
+      "card_html": "KARO/card.html",
+      "card_front": "KARO/card_front.png",
+      "card_back": "KARO/card_back.png",
+      "card_front_web": "KARO/card_front_web.png",
+      "card_back_web": "KARO/card_back_web.png",
+      "data": "KARO/card_data.json"
+    },
     {
       "ticker": "KRYS",
       "company": "Krystal Biotech (KRYS)",

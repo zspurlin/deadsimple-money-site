@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "category": "Intrinsic Value",
+      "my_view": "Fair value; ~$67 sits on his $65 base at ~27-28x FY27 earnings with no margin of safety.",
+      "committee": "Agree it is fair, but the base case leans on FY2025's ZAR929M FCF, which the capex trend shows was the anomaly, not the normal year.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Growth",
+      "my_view": "High-teens, durable subscription growth of ~19% with record net additions.",
+      "committee": "Confirmed: ~19% four-year revenue CAGR and +22% in Q1, with the domestic engine genuinely intact.",
+      "verdict": "green"
+    },
+    {
+      "category": "Margins",
+      "my_view": "Stable profitability, net margin around 18%.",
+      "committee": "FY2026 operating margin compressed 29%->26% with profit up only 8% on revenue up 20%, chipping the stable-margin assumption.",
+      "verdict": "red"
+    },
+    {
+      "category": "Moat",
+      "my_view": "Real switching-cost moat, but concentrated with ~76% of subscribers in South Africa.",
+      "committee": "Agree exactly: decade-durable switching-cost moat at home, but narrow and geographically trapped where the growth story needs it.",
+      "verdict": "green"
+    },
+    {
+      "category": "Capital Allocation",
+      "my_view": "Device investment is a deliberate land-grab; this is not capital-light SaaS.",
+      "committee": "Broadly agree, but capex grew ~34% CAGR while OCF grew ~17% and gross debt is 52% of market cap partly funding the build, so discipline is unproven.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Risk",
+      "my_view": "Valuation and South African currency/economic concentration.",
+      "committee": "The sharper risk is structural cash conversion at 3% of OCF, a business-quality question that a lower price alone would not fix.",
+      "verdict": "yellow"
+    },
+    {
+      "category": "Biggest Blind Spot",
+      "my_view": "Framed the only thing holding him back as valuation.",
+      "committee": "The deeper blind spot is earnings-quality deterioration and the widening capex-vs-OCF scissors sitting beneath the price problem.",
+      "verdict": "red"
+    },
+    {
+      "category": "Most Important Watch Item",
+      "my_view": "Not specified beyond waiting on valuation.",
+      "committee": "The Oct 12 print: whether FCF recovers toward 20%+ of operating cash while subscriber growth holds settles the whole thesis.",
+      "verdict": "yellow"
+    }
+  ],
+  "alignment": {
+    "label": "Moderate",
+    "pct": 80
+  },
+  "confidence": {
+    "label": "Moderate",
+    "why": "The posture and moat read hold up well, but the two thesis-defining questions (cash conversion, verified churn) are unresolved until the dated catalyst."
+  },
+  "final_verdict": "Correctly a watchlist: a genuinely good business at fair value where one October print will settle whether near-zero free cash flow is a phase or the natural state."
+}

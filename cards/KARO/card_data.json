@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "render_version": 13,
+  "generated_at": "2026-08-29T21:03:14+00:00",
+  "ticker": "KARO",
+  "company": "Karooooo (KARO)",
+  "score": 87,
+  "grade": "",
+  "tier": "Silver",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "watch_reason": "Valuation",
+  "front_line": "Karooooo is quietly building the operating system for everything that moves.",
+  "thesis": "Watchlist. The business is genuinely good and the crux is unusually monitorable, but at fair value with the whole thesis resting on an unproven cash inflection, there is no reason to pay full price for the unproven part today. What changes it: an October print showing FCF conversion climbing back toward 20%+ of operating cash while subscriber growth holds \u2014 that de-risks the base case and moves this toward Open.",
+  "moat": "Real decade-durable switching-cost moat in South Africa, but narrow, geographically trapped, and its low-churn proxy weakened when FY2026 margins compressed.",
+  "risks": "Capex grew ~34% annually (FY23\u2013FY26) while operating cash barely moved; the scissors are widening, not narrowing.",
+  "scorecard": {
+    "research_date": "Aug 29, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 80,
+        "note": "Fleet telematics is without a doubt a large TAM"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 81,
+        "note": "Founder-controlled and profitable with four years of ~19%"
+      },
+      {
+        "label": "Traction",
+        "score": 73,
+        "note": "Top line clearly works (+22% Q1 revenue"
+      },
+      {
+        "label": "Moat",
+        "score": 76,
+        "note": "Real decade-durable switching-cost moat in South Africa"
+      },
+      {
+        "label": "Valuation",
+        "score": 58,
+        "note": "Trades above my base case, not a favorable entry today"
+      },
+      {
+        "label": "Risk",
+        "score": 79,
+        "note": "Risks are unusually monitorable via one dated catalyst"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 71,
+        "note": "A well-shaped opportunity, at the right price"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$25",
+    "base": "$65",
+    "bull": "$120",
+    "verdict": "watchlist",
+    "current_price": "$67"
+  },
+  "research": {
+    "run_id": "20260829_164525",
+    "research_date": "Aug 29, 2026",
+    "baseline_price": 67.19999694824219,
+    "sp_at_research": 7711.759765625
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Aug 29, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "Karooooo (KARO) ($KARO): Karooooo tracks and manages vehicles for businesses. Dead Simple Score: 87/100 \u00b7 Silver. Status: Watchlist.",
+    "video_talking_points": [
+      "Karooooo tracks and manages vehicles for businesses.",
+      "Watchlist. The business is genuinely good and the crux is unusually monitorable, but at fair value with the whole thesis resting on an unproven cash inflection, there is no reason to pay full price for the unproven part today. What changes it: an October print showing FCF conversion climbing back toward 20%+ of operating cash while subscriber growth holds \u2014 that de-risks the base case and moves this toward Open.",
+      "Moat: Real decade-durable switching-cost moat in South Africa, but narrow, geographically trapped, and its low-churn proxy weakened when FY2026 margins compressed.",
+      "Risk: Capex grew ~34% annually (FY23\u2013FY26) while operating cash barely moved; the scissors are widening, not narrowing.",
+      "Verdict: watchlist. Dead Simple Score 87/100."
+    ],
+    "hook": "3% OF THE CASH",
+    "counter": "NOT REALLY A SAAS STOCK",
+    "face": "skeptical"
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "front_obs": "front_obs.png",
+    "back_obs": "back_obs.png",
+    "committee_brief": "committee_brief.png",
+    "committee_brief_data": "committee_brief.json",
+    "card_html": "card.html",
+    "youtube_thumbnail": "youtube_thumbnail.jpg",
+    "substack_header": "substack_header.png",
+    "x_post": "x_post.md",
+    "video_talking_points": "video_talking_points.md",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "An enormous obsidian planet suspended in infinite darkness, split open vertically like a precision-engineered instrument, its surface covered in miniature cities, ports, highways and remote roads with no recognizable geography; millions of tiny molten-gold light pulses racing across the surface and descending through transparent layers into a brilliant electric-teal neural core, revealing the invisible intelligence beneath global movement; sweeping arcs of motion wrapping around the planet, one tiny human silhouette below for monumental scale, mysterious, kinetic, cinematic, deep black gold and teal palette, dramatic rim lighting, volumetric atmosphere, ultra-detailed abstract realism, premium institutional editorial artwork, vertical 4:5 composition, powerful centered focal point, clean negative space near the top, no text, no logos, no dashboards, no recognizable vehicles, no flags, no cyberpunk advertisements.",
+    "credit": "",
+    "source": "leonardo"
+  }
+}
