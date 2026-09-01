@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-09-01T00:42:58+00:00",
+  "generated_at": "2026-09-01T17:23:44+00:00",
   "ticker": "KARO",
   "company": "Karooooo (KARO)",
   "score": 87,
@@ -68,9 +68,9 @@
     "sp_at_research": 7711.759765625
   },
   "performance": {
-    "current_return": "-1.0%",
-    "sp_return": "-0.3%",
-    "alpha": "-0.7%",
+    "current_return": "-2.6%",
+    "sp_return": "-1.0%",
+    "alpha": "-1.5%",
     "as_of": "Sep 01, 2026",
     "mode": "live"
   },
