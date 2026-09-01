@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-08-31T19:35:25+00:00",
+  "generated_at": "2026-09-01T00:43:00+00:00",
   "ticker": "TSSI",
   "company": "TSS, Inc.",
   "score": 79,
@@ -67,10 +67,10 @@
     "sp_at_research": 7710.33984375
   },
   "performance": {
-    "current_return": "-10.0%",
-    "sp_return": "-0.4%",
-    "alpha": "-9.6%",
-    "as_of": "Aug 31, 2026",
+    "current_return": "-10.4%",
+    "sp_return": "-0.3%",
+    "alpha": "-10.1%",
+    "as_of": "Sep 01, 2026",
     "mode": "live"
   },
   "lifecycle": {
