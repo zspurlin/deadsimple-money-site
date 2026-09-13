@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "render_version": 13,
+  "generated_at": "2026-09-13T19:56:34+00:00",
+  "ticker": "AAOI",
+  "company": "AAOI",
+  "score": 83,
+  "grade": "",
+  "tier": "Silver",
+  "status": "Watchlist",
+  "thesis_label": "Why I'm Watching It",
+  "watch_reason": "Valuation",
+  "front_line": "Pure light, zero friction: Powering AI infrastructure from the crystal up.",
+  "thesis": "Vertical integration is a key differentiator; however, LITE, another company on my watchlist currently, is the key competitor. I am very familiar with LITE, AAOI is newer to me, thus leaning on you and the agents for this analysis.",
+  "moat": "Vertical integration is the entire thesis and remains unconfirmed; the one proof point (rising gross margin) is moving backward, not forward.",
+  "risks": "TTM free cash flow as reported (-$413.3M) doesn't reconcile with TTM OCF minus capex (-$621.3M) \u2014 every other period in the data reconciles exactly except this one.",
+  "scorecard": {
+    "research_date": "Sep 13, 2026",
+    "categories": [
+      {
+        "label": "Market",
+        "score": 84,
+        "note": "Large AI-optics market and tailwinds, but fighting for share"
+      },
+      {
+        "label": "Team / Execution",
+        "score": 61,
+        "note": "Growth continues to be funded almost entirely through dilution"
+      },
+      {
+        "label": "Traction",
+        "score": 72,
+        "note": "Solid 86% YoY spike in top-line but gross margin fell"
+      },
+      {
+        "label": "Moat",
+        "score": 44,
+        "note": "Vertical integration, but unproven and trending the wrong way"
+      },
+      {
+        "label": "Valuation",
+        "score": 43,
+        "note": "Forward P/E of 22.9x implies EPS near $4.60- ~$370M net income for a company yet to post profits"
+      },
+      {
+        "label": "Risk",
+        "score": 47,
+        "note": "AAOI may be burning cash faster than the balance sheet can support"
+      },
+      {
+        "label": "Portfolio Fit",
+        "score": 62,
+        "note": "Fits the satellite volatility profile, at the right price"
+      }
+    ]
+  },
+  "valuation": {
+    "bear": "$39",
+    "base": "$91",
+    "bull": "$147",
+    "verdict": "watchlist",
+    "current_price": "$105.50"
+  },
+  "research": {
+    "run_id": "20260913_153851",
+    "research_date": "Sep 13, 2026",
+    "baseline_price": 105.36000061035156,
+    "sp_at_research": 7656.97998046875
+  },
+  "performance": {
+    "current_return": "+0.0%",
+    "sp_return": "+0.0%",
+    "alpha": "+0.0%",
+    "as_of": "Sep 13, 2026",
+    "mode": "live"
+  },
+  "lifecycle": {
+    "opened_date": null,
+    "close_date": null,
+    "close_price": null,
+    "sp_at_close": null,
+    "open_note": null,
+    "close_note": null
+  },
+  "drafts": {
+    "x_post": "AAOI ($AAOI): Applied Optoelectronics makes the physical hardware that turns electricity into light \u2014 lasers and optical transceivers \u2014 so data centers, telecom networks, and cable systems can move data at high speed over fiber. Dead Simple Score: 83/100 \u00b7 Silver. Status: Watchlist.",
+    "video_talking_points": [
+      "Applied Optoelectronics makes the physical hardware that turns electricity into light \u2014 lasers and optical transceivers \u2014 so data centers, telecom networks, and cable systems can move data at high speed over fiber.",
+      "Watchlist. The growth is real, but the mechanism that would justify the current price \u2014 margin expansion from vertical integration \u2014 is moving in the wrong direction, and the cash-burn picture may be worse than the reported figure suggests. Two consecutive quarters of gross margin above 33% paired with stabilized (not falling) net cash would move this toward open; a dilutive raise or continued sub-30% margin would move it toward close.",
+      "Moat: Vertical integration is the entire thesis and remains unconfirmed; the one proof point (rising gross margin) is moving backward, not forward.",
+      "Risk: TTM free cash flow as reported (-$413.3M) doesn't reconcile with TTM OCF minus capex (-$621.3M) \u2014 every other period in the data reconciles exactly except this one.",
+      "Verdict: watchlist. Dead Simple Score 83/100."
+    ],
+    "hook": "",
+    "counter": "",
+    "face": ""
+  },
+  "assets": {
+    "card_front": "card_front.png",
+    "card_back": "card_back.png",
+    "card_front_web": "card_front_web.png",
+    "card_back_web": "card_back_web.png",
+    "card_html": "card.html",
+    "hero": "hero.jpg"
+  },
+  "image": {
+    "query": "A surreal, abstract concept art piece depicting a glowing, pristine Indium Phosphide crystal matrix growing in a dark, high-tech vacuum void. Intense, hyper-focused neon cyan and electric blue laser beams burst directly from the crystal's core, cutting cleanly through space without distortion. Surrounding the crystal, fragmented metallic debris and glitchy digital code (representing DSP chips) dissolve into dust, bypassed by the pure light, moody cinematic lighting, ultra-sharp focus, octane render style, cybernetic elegance, glowing particle trails, micro-details, 8k resolution, minimalist but powerful composition for a tech hero asset, ultra detailed, volumetric lighting, no text, no logos, no people",
+    "credit": "",
+    "source": "leonardo"
+  }
+}

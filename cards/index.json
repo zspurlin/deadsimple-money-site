@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T19:11:33+00:00",
+  "generated_at": "2026-09-13T19:56:45+00:00",
   "counts": {
     "open": 11,
     "closed": 1,
-    "watchlist": 8,
+    "watchlist": 9,
     "pass": 3
   },
   "open": [
@@ -291,6 +291,26 @@
       "card_front_web": "KRYS/card_front_web.png",
       "card_back_web": "KRYS/card_back_web.png",
       "data": "KRYS/card_data.json"
+    },
+    {
+      "ticker": "AAOI",
+      "company": "AAOI",
+      "score": 83,
+      "tier": "Silver",
+      "status": "Watchlist",
+      "front_line": "Pure light, zero friction: Powering AI infrastructure from the crystal up.",
+      "alpha": "+0.0%",
+      "current_return": "+0.0%",
+      "sp_return": "+0.0%",
+      "performance_mode": "live",
+      "research_date": "Sep 13, 2026",
+      "dir": "AAOI",
+      "card_html": "AAOI/card.html",
+      "card_front": "AAOI/card_front.png",
+      "card_back": "AAOI/card_back.png",
+      "card_front_web": "AAOI/card_front_web.png",
+      "card_back_web": "AAOI/card_back_web.png",
+      "data": "AAOI/card_data.json"
     },
     {
       "ticker": "TOST",
