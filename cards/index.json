@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T19:04:23+00:00",
+  "generated_at": "2026-09-13T19:11:33+00:00",
   "counts": {
     "open": 11,
-    "closed": 2,
+    "closed": 1,
     "watchlist": 8,
-    "pass": 2
+    "pass": 3
   },
   "open": [
     {
@@ -249,26 +249,6 @@
       "card_front_web": "ELF/card_front_web.png",
       "card_back_web": "ELF/card_back_web.png",
       "data": "ELF/card_data.json"
-    },
-    {
-      "ticker": "LNTH",
-      "company": "Lantheus (LNTH)",
-      "score": 81,
-      "tier": "Silver",
-      "status": "Closed",
-      "front_line": "The maps before the medicine.",
-      "alpha": "-11.1%",
-      "current_return": "-8.8%",
-      "sp_return": "+2.3%",
-      "performance_mode": "frozen",
-      "research_date": "Jun 15, 2026",
-      "dir": "LNTH",
-      "card_html": "LNTH/card.html",
-      "card_front": "LNTH/card_front.png",
-      "card_back": "LNTH/card_back.png",
-      "card_front_web": "LNTH/card_front_web.png",
-      "card_back_web": "LNTH/card_back_web.png",
-      "data": "LNTH/card_data.json"
     }
   ],
   "watchlist": [
@@ -434,6 +414,26 @@
     }
   ],
   "pass": [
+    {
+      "ticker": "LNTH",
+      "company": "Lantheus (LNTH)",
+      "score": 81,
+      "tier": "Silver",
+      "status": "Pass",
+      "front_line": "The maps before the medicine.",
+      "alpha": "\u2014",
+      "current_return": "\u2014",
+      "sp_return": "\u2014",
+      "performance_mode": "live",
+      "research_date": "Jun 15, 2026",
+      "dir": "LNTH",
+      "card_html": "LNTH/card.html",
+      "card_front": "LNTH/card_front.png",
+      "card_back": "LNTH/card_back.png",
+      "card_front_web": "LNTH/card_front_web.png",
+      "card_back_web": "LNTH/card_back_web.png",
+      "data": "LNTH/card_data.json"
+    },
     {
       "ticker": "CVNA",
       "company": "Carvana (CVNA)",

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-09-13T19:01:53+00:00",
+  "generated_at": "2026-09-13T19:11:29+00:00",
   "ticker": "LNTH",
   "company": "Lantheus (LNTH)",
   "score": 81,
   "grade": "C",
   "tier": "Silver",
-  "status": "Closed",
-  "thesis_label": "Why I Owned It",
+  "status": "Pass",
+  "thesis_label": "Why I'm Not Buying",
   "front_line": "The maps before the medicine.",
   "thesis": "Pending acquisition, original thesis needs reassessment",
   "moat": "Advantages may erode",
@@ -67,11 +67,11 @@
     "sp_at_research": 7483.240234375
   },
   "performance": {
-    "current_return": "-8.8%",
-    "sp_return": "+2.3%",
-    "alpha": "-11.1%",
-    "as_of": "2026-09-13",
-    "mode": "frozen"
+    "current_return": "\u2014",
+    "sp_return": "\u2014",
+    "alpha": "\u2014",
+    "as_of": "Sep 13, 2026",
+    "mode": "live"
   },
   "lifecycle": {
     "opened_date": null,
