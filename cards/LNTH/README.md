@@ -40,4 +40,4 @@ re-run `python make_media.py LNTH` and re-upload this folder.
 When the position is closed (`python card_lifecycle.py close LNTH`), the
 numbers freeze at the close (`performance.mode = "frozen"`) and no longer change.
 
-Status: Watchlist | Dead Simple Score: 81/100 | Schema v1
+Status: Closed | Dead Simple Score: 81/100 | Schema v1

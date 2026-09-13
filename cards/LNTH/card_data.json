@@ -1,17 +1,16 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-09-11T21:49:24+00:00",
+  "generated_at": "2026-09-13T19:01:53+00:00",
   "ticker": "LNTH",
   "company": "Lantheus (LNTH)",
   "score": 81,
   "grade": "C",
   "tier": "Silver",
-  "status": "Watchlist",
-  "thesis_label": "Why I'm Watching It",
-  "watch_reason": "Valuation",
+  "status": "Closed",
+  "thesis_label": "Why I Owned It",
   "front_line": "The maps before the medicine.",
-  "thesis": "One product, PYLARIFY, is basically the whole story \u2014 and its growth just went from a 38% five-year rate to +1% in a quarter. Every dose is a fresh sale, no contracts, so flat volume is the moat being tested in real time. What keeps this on the watchlist instead of the discard pile: $118M of quarterly net income, margins already back to 22%, and 9% of the shares retired in 18 months. The two facts that would settle it are still missing; the July 30 print should supply them.",
+  "thesis": "Pending acquisition, original thesis needs reassessment",
   "moat": "Advantages may erode",
   "risks": "Pricing is controlled by CMS and insurers, not Lantheus; pass-through status can reset margin overnight.",
   "scorecard": {
@@ -58,7 +57,7 @@
     "bear": "$85",
     "base": "$130",
     "bull": "$186",
-    "verdict": "Watchlist",
+    "verdict": "watchlist",
     "current_price": "$104.50"
   },
   "research": {
@@ -71,16 +70,16 @@
     "current_return": "-8.8%",
     "sp_return": "+2.3%",
     "alpha": "-11.1%",
-    "as_of": "Sep 11, 2026",
-    "mode": "live"
+    "as_of": "2026-09-13",
+    "mode": "frozen"
   },
   "lifecycle": {
     "opened_date": null,
-    "close_date": null,
-    "close_price": null,
-    "sp_at_close": null,
+    "close_date": "2026-09-13",
+    "close_price": 100.25,
+    "sp_at_close": 7656.97998046875,
     "open_note": null,
-    "close_note": null
+    "close_note": "Pending acquisition, original thesis needs reassessment"
   },
   "drafts": {
     "x_post": "$LNTH is a regulated cash machine, not a growth-pharma stock \u2014 its moat protects scan volume but not price, and price is the whole valuation. The kill-switch is a calendar fact, not vague dread. Dead Simple Score: 81/100. Watchlist until the reimbursement clock is confirmed.",
