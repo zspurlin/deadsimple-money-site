@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-09-28T20:11:55+00:00",
+  "generated_at": "2026-09-29T01:06:58+00:00",
   "ticker": "AAOI",
   "company": "AAOI",
   "score": 83,
@@ -68,10 +68,10 @@
     "sp_at_research": 7656.97998046875
   },
   "performance": {
-    "current_return": "-8.1%",
+    "current_return": "-3.8%",
     "sp_return": "+0.3%",
-    "alpha": "-8.5%",
-    "as_of": "Sep 28, 2026",
+    "alpha": "-4.1%",
+    "as_of": "Sep 29, 2026",
     "mode": "live"
   },
   "lifecycle": {
