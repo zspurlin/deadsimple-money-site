@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-10-06T18:59:31+00:00",
+  "generated_at": "2026-10-06T23:11:04+00:00",
   "ticker": "NFLX",
   "company": "Netflix",
   "score": 95,
@@ -67,9 +67,9 @@
     "sp_at_research": 7487.35986328125
   },
   "performance": {
-    "current_return": "-11.4%",
-    "sp_return": "+4.6%",
-    "alpha": "-16.0%",
+    "current_return": "-10.9%",
+    "sp_return": "+4.4%",
+    "alpha": "-15.3%",
     "as_of": "Oct 06, 2026",
     "mode": "live"
   },
