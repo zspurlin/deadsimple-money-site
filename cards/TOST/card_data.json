@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-10-12T21:49:54+00:00",
+  "generated_at": "2026-10-13T19:56:05+00:00",
   "ticker": "TOST",
   "company": "Toast (TOST)",
   "score": 83,
@@ -68,10 +68,10 @@
     "sp_at_research": 7500.580078125
   },
   "performance": {
-    "current_return": "+27.0%",
+    "current_return": "+25.5%",
     "sp_return": "+4.1%",
-    "alpha": "+22.9%",
-    "as_of": "Oct 12, 2026",
+    "alpha": "+21.4%",
+    "as_of": "Oct 13, 2026",
     "mode": "live"
   },
   "lifecycle": {
