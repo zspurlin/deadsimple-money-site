@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "render_version": 13,
-  "generated_at": "2026-10-30T23:05:38+00:00",
+  "generated_at": "2026-11-02T22:24:46+00:00",
   "ticker": "RCAT",
   "company": "Red Cat Holdings",
   "score": 74,
@@ -68,10 +68,10 @@
     "sp_at_research": 7674.3701171875
   },
   "performance": {
-    "current_return": "-51.9%",
-    "sp_return": "-1.2%",
-    "alpha": "-50.6%",
-    "as_of": "Oct 30, 2026",
+    "current_return": "-53.7%",
+    "sp_return": "-1.7%",
+    "alpha": "-52.0%",
+    "as_of": "Nov 02, 2026",
     "mode": "live"
   },
   "lifecycle": {
