@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T20:01:34+00:00",
+  "generated_at": "2026-11-07T01:01:49+00:00",
   "ticker": "TMDX",
   "company": "TransMedics Group",
   "score": 90,
@@ -26,10 +26,10 @@
     "sp_at_research": 7564.56982421875
   },
   "performance": {
-    "current_return": "+16.2%",
-    "sp_return": "-2.1%",
-    "alpha": "+18.3%",
-    "as_of": "Nov 06, 2026",
+    "current_return": "-8.0%",
+    "sp_return": "-2.5%",
+    "alpha": "-5.6%",
+    "as_of": "Nov 07, 2026",
     "mode": "live"
   },
   "lifecycle": {
